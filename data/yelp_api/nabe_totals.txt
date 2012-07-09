@@ -1,0 +1,109 @@
+1224 	 Andersonville 
+356 	 Archer Heights 
+252 	 Ashburn 
+216 	 Auburn Gresham 
+434 	 Austin 
+192 	 Avalon Park 
+1450 	 Avondale 
+340 	 Back of the Yards 
+543 	 Belmont Central 
+219 	 Beverly 
+199 	 Brainerd 
+713 	 Bridgeport 
+437 	 Brighton Park 
+606 	 Bronzeville 
+2164 	 Bucktown 
+199 	 Burnside 
+2641 	 Cabrini-Green 
+181 	 Calumet Heights 
+480 	 Canaryville 
+195 	 Chatham 
+303 	 Chicago Lawn 
+1384 	 Chinatown 
+271 	 Clearing 
+682 	 Cragin 
+2310 	 DePaul 
+606 	 Douglas 
+481 	 Dunning 
+777 	 East Garfield Park 
+89 	 East Side 
+1010 	 Edgewater 
+370 	 Edison Park 
+239 	 Englewood 
+395 	 Forest Glen 
+2575 	 Fulton Market 
+321 	 Gage Park 
+471 	 Galewood 
+276 	 Garfield Ridge 
+2363 	 Gold Coast 
+2713 	 Goose Island 
+352 	 Grand Boulevard 
+276 	 Greater Grand Crossing 
+2414 	 Greektown 
+58 	 Hegewisch 
+844 	 Hermosa 
+919 	 Humboldt Park 
+221 	 Hyde Park 
+1131 	 Irving Park 
+537 	 Jefferson Park 
+128 	 Jeffery Manor 
+220 	 Kenwood 
+1579 	 Lakeview 
+393 	 Lawndale 
+2184 	 Lincoln Park 
+1485 	 Lincoln Square 
+379 	 Little Village 
+1319 	 Logan Square 
+2191 	 Magnificent Mile 
+303 	 Marquette Park 
+642 	 McKinley Park 
+487 	 Montclare 
+160 	 Morgan Park 
+219 	 Mount Greenwood 
+2301 	 Near North Side 
+1750 	 Near Southside 
+2535 	 Near West Side 
+349 	 New City 
+2695 	 Noble Square 
+1792 	 North Center 
+971 	 North Park 
+438 	 Norwood Park 
+407 	 Oakland 
+357 	 O'Hare 
+2600 	 Old Town 
+1536 	 Pilsen 
+722 	 Portage Park 
+2247 	 Printer's Row 
+119 	 Pullman 
+1620 	 Ravenswood 
+1984 	 River East 
+2437 	 River North 
+2604 	 River West 
+43 	 Riverdale 
+705 	 Rogers Park 
+1978 	 Roscoe Village 
+122 	 Roseland 
+655 	 Sauganash 
+266 	 Scottsdale 
+108 	 South Chicago 
+73 	 South Deering 
+2068 	 South Loop 
+206 	 South Shore 
+2194 	 Streeterville 
+2155 	 The Loop 
+1332 	 Tri-Taylor 
+2327 	 Ukrainian Village 
+2294 	 University Village 
+1287 	 Uptown 
+199 	 Washington Heights 
+263 	 Washington Park 
+299 	 West Elsdon 
+207 	 West Englewood 
+432 	 West Garfield Park 
+296 	 West Lawn 
+2539 	 West Loop 
+112 	 West Pullman 
+933 	 West Rogers Park 
+2557 	 Wicker Park 
+247 	 Woodlawn 
+1427 	 Wrigleyville
