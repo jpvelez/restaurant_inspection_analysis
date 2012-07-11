@@ -7,7 +7,7 @@ import urllib
 import urllib2
 
 class YelpApi(object):
-    def __init__(self, location):
+    def __init__(self):
     # Options: oauth keys and search parameters
         self.consumer_key = '88Ql36BiQPTsKqqUuIgIRA'
         self.consumer_secret = 'd1Q1raKJppyMnDrRlTLj1cj2ygc'
@@ -20,8 +20,6 @@ class YelpApi(object):
         self.host = 'api.yelp.com'
         self.path = '/v2/search'
 
-
-    
     def request(self, location):
         """Returns response for API request."""
     
@@ -45,8 +43,10 @@ class YelpApi(object):
         oauth_request.update({'oauth_nonce': oauth2.generate_nonce(),
                                 'oauth_timestamp': oauth2.generate_timestamp(),
                                 'oauth_token': self.token,
-                                'oauth_self.consumer_key': self.consumer_key})
+                                'oauth_consumer_key': self.consumer_key})
 
+        print 'GOT HERE'
+        print 'token:', self.token, 'consumer_key:', self.consumer_key
         token = oauth2.Token(self.token, self.token_secret)
         oauth_request.sign_request(oauth2.SignatureMethod_HMAC_SHA1(), consumer, token)
         signed_url = oauth_request.to_url()

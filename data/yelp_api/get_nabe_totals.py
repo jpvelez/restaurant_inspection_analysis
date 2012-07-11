@@ -1,12 +1,29 @@
-"""Command line interface to the Yelp Search API."""
-"""WORKING NOW"""
+"""Gets restaurants from Yelp Search API for every neighborhood."""
 
 import json
 import oauth2
 import urllib
 import urllib2
 
-nabe_list = ["Albany Park", "Andersonville", "Archer Heights", "Ashburn", "Auburn Gresham", "Austin", "Avalon Park", "Avondale", "Back of the Yards", "Belmont Central", "Beverly", "Brainerd", "Bridgeport", "Brighton Park", "Bronzeville", "Bucktown", "Burnside", "Cabrini-Green", "Calumet Heights", "Canaryville", "Chatham", "Chicago Lawn", "Chinatown", "Clearing", "Cragin", "DePaul", "Douglas", "Dunning", "East Garfield Park", "East Side", "Edgewater", "Edison Park", "Englewood", "Forest Glen", "Fulton Market", "Gage Park", "Galewood", "Garfield Ridge", "Gold Coast", "Goose Island", "Grand Boulevard", "Greater Grand Crossing", "Greektown", "Hegewisch", "Hermosa", "Humboldt Park", "Hyde Park", "Irving Park", "Jefferson Park", "Jeffery Manor", "Kenwood", "Lakeview", "Lawndale", "Lincoln Park", "Lincoln Square", "Little Village", "Logan Square", "Magnificent Mile", "Marquette Park", "McKinley Park", "Montclare", "Morgan Park", "Mount Greenwood", "Near North Side", "Near Southside", "Near West Side", "New City", "Noble Square", "North Center", "North Park", "Norwood Park", "Oakland", "O'Hare", "Old Town", "Pilsen", "Portage Park", "Printer's Row", "Pullman", "Ravenswood", "River East", "River North", "River West", "Riverdale", "Rogers Park", "Roscoe Village", "Roseland", "Sauganash", "Scottsdale", "South Chicago", "South Deering", "South Loop", "South Shore", "Streeterville", "The Loop", "Tri-Taylor", "Ukrainian Village", "University Village", "Uptown", "Washington Heights", "Washington Park", "West Elsdon", "West Englewood", "West Garfield Park", "West Lawn", "West Loop", "West Pullman", "West Rogers Park", "Wicker Park", "Woodlawn", "Wrigleyville"] 
+nabe_list = ["Albany Park", "Andersonville", "Archer Heights", "Ashburn", "Auburn Gresham", "Austin", 
+            "Avalon Park", "Avondale", "Back of the Yards", "Belmont Central", "Beverly", "Brainerd", 
+            "Bridgeport", "Brighton Park", "Bronzeville", "Bucktown", "Burnside", "Cabrini-Green", 
+            "Calumet Heights", "Canaryville", "Chatham", "Chicago Lawn", "Chinatown", "Clearing", 
+            "Cragin", "DePaul", "Douglas", "Dunning", "East Garfield Park", "East Side", "Edgewater", 
+            "Edison Park", "Englewood", "Forest Glen", "Fulton Market", "Gage Park", "Galewood", 
+            "Garfield Ridge", "Gold Coast", "Goose Island", "Grand Boulevard", "Greater Grand Crossing", 
+            "Greektown", "Hegewisch", "Hermosa", "Humboldt Park", "Hyde Park", "Irving Park", 
+            "Jefferson Park", "Jeffery Manor", "Kenwood", "Lakeview", "Lawndale", "Lincoln Park", 
+            "Lincoln Square", "Little Village", "Logan Square", "Magnificent Mile", "Marquette Park", 
+            "McKinley Park", "Montclare", "Morgan Park", "Mount Greenwood", "Near North Side", 
+            "Near Southside", "Near West Side", "New City", "Noble Square", "North Center", "North Park", 
+            "Norwood Park", "Oakland", "O'Hare", "Old Town", "Pilsen", "Portage Park", "Printer's Row", 
+            "Pullman", "Ravenswood", "River East", "River North", "River West", "Riverdale", "Rogers Park", 
+            "Roscoe Village", "Roseland", "Sauganash", "Scottsdale", "South Chicago", "South Deering", 
+            "South Loop", "South Shore", "Streeterville", "The Loop", "Tri-Taylor", "Ukrainian Village", 
+            "University Village", "Uptown", "Washington Heights", "Washington Park", "West Elsdon", 
+            "West Englewood", "West Garfield Park", "West Lawn", "West Loop", "West Pullman", "West Rogers Park", 
+            "Wicker Park", "Woodlawn", "Wrigleyville"] 
 
 # Options: oauth keys and search parameters
 consumer_key = '88Ql36BiQPTsKqqUuIgIRA'
@@ -60,6 +77,8 @@ for nabe in nabe_list:
                                 'oauth_token': token,
                                 'oauth_consumer_key': consumer_key})
 
+        print 'GOT HERE'
+        print 'token:', token, 'consumer_key:', consumer_key
         token = oauth2.Token(token, token_secret)
         oauth_request.sign_request(oauth2.SignatureMethod_HMAC_SHA1(), consumer, token)
         signed_url = oauth_request.to_url()
