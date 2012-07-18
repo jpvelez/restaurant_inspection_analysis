@@ -24,7 +24,7 @@ host = 'api.yelp.com'
 json_output = open('yelp_restaurants.json', 'w+')   # saves json response
 
 # Try to fetch yelp data for each restaurant in recent inspection dataset
-for rest in inspections[600:700]:
+for rest in inspections[900:1000]:
 
     # Setup restaurant name and location
     name = rest[2]
