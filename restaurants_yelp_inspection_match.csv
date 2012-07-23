@@ -1,620 +1,293 @@
 inspection_id,name,address,results,last_inspection_date,risk,lat,long,yelp_id,yelp_name,yelp_address,yelp_rating,yelp_is_closed,yelp_review_count,yelp_category
 98522,"Chicken Works And Salad Co.","3658 W Irving Park Rd",Pass,2011-12-19,"Risk 1 (High)",41.95385814,-87.71999799,chicken-works-and-salad-company-chicago,"Chicken Works & Salad Company","3658 W Irving Park Rd",4.0,0,87,"Fast Food"
-88616,Subway,"2750 W Devon Ave",Pass,2011-07-08,"Risk 1 (High)",41.99767708,-87.69924898,subway-chicago-184,Subway,"6067 N Lincoln Ave",2.5,0,3,Sandwiches
 154521,"Scoops Ice Cream","1730 W Fullerton Ave",Pass,2010-09-23,"Risk 1 (High)",41.92521233,-87.67192543,scoops-ice-cream-chicago,"Scoop's Ice Cream","1730 W Fullerton Ave",2.5,0,16,"Ice Cream & Frozen Yogurt"
 453242,"Downtown Dogs","804 N Rush St",Pass,2011-09-16,"Risk 1 (High)",41.89685832,-87.6258292,downtown-dogs-chicago,"Downtown Dogs","804 N Rush St",3.5,0,71,"Hot Dogs"
 215312,"Mom's & Dad's Deli","6345 S Central Ave",Pass,2011-05-11,"Risk 2 (Medium)",41.77673389,-87.76152794,mom-and-dads-deli-chicago,"Mom & Dad's Deli","6345 S Central Ave",4.0,0,3,Delis
 278065,"New Fue City","6954 W North Ave",Fail,2010-08-05,"Risk 1 (High)",41.90907575,-87.7993386,new-fue-city-restaurant-chicago,"New Fue City Restaurant","6954 W North Ave",1.5,0,7,Chinese
-401300,"Cedeno Foods","816 S Michigan Ave","Pass w/ Conditions",2011-10-12,"Risk 2 (Medium)",41.87162385,-87.62431055,smart-bar-chicago,"Smart Bar","3730 N Clark St",4.0,0,228,"Dance Clubs"
 529302,"No. 1 China Express","4248 S Wentworth Ave",Pass,2011-09-15,"Risk 1 (High)",41.81683377,-87.63134627,no-1-china-express-chicago,"No.1 China Express","4248 S Wentworth Ave",4.5,0,8,Chinese
-229462,"Lai Lai Restaurant","330 S Wells St","Pass w/ Conditions",2011-06-10,"Risk 1 (High)",41.87736776,-87.63385357,lai-thai-restaurant-morton-grove,"Lai Thai Restaurant","7168 Dempster St",4.0,0,79,Thai
 353331,"Jesse's Mexican Grill","6950 N Western Ave",Pass,2011-04-14,"Risk 1 (High)",42.00833901,-87.69030024,jesses-mexican-grill-chicago,"Jesse's Mexican Grill","6950 N Western Ave",3.5,0,39,Mexican
-409289,"Encore Liquor Lounge 7 Lunch Club","153 W Randolph St",Pass,2011-07-27,"Risk 1 (High)",41.88436319,-87.63257407,house-of-blues-chicago,"House of Blues","329 N Dearborn St",3.0,0,354,"Music Venues"
-58424,"Caesar's Foods","901 N Damen Ave",Pass,2011-05-23,"Risk 1 (High)",41.89777928,-87.67695887,the-old-oak-tap-chicago,"The Old Oak Tap","2109 W Chicago Ave",3.5,0,334,Bars
 580089,"Handlebar Chicago","2311 W North Ave",Fail,2012-05-02,"Risk 1 (High)",41.91024031,-87.6852601,handlebar-chicago,Handlebar,"2311 W North Ave",4.0,0,704,Vegetarian
-614358,"Perry's Deli","174 N Franklin St","Pass w/ Conditions",2012-06-13,"Risk 1 (High)",41.88520685,-87.63554494,perrys-chicago,"Perry's","180 N Franklin St",4.0,0,268,Sandwiches
-419644,"Starbucks Hk Apex","11601 W Touhy Ave",Pass,2010-10-20,"Risk 2 (Medium)",42.0085364,-87.91442844,girl-and-the-goat-chicago,"Girl & The Goat","809 W Randolph St",4.5,0,1551,"American (New)"
-197208,"I Love Sushi","233 N Michigan Ave",Pass,2012-01-10,"Risk 1 (High)",41.88656737,-87.62438467,i-love-sushi-chicago,"I Love Sushi","233 N. Michigan",4.0,0,19,"Sushi Bars"
-361272,"Three Asses","2917 N Cicero Ave",Fail,2010-09-21,"Risk 1 (High)",41.93387296,-87.74653841,bim-bom-lounge-chicago,"Bim Bom Lounge","5226 W Belmont Ave",4.5,0,12,Bars
-229512,Starbucks,"10 S Riverside Plz",Pass,2011-04-12,"Risk 2 (Medium)",41.88166429,-87.63888744,starbucks-chicago-129,Starbucks,"139 S Clinton St",4.0,0,8,"Coffee & Tea"
 586134,Piece,"1927 W North Ave",Pass,2011-08-03,"Risk 1 (High)",41.91039719,-87.6761811,piece-brewery-and-pizzeria-chicago,"Piece Brewery and Pizzeria","1927 W North Ave",4.0,0,1486,Pizza
-598238,"Jc Sandwiches","2000 W 19th St",Pass,2011-05-25,"Risk 1 (High)",41.85594278,-87.67607275,lou-mitchells-restaurant-and-bakery-chicago-2,"Lou Mitchell's Restaurant & Bakery","565 W Jackson Blvd",3.5,0,354,"Breakfast & Brunch"
-63364,"The Green House Steak","2700 S Millard Ave","Pass w/ Conditions",2011-02-16,"Risk 1 (High)",41.84244181,-87.71610534,the-green-house-of-steak-chicago,"The Green House of Steak","2700 S Millard Avenue",5.0,0,1,Mexican
-555275,"Seashell Fish & Chicken","1049 W 103rd St",Pass,2011-10-21,"Risk 2 (Medium)",41.70674629,-87.64967461,seashell-restuarant-chicago-2,"Seashell Restuarant","7131 S Jeffery Blvd",3.5,0,3,"Fish & Chips"
-335333,"Big Sharks","2553 E 75th St",Pass,2010-10-08,"Risk 2 (Medium)",41.75893654,-87.56188308,museum-of-science-and-industry-chicago-3,"Museum of Science and Industry","5700 S Lake Shore Dr",4.0,0,369,Cinema
 1206235,"The Frontier","1072 N Milwaukee Ave",Fail,2012-06-01,"Risk 1 (High)",41.90128364,-87.66348362,frontier-chicago-2,Frontier,"1072 N Milwaukee Ave",3.0,0,287,"American (New)"
-120326,Subway,"1000 W Washington Blvd",Pass,2012-05-07,"Risk 1 (High)",41.88317183,-87.6521331,subway-chicago-82,Subway,"1501 W Madison St",4.0,0,1,Sandwiches
 284598,"Argo Tea","3135 N Broadway St","Pass w/ Conditions",2010-08-20,"Risk 2 (Medium)",41.938653,-87.64420514,argo-tea-chicago-2,"Argo Tea","3135 N Broadway St",4.0,0,121,"Coffee & Tea"
 124396,"Lucky Grill","7779 W Talcott Ave",Pass,2012-03-06,"Risk 1 (High)",41.99299042,-87.82167425,lucky-grill-chicago-2,"Lucky Grill","7779 W Talcott Ave",4.0,0,18,Diners
-557522,,"4300 N Narragansett",Pass,2011-08-30,"Risk 3 (Low)",41.95854835,-87.78691899,utopia-cigars-chicago,"Utopia Cigars","6355 W Montrose Ave",4.5,0,11,"Tobacco Shops"
-567250,Subway,"166 N Wabash Ave",Pass,2011-02-24,"Risk 1 (High)",41.88502983,-87.62640835,subway-chicago-43,Subway,"185 N Wabash Ave",3.0,0,5,Sandwiches
 409252,"Garland Office","111 N Wabash Ave",Fail,2011-08-11,"Risk 1 (High)",41.88352649,-87.6260822,deborah-beaty-dds-chicago,"Deborah Beaty, DDS","111 N Wabash Ave",4.5,0,11,"General Dentistry"
-284529,"Northside Cafe","1635-1637 N Damen Ave",Fail,2011-10-04,"Risk 1 (High)",41.91151627,-87.6773407,northside-bar-and-grill-chicago,"Northside Bar & Grill","1635 N Damen Ave",3.0,0,254,"Sports Bars"
-539229,"International First Class Lounge","11601 W Touhy Ave","Pass w/ Conditions",2012-05-14,"Risk 2 (Medium)",42.0085364,-87.91442844,aloft-chicago-o-hare-rosemont,"Aloft Chicago O'Hare","9700 Balmoral Avenue",3.5,0,79,Hotels
-419899,"Hot Dog Express","11601 W Touhy Ave",Pass,2011-10-24,"Risk 2 (Medium)",42.0085364,-87.91442844,hot-dog-express-chicago,"Hot Dog Express","4300 N Milwaukee Ave",4.5,0,29,"Fast Food"
-417215,Subway,"5040 S Cottage Grove Ave",Fail,2012-02-06,"Risk 1 (High)",41.80286416,-87.60656981,subway-sandwiches-and-salads-chicago-22,"Subway Sandwiches & Salads","5040 S Cottage Grove Avenue",3.0,0,1,Restaurants
 88298,"Everyday Thai","1509 W Devon Ave",Pass,2011-01-13,"Risk 1 (High)",41.99799565,-87.66822426,everyday-thai-chicago,"Everyday Thai","1509 W Devon Ave",3.5,0,34,Thai
 413440,"Golden Gate","3817 S Kedzie Ave",Fail,2011-11-03,"Risk 1 (High)",41.82381862,-87.70428542,golden-gate-restaurant-chicago-2,"Golden Gate Restaurant","3817 S Kedzie Ave",3.5,0,3,Chinese
-114353,"Camille's Sidewalk Cafe","400 N La Salle Dr","Pass w/ Conditions",2010-02-26,"Risk 1 (High)",41.88922537,-87.63267411,camilles-sidewalk-cafe-geneva,"Camille's Sidewalk Cafe","1038 Commons Dr",3.0,0,1,Restaurants
-284728,Starbucks,"11601 W Touhy Ave",Fail,2011-09-20,"Risk 2 (Medium)",42.0085364,-87.91442844,starbucks-park-ridge-2,Starbucks,"15 S Prospect Ave",5.0,0,1,"Coffee & Tea"
-453216,"676 Restaurant/main Kitchen","674-678 N Michigan Ave",Pass,2012-02-07,"Risk 1 (High)",41.89475437,-87.62439435,676-restaurant-and-bar-chicago,"676 Restaurant & Bar","676 N Michigan Ave",3.5,0,63,"American (New)"
 1227343,"Bree's Thai Rice & Noodle","5306 S Central Ave",Pass,2012-05-31,"Risk 1 (High)",41.79617425,-87.76257753,bree-thai-restaurant-chicago,"Bree Thai Restaurant","5306 S Central Ave",4.5,0,22,Thai
 277899,"O'donnells","4500 N Elston Ave",Pass,2011-09-12,"Risk 2 (Medium)",41.96246973,-87.73215028,o-donnells-chicago,"O'Donnell's","4500 N Elston Ave",4.5,0,4,"Sports Bars"
 491218,"See Thru Chinese Kitchen","4318 S Ashland Ave",Pass,2012-01-05,"Risk 1 (High)",41.81527156,-87.66528691,see-thru-chinese-kitchen-chicago-3,"See Thru Chinese Kitchen","4318 S Ashland Ave",3.5,0,10,Chinese
-176311,"The Original Margies Maxwell Street","4646 W Chicago Ave",Fail,2010-02-22,"Risk 1 (High)",41.89516377,-87.74315682,sams-red-hots-chicago,"Sam's Red Hots","2375 W Armitage Ave",3.5,0,40,"Hot Dogs"
-250974,"Tango Sur","3761-3763 N Southport Ave",Pass,2010-06-16,"Risk 1 (High)",41.95062248,-87.66396866,tango-sur-chicago,"Tango Sur","3763 N Southport Ave",4.0,0,1102,Steakhouses
-521664,"Remix Cafe","4347 N Harding Ave",Pass,2011-08-11,"Risk 1 (High)",41.96053473,-87.72644475,remix-cafe-chicago,"Remix Cafe","4347 N Harding",4.0,1,15,"Modern European"
-124317,"Broasted Chicken Royale","5930 W Lawrence Ave",Pass,2012-02-10,"Risk 1 (High)",41.96777985,-87.77598087,broasted-chicken-royal-chicago-2,"Broasted Chicken Royal","4738 N Austin Ave",3.5,0,5,"Fast Food"
-120633,"Pepe's Retail Meats","853 W Randolph St",Fail,2011-11-15,"Risk 1 (High)",41.88426142,-87.64953413,zocalo-restaurant-and-tequila-bar-chicago,"Zocalo Restaurant & Tequila Bar","358 W Ontario St",3.5,0,495,Mexican
-233788,"Taco & Burrito Express Brothers","2540 N Halsted St",Pass,2012-02-21,"Risk 1 (High)",41.92847358,-87.64901462,del-seoul-chicago,"Del Seoul","2568 N Clark St",4.0,0,673,Korean
-98356,Quiznos,"3322 N Western Ave",Pass,2012-06-14,"Risk 1 (High)",41.94196764,-87.68838869,quiznos-chicago-5,"Quizno's","3322 N Western Avenue",1.5,0,3,
 197506,"Toro Sushi Express","201 N Clark St",Pass,2011-05-13,"Risk 1 (High)",41.88577122,-87.63082982,toro-sushi-express-chicago,"Toro Sushi Express","201 N Clark St",3.5,0,28,"Sushi Bars"
-277468,"Mayflower Chinese Restaurant","2225 S Wentworth Ave","Pass w/ Conditions",2010-07-16,"Risk 1 (High)",41.85213019,-87.63185039,mayflower-chinese-restaurant-chicago,"Mayflower Chinese Restaurant","5240 N Pulaski Rd",3.0,0,20,Chinese
 604289,"Boutique Bites","5717 N Elston Ave",Pass,2011-06-28,"Risk 1 (High)",41.98541778,-87.7688481,boutique-bites-chicago,"Boutique Bites","5717 N Elston Ave",5.0,0,1,Food
-634998,"Jarvis Grill & Wok","1517 W Jarvis Ave",Pass,2011-10-18,"Risk 1 (High)",42.01592922,-87.66884761,jarvis-grill-and-wok-chicago,"Jarvis Grill & Wok","1505 W Jarvis Ave",3.5,0,6,Restaurants
-419495,"Michael's Cappuccino","7714 W Belmont Ave",Pass,2010-10-15,"Risk 3 (Low)",41.93798765,-87.81962065,cappuccino-catering-skokie-2,"Cappuccino Catering","5500 Touhy Ave Ste L",5.0,0,1,Caterers
 120358,"Mannys Coffee Shop","1141 S Jefferson St",Pass,2012-04-18,"Risk 1 (High)",41.8677288,-87.64205883,mannys-coffee-shop-and-deli-chicago,"Manny's Coffee Shop & Deli","1141 S Jefferson St",4.0,0,403,Delis
 229305,"Greek Islands Restaurant","200 S Halsted St",Pass,2011-06-08,"Risk 1 (High)",41.87918309,-87.64742623,greek-islands-restaurant-chicago,"Greek Islands Restaurant","200 S Halsted St",4.0,0,643,Greek
-250573,"Emerald Isle","6684-6686 N Northwest Hwy",Pass,2011-04-26,"Risk 1 (High)",42.00237737,-87.81574842,emerald-isle-chicago,"Emerald Isle","6686 N Northwest Hwy",3.0,0,26,Pubs
 413616,"Euro Cafe'","3435 N Harlem Ave",Pass,2011-07-20,"Risk 1 (High)",41.94268079,-87.80676794,euro-cafe-chicago,"Euro Cafe","3435 N Harlem Ave",4.0,1,1,"Coffee & Tea"
-569624,"Cafe 455","455 N Cityfront Plaza Dr",Pass,2011-10-12,"Risk 2 (Medium)",41.89000134,-87.62143869,the-art-institute-of-chicago-chicago,"The Art Institute of Chicago","111 S Michigan Ave",4.5,0,640,"Colleges & Universities"
-671093,"Senor Mariachi Mexican Restaurant","5004 N Sheridan Rd",Pass,2012-03-19,"Risk 1 (High)",41.97347815,-87.65507959,senor-mariachi-chicago,"Senor Mariachi","5004 N Sheridan",4.0,0,12,Mexican
-229219,"Cafe Bon Appetit","227 W Monroe St",Pass,2011-07-12,"Risk 1 (High)",41.88053925,-87.63459246,bon-appetit-cafe-chicago-2,"Bon Appetit Cafe","2825 W Chicago Ave",5.0,0,1,Restaurants
-177174,Marble,"3281 W Armitage Ave",Pass,2011-02-10,"Risk 1 (High)",41.9172515,-87.71020613,marble-chicago,Marble,"3281 W Armitage",4.0,0,90,"Dive Bars"
 250333,"Chen's Garden","4445 N Pulaski Rd",Fail,2012-01-18,"Risk 1 (High)",41.96223481,-87.72771372,chens-garden-chicago,"Chen's Garden","4445 N Pulaski Rd",3.0,0,13,Chinese
 1214687,"Output Lounge & Sports Bar","1758 W Grand Ave",Fail,2012-05-07,"Risk 1 (High)",41.8910139,-87.6719848,output-lounge-chicago,"Output Lounge","1758 W Grand Ave",2.5,0,23,"Sports Bars"
 197448,"Maxim's Restaurant","20 N Clark St","Pass w/ Conditions",2010-05-24,"Risk 1 (High)",41.88243401,-87.63103701,maxims-restaurant-chicago,"Maxim's Restaurant","20 N Clark St",3.0,0,42,Diners
-666261,"Dunkin Donuts","201 N Clark St",Pass,2011-12-08,"Risk 2 (Medium)",41.88577122,-87.63082982,dunkin-donuts-chicago-64,"Dunkin' Donuts","27 W Lake St",4.0,0,7,Donuts
-531365,"Gsb Cafe","5807 S Woodlawn Ave","Pass w/ Conditions",2012-04-04,"Risk 1 (High)",41.78936441,-87.5962627,medici-on-57th-chicago,"Medici On 57th","1327 E 57th St",3.5,0,342,Bakeries
 114354,"Naha Restaurant","500 N Clark St",Pass,2012-06-14,"Risk 1 (High)",41.89086224,-87.63125333,naha-chicago,Naha,"500 N Clark St",3.5,0,374,"American (New)"
-176502,"Legee Rice And Noodles","1810 W Montrose Ave","Pass w/ Conditions",2011-02-08,"Risk 1 (High)",41.96161928,-87.67502882,legee-rice-and-noodles-chicago-2,"Legee Rice and Noodles","1810 W Montrose",3.0,0,47,"Asian Fusion"
 335314,"See Thru Chinese Kitchen","7613 S Jeffery Blvd",Pass,2011-08-09,"Risk 1 (High)",41.75663165,-87.57594788,see-thru-chinese-kitchen-chicago-10,"See Thru Chinese Kitchen","7613 S Jeffery Blvd",4.0,0,4,Chinese
 635013,"Sushi Usagi Ya","1178 N Milwaukee Ave","Pass w/ Conditions",2012-05-04,"Risk 1 (High)",41.90311912,-87.66633653,usagi-ya-chicago,"Usagi Ya","1178 N Milwaukee Ave",3.5,0,228,"Sushi Bars"
-491541,"Grand Avenue Shrimp House","5358 W Grand Ave",Pass,2011-02-01,"Risk 2 (Medium)",41.91792892,-87.76069948,grand-avenue-shrimp-house-chicago,"Grand Avenue Shrimp House","5358 W. Grand Ave.",4.0,0,9,Seafood
-58374,"Greek Corner Restaurant Cafe","958 N Damen Ave",Pass,2012-05-25,"Risk 1 (High)",41.8995039,-87.67730119,janiks-cafe-chicago-2,"Janik's Cafe","2011 W Division St",4.0,0,172,"American (Traditional)"
 277575,"Side Bar Cafe'","910 W Buena Ave","Pass w/ Conditions",2010-07-20,"Risk 1 (High)",41.9585509,-87.65352005,bar-on-buena-chicago,"Bar on Buena","910 W Buena Ave",4.0,0,304,"American (Traditional)"
-537270,Subway,"2101 E 71st St",Pass,2011-03-25,"Risk 2 (Medium)",41.76599,-87.57378734,subway-chicago-121,Subway,"2102 E 71st St",3.0,0,2,Sandwiches
-1214456,"Big Tonys Pizza","3276 W Fullerton Ave",Pass,2012-04-27,"Risk 1 (High)",41.92479105,-87.71042044,big-tonys-pizza-chicago,"Big Tony's Pizza","3217 Fullerton Ave",3.0,0,34,Pizza
-567279,Godiva,"1 W Randolph St",Pass,2012-05-02,"Risk 2 (Medium)",41.88438065,-87.62798705,godiva-chocolatier-chicago-2,"Godiva Chocolatier","108 N State St",3.5,0,8,"Chocolatiers and Shops"
-491712,"Edible Arrangements","2031 E 95th St","Pass w/ Conditions",2011-02-10,"Risk 2 (Medium)",41.72237416,-87.57411884,edible-arrangements-chicago-12,"Edible Arrangements","9945 S Halsted St",1.0,0,2,
 114378,Elate,"111 W Huron St",Pass,2011-11-25,"Risk 1 (High)",41.894716,-87.63171614,elate-chicago,Elate,"111 W Huron St",3.5,0,221,"American (New)"
 176542,"Azteca De Oro Mexican Grill","3731 N Clark St",Fail,2011-08-19,"Risk 1 (High)",41.94980428,-87.65843709,azteca-de-oro-mexican-grill-chicago,"Azteca de Oro Mexican Grill","3731 N Clark St",4.0,0,143,Mexican
 417214,"Simply Soup, Salad And Sandwiches","635 E 47th St",Fail,2011-11-29,"Risk 2 (Medium)",41.80937219,-87.6101459,simply-soups-salads-and-sandwiches-chicago-2,"Simply Soups, Salads & Sandwiches","635 E 47th St",3.5,0,11,Sandwiches
-491548,"McDonald's","11601 W Touhy Ave",Pass,2012-02-10,"Risk 2 (Medium)",42.0085364,-87.91442844,mcdonalds-niles,"McDonald's","7969 N Milwaukee Ave",3.5,0,3,Burgers
 567566,Henri,"18 S Michigan Ave",Pass,2011-08-18,"Risk 1 (High)",41.88165874,-87.6245001,henri-chicago,Henri,"18 S Michigan Ave",4.5,0,159,"American (New)"
-458888,"Mr. D's Snack Shop","6656 W Diversey Ave",Pass,2012-03-07,"Risk 1 (High)",41.93102457,-87.79289009,mr-submarine-chicago-9,"Mr Submarine","3924 N Cicero Ave",3.5,0,12,Sandwiches
-521313,"La Pasadita Express","3722 W Belmont Ave","Pass w/ Conditions",2011-03-28,"Risk 1 (High)",41.93928136,-87.72082794,la-pasadita-express-chicago-3,"La Pasadita Express","3720 W Belmont Ave",2.5,0,15,Mexican
-343438,"Vanille Patisserie","131 N Clinton St","Pass w/ Conditions",2010-10-20,"Risk 2 (Medium)",41.88418751,-87.64111967,vanille-patisserie-chicago-4,"Vanille Patisserie","Chicago French Market",4.5,0,63,Bakeries
-567587,"Rudy's","69 E Madison St",Pass,2011-09-01,"Risk 1 (High)",41.88198598,-87.62537814,rudys-bar-and-grille-chicago,"Rudy's Bar & Grille","69 E Madison",3.5,0,59,Burgers
 114630,"Jake Melnick's Corner Tap","41 E Superior St",Pass,2011-12-02,"Risk 1 (High)",41.8955931,-87.62658249,jake-melnicks-corner-tap-chicago-2,"Jake Melnick's Corner Tap","41 E Superior St",3.5,0,303,"Sports Bars"
 1196304,"Joie De Vine","1744 W Balmoral Ave",Fail,2012-05-22,"Risk 2 (Medium)",41.97986594,-87.67390933,joie-de-vine-chicago,"Joie De Vine","1744 W Balmoral Ave",4.0,0,49,Bars
 635103,"Sterling Goss Limited","1845 N Oakley Ave",Pass,2011-10-27,"Risk 2 (Medium)",41.91537965,-87.68473894,sterling-goss-purveyors-chicago,"Sterling Goss Purveyors","1845 N Oakley Ave",4.0,0,40,"Meat Shops"
 419982,"New York Deli","2921 N Clark St",Fail,2010-10-26,"Risk 1 (High)",41.93545292,-87.64686342,new-york-deli-chicago,"New York Deli","2921 N Clark St",4.5,0,159,Delis
 154616,"The Counter-custom Built","666 W Diversey Pkwy",Pass,2010-11-09,"Risk 1 (High)",41.93288705,-87.64611922,the-counter-chicago-2,"The Counter","666 W Diversey Pkwy",3.5,0,632,Burgers
 381364,Subway,"816 N State St",Fail,2011-04-28,"Risk 1 (High)",41.89726884,-87.62836235,subway-chicago-167,Subway,"816 N State St",1.5,0,3,Sandwiches
-659220,"Golden Fish & Chicken","2926 W 63rd St",Pass,2011-11-04,"Risk 2 (Medium)",41.77917311,-87.69698886,golden-bull-restaurant-chicago,"Golden Bull Restaurant","242 W Cermak Rd",3.5,0,41,Chinese
 585320,"Burger King","2344 W Chicago Ave",Pass,2011-06-10,"Risk 2 (Medium)",41.89586332,-87.68619201,burger-king-chicago-9,"Burger King","2344 W Chicago Ave",2.5,0,13,"Fast Food"
 413554,"Azucar Bar & Grill","2647 N Kedzie Ave",Pass,2011-04-08,"Risk 1 (High)",41.92982552,-87.70722384,azucar-tapas-restaurant-and-cocktail-bar-chicago,"Azucar Tapas Restaurant and Cocktail Bar","2647 N Kedzie Ave",3.5,0,162,"Tapas Bars"
 311208,"South Bar & Grill","720 S Michigan Ave",Pass,2011-12-01,"Risk 1 (High)",41.87279887,-87.62433781,720-south-bar-and-grill-chicago,"720 South Bar and Grill","720 S Michigan Ave",3.0,0,1,Bars
-547341,"Markos Tacos & Cafe","3009 W Cermak Rd",Fail,2011-04-06,"Risk 1 (High)",41.85172138,-87.70078598,markos-tacos-and-cafe-chicago,"Marko's Tacos & Cafe","5661 N Clark St",3.0,0,10,Mexican
 453236,"437 Rush","437 N Rush St",Fail,2011-11-14,"Risk 1 (High)",41.89037214,-87.62518149,437-rush-restaurant-chicago,"437 Rush Restaurant","437 N Rush St",3.5,0,107,Italian
 679618,"Jin Ju","5203 N Clark St",Fail,2012-03-19,"Risk 1 (High)",41.97630115,-87.66827594,jin-ju-chicago,"Jin Ju","5203 N Clark St",4.0,0,187,Korean
-529356,,"325 W 47th St",Fail,2011-10-25,"Risk 1 (High)",41.8089645,-87.6344335,47th-street-red-line-station-chicago,"47th Street Red Line Station","220 W 47th St",5.0,0,2,"Public Services & Government"
 112328,"Lou Malnati's Pizzeria","805 S State St",Pass,2011-06-17,"Risk 1 (High)",41.87169869,-87.62737565,lou-malnatis-pizzeria-chicago-9,"Lou Malnati's Pizzeria","805 S State St",4.0,0,342,Pizza
 679900,"Baba Pita Palace","334 W Chicago Ave",Pass,2012-04-13,"Risk 1 (High)",41.89666242,-87.63710138,baba-palace-chicago,"Baba Palace","334 W Chicago Ave",3.0,0,85,Indian
-160229,Subway,"1529 N Wells St","Pass w/ Conditions",2010-01-21,"Risk 2 (Medium)",41.9100256,-87.63452807,subway-chicago-83,Subway,"1529 N Wells Street",3.5,0,3,
 519385,"Big Chicks","5024 N Sheridan Rd",Pass,2012-02-08,"Risk 1 (High)",41.97406912,-87.65509449,big-chicks-chicago,"Big Chicks","5024 N Sheridan Rd",4.5,0,152,"Gay Bars"
 233602,"The Hearty Boys Caterers","3819 N Broadway St",Pass,2012-05-04,"Risk 1 (High)",41.95180076,-87.64947748,hearty-boys-caterers-chicago,"Hearty Boys Caterers","3819 N Broadway St",4.0,0,40,Caterers
-325227,"Banquets - Main Kitchen","301 E North Water St",Pass,2011-02-25,"Risk 1 (High)",41.88945828,-87.62036838,sheraton-chicago-hotel-and-towers-chicago,"Sheraton Chicago Hotel & Towers","301 East North Water Street",3.0,0,145,Hotels
-543460,"Homies Kitchen","6859 S Loomis Blvd","Pass w/ Conditions",2011-06-24,"Risk 2 (Medium)",41.76871573,-87.65892186,lowes-home-improvement-chicago-2,"Lowe's Home Improvement","8411 South Holland Rd.",3.5,0,4,"Hardware Stores"
 521377,"Corner 41 Bar & Grill","4138 N Lincoln Ave",Pass,2012-05-21,"Risk 1 (High)",41.95692025,-87.68086072,corner-41-chicago,"Corner 41","4138 N Lincoln Ave",3.0,0,72,Bars
-248282,"Reza's Restaurant","5238 N Clark St",Pass,2012-04-26,"Risk 3 (Low)",41.97738954,-87.6685228,rezas-restaurant-chicago-3,"Reza's Restaurant","5255 N Clark St",3.5,0,332,"Middle Eastern"
-531336,,"950 E 59th St",Fail,2012-04-05,"Risk 1 (High)",41.78785004,-87.60198519,university-of-chicago-hospitals-chicago-4,"University of Chicago Hospitals","901 E 58th St",4.5,0,10,Hospitals
 413763,"Hachi's Kitchen","2521 N California Ave",Pass,2011-06-03,"Risk 1 (High)",41.92727246,-87.69733527,hachis-kitchen-chicago,"Hachi's Kitchen","2521 N California Ave",4.0,0,266,"Sushi Bars"
 154408,"Sarks In The Park","444 W Fullerton Pkwy",Pass,2010-07-07,"Risk 3 (Low)",41.92568726,-87.64095824,sarks-in-the-park-chicago-2,"Sarks in the Park","444 W Fullerton Pkwy",3.0,0,99,"Breakfast & Brunch"
-98429,"El Palenque","3610 W Belmont Ave",Pass,2010-04-01,"Risk 1 (High)",41.93931867,-87.71791184,el-palenque-chicago-2,"El Palenque","3610 W Belmont",3.5,0,4,"American (Traditional)"
 120561,"S & S Restaurant","823 W Randolph St",Fail,2010-09-13,"Risk 1 (High)",41.88428084,-87.64845424,s-and-s-restaurant-chicago,"S & S Restaurant","823 W Randolph St",3.5,1,8,"Breakfast & Brunch"
 596364,"Hyderabad House","2225 W Devon Ave","Pass w/ Conditions",2011-08-03,"Risk 1 (High)",41.99768843,-87.68600797,hyderabad-house-chicago,"Hyderabad House","2225 W Devon Ave",4.0,0,16,Indian
-104242,"Bice Grill","154 E Ontario St",Pass,2010-01-11,"Risk 1 (High)",41.89346156,-87.62327823,the-capital-grille-chicago,"The Capital Grille","633 N St. Clair St",4.5,0,295,Steakhouses
-88465,"Alberto's Pizza","1326 W Morse Ave",Pass,2012-01-23,"Risk 1 (High)",42.00803845,-87.66481712,j-b-albertos-pizza-chicago,"J B Alberto's Pizza","1324 W Morse Ave",4.0,0,135,Pizza
-284704,"Caffe Mercato","11601 W Touhy Ave",Pass,2011-09-19,"Risk 2 (Medium)",42.0085364,-87.91442844,caffe-mercato-chicago,"Caffe Mercato","Hilton Chicago O'Hare Airport",3.0,0,2,"Breakfast & Brunch"
 154542,"Jaimitos Burritos","1781 N Clybourn Ave","Pass w/ Conditions",2012-03-13,"Risk 1 (High)",41.91352239,-87.65294009,jaimitos-burritos-chicago-2,"Jaimitos Burritos","1781 N Clybourn Ave",3.0,0,64,Mexican
 557659,"Michael's On Main Cafe","8430 W Bryn Mawr Ave",Pass,2011-12-14,"Risk 1 (High)",41.98121021,-87.83801332,michaels-on-main-cafe-chicago,"Michael's On Main Cafe","8430 W Bryn Mawr Ave",2.5,0,5,Cafes
 381210,"Nabo's","3351 N Broadway St",Fail,2010-09-14,"Risk 1 (High)",41.94334006,-87.64466387,nabos-chicago,"Nabo's","3351 N Broadway St",3.0,1,66,Sandwiches
-580267,"Octopus Fish & Chicken","5058 S Halsted Ave",Pass,2011-04-08,"Risk 2 (Medium)",41.80162842,-87.64549201,la-palapa-chicago,"La Palapa","2000 W 34th St",3.5,0,56,Mexican
 205303,"Max Orient","520 N Michigan Ave",Pass,2010-04-15,"Risk 1 (High)",41.89168852,-87.62430718,max-orient-chicago,"Max Orient","520 N Michigan Ave",3.0,0,7,Chinese
-327257,"Buen Paladar","2955 N Milwaukee Ave","Pass w/ Conditions",2010-08-26,"Risk 1 (High)",41.93503365,-87.71695276,"90-miles-cuban-café-chicago-4","90 Miles Cuban Café","3101 N Clybourn Ave",4.5,0,451,Cuban
-166262,"La Tropicana","5646 S Kedzie Ave","Pass w/ Conditions",2011-03-23,"Risk 1 (High)",41.79030995,-87.70361169,neveria-la-tropicana-chicago,"Neveria La Tropicana","6524 S Pulaski Rd",4.0,0,1,"Ice Cream & Frozen Yogurt"
-580521,"Kiki D's B B Q House","4117 S Ashland Ave",Pass,2011-10-20,"Risk 1 (High)",41.81906467,-87.66507317,the-drawing-room-chicago,"The Drawing Room","937 N Rush St",4.0,0,340,"American (New)"
-176675,Subway,"3821 N Broadway St","Pass w/ Conditions",2010-03-16,"Risk 2 (Medium)",41.95185887,-87.64947914,subway-chicago-91,Subway,"1139 W Granville Ave",2.5,0,5,Sandwiches
 277109,Ipsento,"2035 N Western Ave",Pass,2012-01-31,"Risk 2 (Medium)",41.91857464,-87.68729593,ipsento-chicago,Ipsento,"2035 N Western Ave",4.5,0,268,"Coffee & Tea"
-614709,"Alma Pita Restaurant","4600 N Magnolia Ave",Pass,2012-01-20,"Risk 1 (High)",41.96543519,-87.66117219,alma-pita-restaurant-chicago,"Alma Pita Restaurant","4600 N Magnolia Ave, Ste F",4.0,0,63,"Middle Eastern"
-160260,"P J Clarke's","1204 N State Pkwy","Pass w/ Conditions",2010-02-16,"Risk 1 (High)",41.90409273,-87.62882709,p-j-clarkes-chicago-4,"P.J. Clarke's","302 E Illinois St",3.0,0,166,Burgers
-478627,"Sharks Fish & Chicken","2027 E 95th St","Pass w/ Conditions",2010-12-09,"Risk 2 (Medium)",41.72237211,-87.5742747,sharks-fish-and-chicken-chicago-5,"Shark's Fish & Chicken","7908 S Halsted Street",3.0,0,1,Restaurants
-278192,"Hackney's Printers' Row","731-733 S Dearborn St",Pass,2011-12-08,"Risk 1 (High)",41.87273361,-87.62899897,hackneys-printers-row-chicago,"Hackney's Printers' Row","733 S Dearborn St",3.5,0,323,Burgers
 659602,"Joey's Shrimp House","1432 N Western Ave",Pass,2012-06-13,"Risk 2 (Medium)",41.90766196,-87.68729713,joeys-shrimp-house-chicago,"Joey's Shrimp House","1432 N Western Ave",3.5,0,50,Seafood
 229393,"Jamba Juice","500 W Madison St","Pass w/ Conditions",2010-05-05,"Risk 2 (Medium)",41.88199434,-87.63975868,jamba-juice-chicago-5,"Jamba Juice","500 W Madison St",2.5,0,10,Restaurants
-233591,"Asian Mix","3945 N Broadway St",Pass,2012-02-09,"Risk 1 (High)",41.95409558,-87.65007225,asian-mix-cafe-chicago,"Asian Mix Cafe","3945 N Broadway",3.0,0,52,"Asian Fusion"
-229488,"Dunkin Donuts","215 W Lake St",Pass,2010-06-22,"Risk 2 (Medium)",41.88562122,-87.63450136,dunkin-donuts-chicago-17,"Dunkin' Donuts","205 W Randolph St",4.0,0,3,Restaurants
-555240,"Church's Chicken","6849 S Western Ave",Fail,2011-09-22,"Risk 2 (Medium)",41.768707,-87.68320837,churchs-chicken-chicago-6,"Church's Chicken","1956 W 79th St",2.0,0,1,"Fast Food"
 381214,"Hiro's Cafe","2936 N Broadway St",Fail,2010-10-20,"Risk 1 (High)",41.93598926,-87.64440859,hiros-cafe-chicago,"Hiro's Cafe","2936 N Broadway St",3.5,0,94,Japanese
-465408,"Nancy's Home Of Stuffed Pizza","2930 N Broadway St",Pass,2010-11-22,"Risk 1 (High)",41.93581018,-87.64440388,renaldis-pizza-pub-chicago,"Renaldi's Pizza Pub","2827 N Broadway St",3.5,0,183,Pizza
 413525,"Taqueria Villa","3139 W 63rd St",Pass,2012-06-25,"Risk 1 (High)",41.77887569,-87.70222876,tacos-villa-chicago,"Tacos Villa","3139 W 63rd St",4.5,0,4,Mexican
 580607,Chilapan,"2459 W Armitage Ave",Pass,2011-04-27,"Risk 1 (High)",41.91744466,-87.68979178,chilapan-chicago,Chilapan,"2459 W Armitage Ave",4.0,0,188,Mexican
-1154391,"Ford Motor Co","12600 S Torrence Ave",Pass,2012-06-14,"Risk 1 (High)",41.66611299,-87.55900308,fran-napleton-lincoln-blue-island,"Fran Napleton Lincoln","2950 Burr Oak Ave",1.0,0,1,"Auto Parts & Supplies"
-413801,"Fulton's Chicken","7138 N Clark St",Pass,2010-09-22,"Risk 1 (High)",42.01256119,-87.67477437,fultons-on-the-river-chicago,"Fulton's on the River","315 N LaSalle St",3.5,0,226,Seafood
-325228,"Room Service","301 E North Water St",Fail,2012-03-08,"Risk 1 (High)",41.88945828,-87.62036838,room-service-chicago,"Room Service","5438 N Clark St",4.5,0,16,"Furniture Stores"
-158488,"Oriental Chef","901 W 87th St",Pass,2011-03-10,"Risk 1 (High)",41.73592705,-87.64616369,oriental-chef-calumet-city,"Oriental Chef","1819 Sibley Blvd",5.0,0,2,Restaurants
 343229,Pockets,"329 S Franklin St",Pass,2011-11-23,"Risk 1 (High)",41.87739707,-87.63504341,pockets-chicago,Pockets,"329 S Franklin St",4.0,0,35,Sandwiches
-509320,"Mar Y Tierra Restaurant","4231 S Archer Ave",Pass,2011-09-13,"Risk 1 (High)",41.81642688,-87.70020651,la-quebrada-5-chicago,"La Quebrada 5","3816 W 63rd St",4.5,0,2,
 413858,"T R's Pub","3908 W 111th St",Pass,2011-12-02,"Risk 2 (Medium)",41.69140619,-87.71830608,t-rs-pub-chicago,"T R's Pub","3908 W 111th St",4.0,0,1,
 284374,"Cozy Corner","2294 N Milwaukee Ave",Pass,2012-01-10,"Risk 1 (High)",41.92259747,-87.69709763,cozy-corner-diner-and-pancake-house-chicago,"Cozy Corner Diner & Pancake House","2294 N Milwaukee Ave",4.0,0,256,Diners
-557416,"Kowloon Restaurant","7403 W Irving Park Rd",Pass,2012-04-19,"Risk 1 (High)",41.952538,-87.81236682,kowloon-restaurant-rolling-mdws,"Kowloon Restaurant","2160 Plum Grove Rd",3.0,1,1,Restaurants
-205242,"Intercontinental Hotel","505 N Michigan Ave",Pass,2011-02-16,"Risk 1 (High)",41.89112059,-87.6239887,intercontinental-hotel-pool-chicago,"Intercontinental Hotel Pool","505 N. Michigan Avenue, floor 12",4.5,0,3,"Active Life"
 229459,"Jamba Juice","225 S Canal St",Pass,2011-05-02,"Risk 2 (Medium)",41.87853128,-87.63942746,jamba-juice-chicago-3,"Jamba Juice","225 S Canal St",3.5,0,3,"Juice Bars & Smoothies"
-114658,"Aladdin's Eatery","614 W Diversey Pkwy","Pass w/ Conditions",2010-11-22,"Risk 1 (High)",41.93291688,-87.64457164,babylon-chicago-2,Babylon,"2023 N Damen Ave",3.5,0,163,"Middle Eastern"
 413832,"Big Top Restaurant","6348 W Higgins Ave",Pass,2012-02-29,"Risk 1 (High)",41.97612328,-87.78699375,big-top-restaurant-chicago,"Big Top Restaurant","6348 W Higgins Ave",3.5,0,27,Diners
-343279,Starbucks,"227 W Monroe St",Fail,2011-07-11,"Risk 2 (Medium)",41.88053925,-87.63459246,starbucks-chicago-96,Starbucks,"200 W Madison St",4.5,0,13,"Coffee & Tea"
 521437,"Tre Kronor Restaurant","3258 W Foster Ave","Pass w/ Conditions",2012-04-11,"Risk 1 (High)",41.97583113,-87.71106023,tre-kronor-chicago,"Tre Kronor","3258 W Foster Ave",4.0,0,321,"Breakfast & Brunch"
 68197,"Lee's Wok","1437 W Montrose Ave","Pass w/ Conditions",2010-02-08,"Risk 1 (High)",41.96151913,-87.66641968,lees-wok-chicago,"Lee's Wok","1437 W Montrose Ave",3.0,0,20,Chinese
 164305,"Panda Express","1654 W 119th St",Pass,2012-03-01,"Risk 1 (High)",41.67761706,-87.66311315,panda-express-chicago-17,"Panda Express","1654 W 119th St",5.0,0,1,
-278084,"Pablos Taco's","4106 S Archer Ave","Pass w/ Conditions",2010-08-06,"Risk 1 (High)",41.81898198,-87.69650065,mercadito-chicago,Mercadito,"108 W Kinzie St",3.5,0,697,Mexican
 579728,"The Brown Sack","3581 W Belden Ave",Pass,2011-03-14,"Risk 1 (High)",41.92266507,-87.71685582,the-brown-sack-chicago,"The Brown Sack","3581 W Belden Ave",4.0,0,190,Sandwiches
 579284,"La Cebollita Restaurant","4343 W 47th St",Pass,2011-02-22,"Risk 1 (High)",41.80764585,-87.73272528,la-cebollita-chicago-2,"La Cebollita","4343 W 47th St",4.5,0,8,Mexican
-397214,"Denny's Pizza","7616 W Belmont Ave",Pass,2011-08-15,"Risk 1 (High)",41.93803297,-87.8172596,dennys-pizza-chicago,"Denny's Pizza","7616 W Belmont Avenue",2.0,0,5,Pizza
 565486,Avec,"615 W Randolph St",Pass,2011-09-06,"Risk 1 (High)",41.88432104,-87.64342475,avec-chicago,Avec,"615 W Randolph St",4.5,0,878,French
 585409,"Coco Restaurant","2723 W Division St",Fail,2012-03-06,"Risk 1 (High)",41.9028285,-87.69537805,coco-chicago-2,Coco,"2723 W Division St",3.0,0,119,"Latin American"
 580348,"La Flor De Acapulco","6021 W Grand Ave","Pass w/ Conditions",2011-04-13,"Risk 1 (High)",41.92061916,-87.77654921,la-flor-de-acapulco-chicago,"La Flor De Acapulco","6021 W Grand Ave",4.0,0,2,Mexican
-250336,"Brehon Pub","731-733 N Wells St","Pass w/ Conditions",2010-05-26,"Risk 1 (High)",41.89564749,-87.63402986,brehon-pub-chicago,"Brehon Pub","731 N Wells St",3.5,0,51,Pubs
-70307,"Chili's Too","11601 W Touhy Ave",Fail,2011-09-20,"Risk 1 (High)",42.0085364,-87.91442844,chilis-too-chicago-3,"Chili's too","O'Hare International Airport Terminal 3",3.0,0,3,"American (Traditional)"
 343212,"Taco Bell","500 W Madison St",Pass,2012-03-07,"Risk 1 (High)",41.88199434,-87.63975868,taco-bell-chicago-17,"Taco Bell","500 W Madison St",4.0,0,12,"Fast Food"
-413324,"Katakana & Fiesta & Koko Grill","2829 W Armitage Ave",Pass,2012-01-27,"Risk 1 (High)",41.91737008,-87.69824926,katakana-and-koko-chicago,"Katakana & Koko","2829 W Armitage",2.5,0,126,"Sushi Bars"
-419340,"Harold's Chicken Shack","3792 W 79th St",Pass,2011-07-07,"Risk 2 (Medium)",41.74974186,-87.71794639,harolds-chicken-shack-chicago-9,"Harold's Chicken Shack","2517 W 79th St",4.0,0,3,"Chicken Wings"
 453297,"The Allerton Hotel","701 N Michigan Ave",Fail,2012-03-12,"Risk 1 (High)",41.89498361,-87.6241062,the-allerton-hotel-chicago,"The Allerton Hotel","701 N Michigan Ave",3.5,0,129,Hotels
-401236,Carvery,"65 W Jackson Blvd",Pass,2011-04-14,"Risk 1 (High)",41.87804565,-87.6301368,budweiser-select-brew-pub-and-carvery-levy-restaurants-chicago,"Budweiser Select Brew Pub & Carvery, Levy Restaurants","United Center",2.5,0,4,Pubs
-250668,"Southside Shrimp","10410 S Kedzie Ave",Pass,2011-06-17,"Risk 2 (Medium)",41.70397489,-87.70141552,chi-tung-evergreen-park,"Chi Tung","9560 S Kedzie Ave",4.0,0,217,Chinese
-428315,"Cougar Paws","3800 W 103rd St",Pass,2010-10-29,"Risk 2 (Medium)",41.70608827,-87.71607715,the-shrine-chicago,"The Shrine","2109 S Wabash Ave",3.0,0,63,"Dance Clubs"
 545335,"Nicky's Chinese Food","5231 S Woodlawn Ave",Fail,2012-02-03,"Risk 1 (High)",41.79995223,-87.59650592,nickys-chinese-food-chicago,"Nicky's Chinese Food","5231 S Woodlawn Ave",2.0,0,40,Chinese
-284523,"Long Tung Chinese Kitchen","6237 S Halsted Pkwy",Pass,2011-10-06,"Risk 1 (High)",41.77972572,-87.64265478,chi-tung-evergreen-park,"Chi Tung","9560 S Kedzie Ave",4.0,0,217,Chinese
 67987,"S & G Grill","3000 N Lincoln Ave","Pass w/ Conditions",2010-01-22,"Risk 1 (High)",41.93612294,-87.66391411,sam-and-georges-chicago,"Sam & George's","3000 N Lincoln Ave",4.0,0,201,"Breakfast & Brunch"
-124280,"Kildare Liquors","4300 W Lawrence Ave",Fail,2010-01-19,"Risk 1 (High)",41.96826704,-87.73549835,mariscos-el-veneno-chicago-2,"Mariscos El Veneno","1024 N Ashland Ave",4.0,0,171,Seafood
-120315,"Northern Trust","801 S Canal St",Fail,2012-01-19,"Risk 1 (High)",41.87199613,-87.63920429,the-northern-trust-bank-chicago,"The Northern Trust Bank","801 S Canal St Ste 2",2.5,0,2,"Banks & Credit Unions"
 606519,"Dunkin Donuts","120 W 87th St",Fail,2012-01-06,"Risk 2 (Medium)",41.7363802,-87.62769923,dunkin-donuts-inc-chicago,"Dunkin Donuts Inc","120 W 87th St",3.0,0,2,Donuts
 114513,"Erie Cafe","536 W Erie St",Pass,2011-03-18,"Risk 1 (High)",41.89399188,-87.64284995,erie-street-cafe-chicago,"Erie Street Cafe","536 W Erie St",3.5,0,102,Steakhouses
 284669,"Las Mananitas","3523 N Halsted St",Fail,2011-08-02,"Risk 1 (High)",41.94620129,-87.64930463,las-mananitas-mexican-restaurant-chicago,"Las Mananitas Mexican Restaurant","3523 N Halsted St",3.5,0,152,Mexican
-114351,"Mart Plaza Catering Corp","350 N Orleans St",Pass,2012-06-20,"Risk 1 (High)",41.88874104,-87.63708054,joong-boo-market-chicago-2,"Joong Boo Market","3333 N Kimball Ave",4.0,0,197,"Ethnic Food"
-60483,Subway,"4735 S Cicero Ave",Pass,2011-01-06,"Risk 1 (High)",41.80657206,-87.74297702,subway-chicago-35,Subway,"5131 S Pulaski Road",2.0,0,1,Restaurants
 278091,"Mac's American Food","1801 W Division St",Pass,2012-05-30,"Risk 1 (High)",41.90315615,-87.67242232,macs-american-pub-chicago,"Mac's American Pub","1801 W Division St",2.5,0,129,Bars
 670279,"Domino's Pizza","2455 W Fullerton Ave",Fail,2012-02-06,"Risk 2 (Medium)",41.92476862,-87.68987136,dominos-pizza-chicago-12,"Domino's Pizza","2455 W Fullerton Ave",2.0,0,19,Pizza
-614689,"Dunkin Donuts","4547 N Broadway  St",Pass,2012-01-12,"Risk 2 (Medium)",41.96498065,-87.6570432,dunkin-donuts-chicago-62,"Dunkin' Donuts","6332 N Broadway",4.0,0,7,"Coffee & Tea"
-277261,"Dunkin Donuts","5723 N California Ave",Pass,2011-07-18,"Risk 2 (Medium)",41.98571759,-87.69909643,dunkin-donuts-chicago-59,"Dunkin' Donuts","5723 N. California Ave",4.5,0,2,Donuts
-233990,Paciugo,"3241 N Broadway  St",Pass,2010-05-18,"Risk 2 (Medium)",41.94123427,-87.64428992,paciugo-chicago-3,Paciugo,"2324 W Giddings",4.5,0,130,Gelato
-88561,"Simple Delights","6255 N Mccormick Rd",Pass,2011-07-19,"Risk 1 (High)",41.99555537,-87.71279106,simple-delights-chicago,"Simple Delights","6255 N McCormick Rd",3.5,0,17,Filipino
-78334,Subway,"7358 S Stony Island Ave",Pass,2011-02-04,"Risk 1 (High)",41.76063238,-87.58633266,subway-chicago-121,Subway,"2102 E 71st St",3.0,0,2,Sandwiches
-277287,"Siboney Cuban Cuisine","2163-2165 N Western Ave",Pass,2012-01-31,"Risk 1 (High)",41.92165498,-87.68739128,siboney-cuban-cuisine-restaurant-chicago,"Siboney Cuban Cuisine Restaurant","2165 N Western Ave",3.5,0,101,Cuban
-1214396,"Paciugo Lincoln Square","2324 W Giddings St",Pass,2012-04-25,"Risk 2 (Medium)",41.96765093,-87.6875611,paciugo-chicago-3,Paciugo,"2324 W Giddings",4.5,0,130,Gelato
 1196319,"Cinnamon Cafe","1968 W Lawrence Ave",Pass,2012-05-16,"Risk 1 (High)",41.96886998,-87.6788772,"cinnamon-café-chicago-4","Cinnamon Café","1968 W Lawrence Ave",3.5,0,58,"Breakfast & Brunch"
-472039,"Skybridge Restaurant & Bar","11601 W Touhy Ave",Pass,2012-04-09,"Risk 1 (High)",42.0085364,-87.91442844,skybridge-restaurant-and-bar-chicago,"Skybridge Restaurant & Bar","5600 Mannheim Rd",2.0,0,3,Restaurants
-680133,"Law School Cafe","1111 E 60th St",Pass,2012-03-13,"Risk 2 (Medium)",41.7858403,-87.59906822,the-sit-down-cafe-and-sushi-bar-chicago,"The Sit Down Cafe & Sushi Bar","1312 E 53rd St",4.0,0,142,"Sushi Bars"
 154495,"Duffy's Tavern & Grille","420 W Diversey Pkwy",Fail,2010-09-08,"Risk 1 (High)",41.9330041,-87.64018629,duffys-tavern-and-grille-chicago,"Duffy's Tavern and Grille","420 W Diversey Pkwy",2.5,0,309,"Sports Bars"
 233500,"Tores Italian Beef","2804 N Western Ave",Pass,2010-05-04,"Risk 1 (High)",41.93221699,-87.68803328,tores-italian-beef-and-pizza-chicago,"Tore's Italian Beef & Pizza","2804 N Western Ave",4.0,1,31,Italian
-250958,"Pied Piper Parties & Playschool","2864 N Lincoln Ave",Pass,2010-06-16,"Risk 1 (High)",41.93388147,-87.6607731,pied-piper-parties-and-playschool-chicago,"Pied Piper Parties & Playschool","2864 N Lincoln Avenue",3.0,0,1,
-251199,"Coobah Ii","3423 N Southport Ave","Pass w/ Conditions",2010-06-23,"Risk 1 (High)",41.94416192,-87.66379057,el-cid-2-chicago,"El Cid 2","2645 N Kedzie Ave",3.5,0,324,Mexican
 580695,"Bismillah Restaurant","6301 N Ridge Ave",Pass,2011-05-03,"Risk 1 (High)",41.99564933,-87.67559802,bismillah-restaurant-chicago,"Bismillah Restaurant","6301 N Ridge Ave",4.0,0,44,Indian
-327219,"3 R's Oriental Food Mart","2712-14 W Montrose Ave","Pass w/ Conditions",2010-07-23,"Risk 1 (High)",41.96137095,-87.69666935,harvestime-foods-chicago,"HarvesTime Foods","2632 W Lawrence Ave",4.5,0,260,Grocery
 490942,"Cuetzala Gro. Restaurant","7360 N Clark St",Pass,2011-01-05,"Risk 1 (High)",42.01548128,-87.67526203,restaurante-cuetzala-gro-chicago,"Restaurante Cuetzala Gro","7360 N Clark St",4.0,0,40,Mexican
 67868,"Cheesies Pub & Grub","958 W Belmont Ave","Pass w/ Conditions",2010-01-13,"Risk 1 (High)",41.94002724,-87.65373273,cheesies-pub-and-grub-chicago,"Cheesie's Pub & Grub","958 W Belmont Ave",3.5,0,309,Sandwiches
-251207,"Cafe Iberico","737-743 N La Salle Dr",Pass,2010-06-23,"Risk 1 (High)",41.89581509,-87.63254774,"café-iberico-chicago-3","Café Iberico","737 N Lasalle Blvd",4.0,0,1183,Spanish
 465374,"Amelia's Authentic Mexican Cuisine","4559 S Halsted St","Pass w/ Conditions",2011-03-24,"Risk 1 (High)",41.8107813,-87.6454403,amelias-bar-and-grill-chicago,"Amelia's Bar & Grill","4559 S Halsted St",4.5,0,103,"Latin American"
 670571,"Golden Nugget","1765 W Lawrence Ave",Pass,2012-02-16,"Risk 1 (High)",41.96871895,-87.67359188,golden-nugget-pancake-house-chicago-3,"Golden Nugget Pancake House","1765 W Lawrence Ave",3.5,0,109,"Breakfast & Brunch"
-361225,"Hops And Barley","4359-4361 N Milwaukee Ave",Pass,2012-03-01,"Risk 1 (High)",41.96036019,-87.75406627,hops-and-barley-chicago,"Hops & Barley","4359 N Milwaukee",3.0,0,90,Bars
 277401,"7d Restaurant","1317 N Milwaukee Ave",Pass,2010-07-14,"Risk 2 (Medium)",41.90570563,-87.66992733,falafel-and-grill-chicago,"Falafel & Grill","1317 N Milwaukee Ave",4.5,0,55,"Middle Eastern"
-60491,"Los Taquitos Grill","2811 W 55th St","Pass w/ Conditions",2010-05-11,"Risk 1 (High)",41.79357208,-87.69431304,taqueria-los-comales-chicago,"Taqueria Los Comales","3141 W 26th St",4.0,0,33,Mexican
-284459,"Olivia's Sea Of Soul","12750 S Halsted St",Pass,2010-08-17,"Risk 1 (High)",41.66180238,-87.6415191,olivias-market-chicago,"Olivia's Market","2014 W Wabansia Ave",4.0,0,116,Grocery
-284371,"Murph's Hot Dog","3930 W Montrose Ave",Pass,2010-08-16,"Risk 2 (Medium)",41.96107163,-87.72666843,murphys-red-hots-chicago,"Murphy's Red Hots","1211 W Belmont Ave",4.0,0,107,Burgers
-549360,"El Rey Del Taco & Burrito","4835-4837 S Archer Ave",Pass,2011-05-23,"Risk 1 (High)",41.80548202,-87.71804072,el-rey-del-taco-y-el-burrito-chicago,"El Rey Del Taco Y El Burrito","4157 S California",4.0,0,12,Mexican
-233727,"Panciteria Mabuhay","3810 N Central Ave",Pass,2010-05-11,"Risk 1 (High)",41.94988417,-87.76703882,panciteria-mabuhay-chicago,"Panciteria Mabuhay","3810 N Central Avenue",4.0,0,1,Restaurants
-114329,"Pizzeria Ora","545 N La Salle Dr",Pass,2011-01-05,"Risk 1 (High)",41.89211867,-87.63244969,pizzeria-ora-chicago,"Pizzeria Ora","545 N LaSalle St",3.5,0,45,Pizza
 598211,"Perez Restaurant","1163 W 18th St",Pass,2011-05-11,"Risk 1 (High)",41.8578563,-87.6556769,perez-restaurant-chicago-2,"Perez Restaurant","1163 W 18th St",3.5,0,58,Mexican
-176997,"Sheffield Grill","1060 W Addison St",Pass,2012-05-09,"Risk 1 (High)",41.94731749,-87.65641795,skybox-on-sheffield-chicago,"Skybox on Sheffield","3627 N Sheffield",3.0,0,32,"Stadiums & Arenas"
-327231,"2012 W Irving Park","2012 W Irving Park Rd",Pass,2010-08-03,"Risk 1 (High)",41.95425693,-87.67941313,ribfest-chicago-chicago,"Ribfest Chicago","4000 N Lincoln Ave",3.0,0,90,Food
-583206,"Rocky's","234-236 W 31st St",Pass,2011-02-28,"Risk 1 (High)",41.8383285,-87.63303202,rockys-chicago,"Rocky's","234 W 31st St",4.0,0,28,"Sports Bars"
-114260,Potbelly,"222 W Merchandise Mart Plz",Pass,2012-02-10,"Risk 1 (High)",41.88807428,-87.6349552,potbelly-sandwich-works-chicago-9,"Potbelly Sandwich Works","222 Merchandise Mart Plz",4.0,0,23,Sandwiches
-325255,"Conrad Chicago","520 N Michigan Ave",Pass,2011-12-20,"Risk 1 (High)",41.89168852,-87.62430718,conrad-hotel-chicago,"Conrad Hotel","521 N Rush St",4.0,0,99,Hotels
-567315,"Mcdonald's Store","186 W Adams St",Pass,2011-03-30,"Risk 2 (Medium)",41.87949996,-87.63335354,mcdonalds-1-store-museum-des-plaines,"McDonald's #1 Store Museum","400 N Lee Street",4.0,0,2,Museums
 229435,"Kelly's Cajun Grill","225 S Canal St",Pass,2011-07-27,"Risk 1 (High)",41.87853128,-87.63942746,cajun-grill-at-union-station-chicago,"Cajun Grill At Union Station","225 S Canal St",2.0,0,16,Chinese
 205228,"West Egg Cafe","620 N Fairbanks Ct",Pass,2012-01-24,"Risk 1 (High)",41.8933654,-87.62042206,west-egg-cafe-chicago-2,"West Egg Cafe","620 N Fairbanks Ct",3.5,0,276,Sandwiches
-413420,"Earl's Diner","4351 N Elston Ave",Pass,2012-01-24,"Risk 1 (High)",41.9597925,-87.72783184,chief-o-neills-pub-and-restaurant-chicago-2,"Chief O'Neill's Pub & Restaurant","3471 N Elston Ave",4.0,0,206,Irish
 579920,"Five Guys Burgers And Fries","6474 N Sheridan Rd",Pass,2011-03-23,"Risk 2 (Medium)",42.00035056,-87.66085542,five-guys-burgers-and-fries-chicago-3,"Five Guys Burgers & Fries","6474 N Sheridan Rd",3.0,0,120,"Fast Food"
-285107,"Lucks Food","1109-1111 W Argyle St",Fail,2012-01-25,"Risk 1 (High)",41.97315779,-87.65815505,lucks-food-chicago,"Lucks Food","1109 W. Argyle Street",3.5,0,8,"Specialty Food"
-612348,"Eva's Coffee","1447 N Sedgwick St",Fail,2011-07-15,"Risk 2 (Medium)",41.90885673,-87.63837516,evas-cafe-chicago-2,"Eva's Cafe","1447 N Sedgwick",4.5,0,40,"Coffee & Tea"
 114293,"Weber Grill Restaurant","539 N State St","Pass w/ Conditions",2012-03-13,"Risk 1 (High)",41.89200113,-87.62792896,weber-grill-restaurant-chicago,"Weber Grill Restaurant","539 N State St",3.5,0,520,Barbeque
-114321,"Hotel Sax Chicago","333 N Dearborn St","Pass w/ Conditions",2012-03-09,"Risk 1 (High)",41.88822299,-87.62940387,hotel-sax-chicago-chicago-4,"Hotel Sax Chicago","333 N Dearborn",3.5,0,114,Hotels
-284227,"The Talbott Hotel","10-20 E Delaware Pl","Pass w/ Conditions",2012-05-14,"Risk 1 (High)",41.89925506,-87.62783464,the-talbott-hotel-chicago,"The Talbott Hotel","20 E Delaware Pl",4.0,0,24,Hotels
 419382,Subway,"3346 W Foster Ave",Fail,2011-03-11,"Risk 1 (High)",41.97580851,-87.71302648,subway-chicago-107,Subway,"3346 W Foster Ave",2.5,0,2,Sandwiches
 166211,"Manolos Tamales","4706 W 63rd St",Pass,2011-03-04,"Risk 1 (High)",41.77856521,-87.7401305,manolos-tamales-chicago,"Manolo's Tamales","4706 W 63rd St",4.0,0,9,Mexican
 598212,"Caire's Pizza","1165 W 18th St",Pass,2012-04-27,"Risk 1 (High)",41.8578549,-87.65576067,caires-pizza-chicago,"Caire's Pizza","1165 W 18th St",4.5,0,5,Pizza
 150328,"Taqueria La Oaxaquena","3382 N Milwaukee Ave",Pass,2011-04-05,"Risk 1 (High)",41.94267197,-87.72994825,"la-oaxaqueña-chicago-3","La Oaxaqueña","3382 N Milwaukee Ave",4.0,0,93,Mexican
-585265,"El Rebozo","4701 W Diversey Ave",Fail,2011-06-07,"Risk 1 (High)",41.93145501,-87.74420341,el-rebozo-chicago,"El Rebozo","4701 W Diversey",4.5,0,2,Desserts
 565269,"Saigon Sisters","567 W Lake St",Pass,2011-03-29,"Risk 1 (High)",41.88559429,-87.642526,saigon-sisters-chicago-2,"Saigon Sisters","567 W Lake St",3.5,0,160,Vietnamese
 419414,Duchamp,"2118 N Damen Ave",Pass,2010-10-13,"Risk 1 (High)",41.92007574,-87.67785213,duchamp-chicago,Duchamp,"2118 N Damen Ave",3.5,1,258,"American (New)"
-521254,"Cafe Restaurant Grand","2705 W Lawrence Ave","Pass w/ Conditions",2011-03-03,"Risk 1 (High)",41.96844094,-87.69646085,"pizza-art-café-chicago-2","Pizza Art Café","4658 N Rockwell St",3.5,0,233,Pizza
 539219,"Burger King","4125 N Milwaukee Ave",Pass,2011-02-15,"Risk 2 (Medium)",41.95598091,-87.75027916,burger-king-chicago-23,"Burger King","4125 N Milwaukee Ave",3.0,0,8,"Fast Food"
-579925,"Cesar's On Broadway","2924-2926 N Broadway St",Fail,2011-03-23,"Risk 1 (High)",41.93563186,-87.64439808,cesars-chicago,Cesars,"2924 N Broadway St",3.0,0,339,Mexican
-120658,"Mf Foods","1121 S Jefferson St",Pass,2010-11-01,"Risk 2 (Medium)",41.86833974,-87.64207902,marketplace-foods-macys-food-court-chicago,"Marketplace Foods Macy's Food Court","111 N State St",3.0,0,33,Food
-229460,"Beggar's Pizza","320 S Clinton St","Pass w/ Conditions",2012-04-27,"Risk 1 (High)",41.87735741,-87.64119194,beggars-pizza-chicago-2,"Beggars Pizza","310 South Clinton Street",3.0,0,45,Pizza
 579923,"Don Chema","2331 N California Ave",Fail,2011-03-23,"Risk 1 (High)",41.92381304,-87.69724202,restaurante-don-chema-chicago,"Restaurante Don Chema","2331 N California Ave",4.0,0,35,Mexican
-598514,"Lupitas Mexican American Food","1723 S Ashland Ave",Pass,2011-12-12,"Risk 1 (High)",41.8579683,-87.6659991,lupitas-restaurant-chicago,"Lupita's Restaurant","1723 S Ashland",4.0,0,6,"Breakfast & Brunch"
 671034,Starbucks,"2159 W Belmont Ave",Pass,2012-03-01,"Risk 2 (Medium)",41.93940486,-87.68307715,starbucks-chicago-173,Starbucks,"2159 W Belmont Ave",4.0,0,4,"Coffee & Tea"
 660146,"Pita Grill","3051 N Central Ave",Pass,2012-01-24,"Risk 1 (High)",41.93634639,-87.76627386,pita-grill-chicago-chicago-2,"Pita Grill Chicago","3051 N Central Ave",4.0,0,18,Mediterranean
 124261,"Irish American Heritage Center","4626 N Knox Ave",Fail,2011-10-04,"Risk 1 (High)",41.96524258,-87.74411673,irish-american-heritage-center-chicago,"Irish American Heritage Center","4626 N Knox Ave",4.5,0,36,Pubs
 60357,"Cocula Restaurant","5241 S Pulaski Rd",Pass,2011-01-26,"Risk 1 (High)",41.79748341,-87.72313507,cocula-restaurant-chicago-2,"Cocula Restaurant","5241 S Pulaski Rd",3.5,0,11,Mexican
 325272,"P.F. Chang China Bistro","530 N Wabash Ave",Fail,2011-10-14,"Risk 1 (High)",41.89172472,-87.6268666,p-f-changs-china-bistro-chicago,"P.F. Chang's China Bistro","530 N Wabash Ave",3.5,0,227,Chinese
 250625,"Kingston's Jerk Chicken","2237 W 95th St",Pass,2011-10-28,"Risk 1 (High)",41.72087804,-87.67871272,kingstons-jerk-chicken-chicago,"Kingston's Jerk Chicken","2237 W 95th St",4.5,0,7,Restaurants
-284859,"Burger King","3167 N Milwaukee Ave",Pass,2010-08-30,"Risk 2 (Medium)",41.93862257,-87.72285747,burger-king-chicago-31,"Burger King","2834 W Irving Park Rd",2.5,0,12,"Fast Food"
 598255,"Huck Finn Donuts","3414 S Archer Ave",Pass,2011-11-30,"Risk 1 (High)",41.83183073,-87.67552719,huck-finn-donuts-and-snack-shop-chicago,"Huck Finn Donuts & Snack Shop","3414 S Archer Ave",3.5,0,101,Donuts
 154582,Victory,"2610 N Halsted St",Pass,2010-10-20,"Risk 1 (High)",41.92946206,-87.64904948,victory-liquors-chicago,"Victory Liquors","2610 N Halsted St",3.0,1,65,"Sports Bars"
-579806,"Uncle Remus","4144 W Madison St",Pass,2011-03-16,"Risk 1 (High)",41.88078471,-87.72986386,uncle-remus-chicken-and-barbeque-chicago,"Uncle Remus Chicken & Barbeque","4144 W Madison Street",2.5,0,2,Restaurants
-577773,"Joseph's Restaurant And Bar","3123-3127 W 111th St",Pass,2012-01-10,"Risk 1 (High)",41.69147451,-87.69937889,josephs-chicago,"Joseph's","3123 W 111th St",4.5,0,13,Bars
 120645,"Taj Mahal","1512 W Taylor St",Pass,2011-10-06,"Risk 1 (High)",41.86940158,-87.66467526,taj-mahal-chicago,"Taj Mahal","1512 W Taylor St",4.0,0,79,Indian
-419286,"Shrimp House","11623 S Halsted St",Pass,2012-06-08,"Risk 2 (Medium)",41.6832077,-87.64194317,hienies-shrimp-house-chicago,"Hienie's Shrimp House","10359 S Torrence Ave",4.5,0,19,Seafood
-670608,"Uptown Pizza & Bq","1031 W Wilson Ave",Pass,2012-02-17,"Risk 1 (High)",41.9653066,-87.65611797,rub-bbq-company-chicago,"Rub BBQ Company","2407 W Lunt Ave",4.0,0,95,Barbeque
 604285,"Cafe Soroni","4945 N Milwaukee Ave",Pass,2012-04-17,"Risk 2 (Medium)",41.97075873,-87.76314718,cafe-soroni-chicago,"Cafe Soroni","4945 N Milwaukee Ave",4.5,0,31,Sandwiches
 197464,"Jimmy John's","6 E Madison St",Pass,2012-02-21,"Risk 2 (Medium)",41.88216757,-87.62765158,jimmy-johns-chicago-4,"Jimmy John's","6 E Madison St",3.5,0,28,Sandwiches
-453292,"Room Service","540 N Michigan Ave",Pass,2012-05-23,"Risk 1 (High)",41.89214078,-87.62431278,room-service-chicago,"Room Service","5438 N Clark St",4.5,0,16,"Furniture Stores"
 120578,"Dragonfly Mandarin","832 W Randolph St",Fail,2011-06-14,"Risk 1 (High)",41.88449669,-87.64866551,dragonfly-mandarin-chicago,"Dragonfly Mandarin","832 W Randolph St",2.5,0,172,Chinese
 215257,"Gertie's Ice Cream","7600 S Pulaski Rd",Pass,2012-03-08,"Risk 1 (High)",41.75504428,-87.72231551,lindys-chili-and-gerties-ice-cream-chicago-2,"Lindy's Chili & Gerties Ice Cream","7600 S Pulaski Rd",4.0,0,8,"Ice Cream & Frozen Yogurt"
-343280,"Heller Financial","500 W Monroe St",Fail,2011-02-24,"Risk 1 (High)",41.88069925,-87.63972503,roosevelt-university-chicago-2,"Roosevelt University","430 S Michigan Ave",4.0,0,18,"Colleges & Universities"
 1214333,"Sofra Turkish Kitchen","3134 N Lincoln Ave",Fail,2012-04-24,"Risk 1 (High)",41.93860473,-87.66738884,sofra-turkish-kitchen-chicago,"Sofra Turkish Kitchen","3134 N Lincoln Ave",3.5,0,26,Turkish
 579571,Subway,"1313 W Touhy Ave",Fail,2011-03-08,"Risk 1 (High)",42.01270994,-87.6640336,rogers-park-subway-on-touhy-and-sheridan-chicago,"Rogers Park Subway On Touhy & Sheridan","1313 W Touhy Ave",3.0,0,2,Restaurants
 150317,"Pizza By Alex","5044 W Montrose Ave","Pass w/ Conditions",2010-05-11,"Risk 1 (High)",41.96074302,-87.75415206,pizza-by-alex-chicago,"Pizza by Alex","5044 W Montrose Ave",4.0,0,54,Pizza
 381327,"Fireplace Inn","1448 N Wells St",Fail,2012-05-22,"Risk 1 (High)",41.90897768,-87.63478912,the-fireplace-inn-chicago,"The Fireplace Inn","1448 N Wells St",2.5,0,214,Barbeque
-197508,"Roly Poly","29 S La Salle St",Pass,2011-06-01,"Risk 1 (High)",41.88115309,-87.6321957,roly-poly-sandwiches-chicago,"Roly Poly Sandwiches","29 S LaSalle Dr",3.5,0,76,Sandwiches
 68179,"Pho's Thai Cuisine","3332 N Lincoln Ave",Pass,2010-02-05,"Risk 1 (High)",41.94250592,-87.67079777,phos-hot-and-spicy-thai-cuisine-chicago,"Pho's Hot & Spicy Thai Cuisine","3332 N Lincoln Ave",4.0,0,219,Thai
-353216,"Resurrection Retirement Community","7262 W Peterson Ave",Pass,2011-11-07,"Risk 1 (High)",41.99002002,-87.80922429,superdawg-drive-in-chicago-2,"Superdawg Drive-In","6363 N Milwaukee Ave",4.0,0,689,"Hot Dogs"
-614447,"Bacci Pizzeria","409-411 S Dearborn St","Pass w/ Conditions",2011-08-29,"Risk 1 (High)",41.8766537,-87.62910966,bacci-pizzeria-chicago-12,"Bacci Pizzeria","407 S Dearborn",2.5,0,15,Pizza
 234041,"Capt'n Nemos","3650 N Ashland Ave",Fail,2010-05-19,"Risk 1 (High)",41.94849442,-87.66904694,captn-nemos-chicago-2,"Capt'n Nemo's","3650 N Ashland Ave",4.5,0,137,Sandwiches
 413838,"Dat Donut","1979 W 111th St",Pass,2011-10-04,"Risk 2 (Medium)",41.69183062,-87.67141425,dat-donut-chicago-2,"Dat Donut","1979 W 111th St",4.5,0,6,Donuts
 456377,"Indian Boundary Golf Course","8600 W Forest Preserve Ave","Pass w/ Conditions",2012-01-04,"Risk 2 (Medium)",41.9395278,-87.84003995,indian-boundary-golf-course-chicago,"Indian Boundary Golf Course","8600 W Forest Preserve Ave",3.5,0,12,Golf
-634669,"Starbucks T-2","11601 W Touhy Ave",Pass,2011-09-21,"Risk 2 (Medium)",42.0085364,-87.91442844,cornerstone-home-inspection-services-llc-chicago,"Cornerstone Home Inspection Services, LLC","7007 N Oriole Ave",4.0,0,9,"Home Inspectors"
-347261,"Gator's Restaurant","3036 W Roosevelt Rd",Fail,2011-01-19,"Risk 1 (High)",41.86655064,-87.70216559,la-plena-restaurant-chicago,"La Plena Restaurant","2617 W Division St",4.0,0,20,"Puerto Rican"
-529236,"Taqueria Atotonilco","1649 W 47th St",Pass,2012-02-27,"Risk 1 (High)",41.80847616,-87.6669132,tacos-erendira-chicago-2,"Tacos Erendira","3207 S Halsted St",4.0,0,55,Mexican
 154481,"Chicago Bagel Authority","953 W Armitage Ave",Pass,2010-08-31,"Risk 2 (Medium)",41.91800028,-87.6530511,chicago-bagel-authority-chicago,"Chicago Bagel Authority","953 W Armitage Ave",4.0,0,353,Bagels
-154663,,"2235 N Lincoln Ave",Pass,2010-12-28,"Risk 1 (High)",41.92277357,-87.64481201,natural-elements-salon-chicago,"Natural Elements Salon","2212 N Lincoln Ave",4.5,0,23,"Hair Salons"
 491219,"Salerno's","1201 W Grand Ave",Pass,2012-03-30,"Risk 1 (High)",41.8909699,-87.65746646,salernos-restaurant-and-pizzeria-chicago,"Salerno's Restaurant & Pizzeria","1201 W Grand Ave",4.0,0,137,Italian
 197206,"Dunkin Donuts","303 E Wacker Dr",Pass,2011-01-12,"Risk 2 (Medium)",41.88770538,-87.62058814,dunkin-donuts-chicago-186,"Dunkin' Donuts","303 E Wacker Dr",3.0,0,3,"Coffee & Tea"
-68070,"Jay Yen","3734-36 N Broadway St","Pass w/ Conditions",2011-03-04,"Risk 1 (High)",41.95023239,-87.64918094,thai-grill-chicago,"Thai Grill","1040 W Granville Ave",3.5,0,85,Thai
-575225,"Bank Cafe","50 S La Salle St",Pass,2011-10-18,"Risk 1 (High)",41.8807051,-87.63247631,231-cafe-chicago,"231 Cafe","231 S La Salle St",3.5,0,13,"American (Traditional)"
 98464,Browntrout,"4111 N Lincoln Ave",Pass,2012-03-07,"Risk 1 (High)",41.95634989,-87.68012913,browntrout-chicago,Browntrout,"4111 N Lincoln Ave",3.5,0,198,"American (New)"
 679611,"Erick's Taco","1967 W Lawrence Ave",Pass,2012-03-19,"Risk 1 (High)",41.96865068,-87.67885727,ericks-tacos-chicago,"Erick's Tacos","1967 W Lawrence Ave",3.5,0,66,Mexican
-297234,"A Piece Of Cake Bakery","412 E 87th St","Pass w/ Conditions",2010-10-14,"Risk 2 (Medium)",41.73662153,-87.61393435,a-piece-of-cake-bakery-chicago,"A Piece of Cake Bakery","412 E. 87th Street",2.5,0,4,Bakeries
 353225,"Hala In","4624 W Lawrence Ave",Pass,2011-08-15,"Risk 1 (High)",41.96818122,-87.74393395,hala-in-restaurant-chicago,"Hala In Restaurant","4624 W Lawrence Ave",4.5,0,41,"Middle Eastern"
 197496,"Palm Restaurant","323 E Wacker Dr",Fail,2010-06-15,"Risk 1 (High)",41.88755604,-87.61965509,palm-restaurant-chicago,"Palm Restaurant","323 E Wacker Dr",3.5,0,86,Steakhouses
-577705,"McDonald's","10320 S Kedzie Ave",Fail,2011-11-28,"Risk 2 (Medium)",41.7055203,-87.70145804,mcdonalds-chicago-44,"McDonald's","1651 W 95th St",3.5,0,2,Burgers
 463275,"Market Creations","20 N Wacker Dr","Pass w/ Conditions",2011-08-23,"Risk 1 (High)",41.88241091,-87.63717471,market-creations-chicago,"Market Creations","20 N Wacker Dr",3.0,0,10,Delis
-277533,"Supreem-fish & Steak-hoagi","5506 S Ashland Ave",Pass,2011-07-21,"Risk 2 (Medium)",41.79340968,-87.66471642,la-cecina-restaurant-chicago,"La Cecina Restaurant","1934 W 47th St",3.5,0,10,Mexican
 521526,"Taco Bell","3143 N Milwaukee Ave",Pass,2012-05-10,"Risk 1 (High)",41.93811658,-87.72201224,taco-bell-chicago-6,"Taco Bell","3143 N Milwaukee Ave",3.0,0,12,Mexican
 1154414,"Bon-ton Family Dining","10914 S Michigan Ave","Pass w/ Conditions",2012-06-25,"Risk 1 (High)",41.69576482,-87.62093077,bon-ton-family-dining-chicago,"Bon Ton Family Dining","10914 S Michigan Ave",4.0,0,3,"Soul Food"
-453215,"Employee Cafe","674-678 N Michigan Ave",Pass,2012-02-07,"Risk 1 (High)",41.89475437,-87.62439435,pierrot-gourmet-chicago,"Pierrot Gourmet","Peninsula Chicago Hotel",4.0,0,187,"Coffee & Tea"
-112320,"Chartwells @ Depaul University","1 E Jackson Blvd",Pass,2011-12-09,"Risk 1 (High)",41.87811016,-87.62753455,depaul-university-chicago-6,"DePaul University","2320 N Kenmore Ave",3.5,0,64,"Colleges & Universities"
 565520,"Three Aces Restaurant","1321 W Taylor St",Pass,2011-09-22,"Risk 1 (High)",41.86925517,-87.66006174,three-aces-chicago,"Three Aces","1321 W Taylor St",4.0,0,276,Italian
-58498,"Veggie Bite","1300 N Milwaukee Ave",Fail,2010-06-30,"Risk 1 (High)",41.90520009,-87.66957875,native-foods-cafe-chicago,"Native Foods Cafe","1484 N Milwaukee Ave",4.0,0,217,Vegetarian
-278143,Veg-out,"3176 N Broadway St",Fail,2010-08-09,"Risk 1 (High)",41.93993522,-87.64454332,ethiopian-diamond-restaurant-chicago,"Ethiopian Diamond Restaurant","6120 N Broadway St",4.0,0,448,Ethiopian
 521301,"Makki Fast Food And Grill","4702 N Kimball Ave","Pass w/ Conditions",2011-03-22,"Risk 1 (High)",41.96672764,-87.71345994,makki-fast-food-and-grill-chicago,"Makki Fast Food & Grill","4702 N Kimball Ave",3.0,0,5,"Fast Food"
-419588,Clutch,"459 N Ogden Ave",Pass,2011-05-16,"Risk 1 (High)",41.8908595,-87.65902419,clutch-chicago,Clutch,"459 W Ogden Ave",3.5,0,85,Bars
 277781,Starbucks,"3045 N Greenview Ave",Pass,2010-07-28,"Risk 2 (Medium)",41.93751375,-87.6660191,starbucks-chicago-120,Starbucks,"3045 N Greenview Ave",3.5,0,8,"Coffee & Tea"
-610210,"Ecuador Restaurant","2923 W Diversey Ave",Pass,2011-05-16,"Risk 1 (High)",41.93196326,-87.70099958,ecuador-restaurant-chicago,"Ecuador Restaurant","2923 W Diversey Avenue",4.0,0,11,"Latin American"
 428544,"La Esquinita","6748 W Diversey Ave",Pass,2012-03-06,"Risk 1 (High)",41.93100243,-87.79501517,la-esquinita-chicago,"La Esquinita","6748 W Diversey Ave",3.5,0,3,Mexican
-614552,"The Westminster Hot Dog","11 N Wells St",Pass,2011-10-20,"Risk 1 (High)",41.88224051,-87.63369063,westminster-hot-dog-chicago,"Westminster Hot Dog","11 N Wells",3.5,0,84,"Hot Dogs"
-409308,"East Tower Main Kitchen","151 E Wacker Dr",Pass,2012-05-30,"Risk 1 (High)",41.88799989,-87.62256513,giordanos-chicago-2,"Giordano's","135 E Lake St",3.5,0,504,Pizza
-491566,"McDonald's","2317 N Cicero Ave",Pass,2011-02-04,"Risk 2 (Medium)",41.92293104,-87.74611948,mcdonalds-chicago-151,"McDonald's","2350 N Central Ave",4.0,0,1,"Fast Food"
 569641,"M Burger","161 E Huron St",Fail,2011-10-21,"Risk 1 (High)",41.89484752,-87.62302211,m-burger-chicago,"M Burger","161 E Huron St",3.5,0,308,Burgers
-413363,"Taco Bell","6944 S Archer Ave","Pass w/ Conditions",2011-10-28,"Risk 2 (Medium)",41.7921856,-87.79580847,taco-bell-chicago-8,"Taco Bell","6944 W Archer Ave",2.0,0,5,"Fast Food"
-278022,"Nick Jr.'s Grill","6856 W North Ave",Pass,2011-12-08,"Risk 1 (High)",41.90910579,-87.79709007,cozy-corner-diner-and-pancake-house-chicago,"Cozy Corner Diner & Pancake House","2294 N Milwaukee Ave",4.0,0,256,Diners
 284938,"Pick Me Up Cafe","3408 N Clark St",Pass,2011-01-10,"Risk 1 (High)",41.94382098,-87.65396259,pick-me-up-cafe-chicago,"Pick Me Up Cafe","3408 N Clark St",3.5,0,525,"American (New)"
-284684,"Bombon Cafe","36 S Ashland",Pass,2012-01-18,"Risk 1 (High)",41.88031878,-87.66691311,bombon-cafe-chicago,"Bombon Cafe","36 S Ashland Ave",4.0,0,118,Mexican
 277105,"Obbies Pizza","6654 W Archer Ave",Pass,2011-03-02,"Risk 1 (High)",41.7923171,-87.78890622,obbies-pizza-chicago,"Obbie's Pizza","6654 W Archer Ave",4.0,0,28,Pizza
 114619,"Stone Lotus","873 N Orleans St",Pass,2010-10-26,"Risk 1 (High)",41.89869627,-87.63710466,stone-lotus-chicago,"Stone Lotus","873 N Orleans St",3.0,0,130,Lounges
-577264,"The Twist","3500 W 59th St",Pass,2011-04-11,"Risk 2 (Medium)",41.78624118,-87.71077772,the-nile-restaurant-chicago-2,"The Nile Restaurant","3259 W 63rd St",4.0,0,20,"Middle Eastern"
-176598,Sunny-submarine,"5140 W Madison St",Pass,2011-11-02,"Risk 2 (Medium)",41.88049228,-87.75427253,sunny-submarine-chicago,"Sunny Submarine","380 E 71st Street",4.0,0,1,Restaurants
 250991,"The Pony Inn","1638 W Belmont Ave","Pass w/ Conditions",2010-06-16,"Risk 1 (High)",41.93978495,-87.67022032,the-pony-inn-chicago,"The Pony Inn","1638 W Belmont Ave",3.5,0,130,"American (New)"
-586263,Potbelly,"2717 N Elston Ave",Pass,2012-06-07,"Risk 1 (High)",41.93093576,-87.68579201,potbelly-sandwich-works-chicago-36,"Potbelly Sandwich Works","2717 N Elson",3.5,0,19,Sandwiches
-453256,"Andys Jazz Club","11 E Hubbard St",Fail,2011-11-23,"Risk 1 (High)",41.88996387,-87.62750692,andys-jazz-club-chicago-2,"Andy's Jazz Club","11 E Hubbard St Ste 1",3.5,0,87,"Jazz & Blues"
 278171,"Feast And The Goddess Gold Coast","25 E Delaware Pl","Pass w/ Conditions",2010-08-10,"Risk 1 (High)",41.89905067,-87.62709844,the-goddess-and-grocer-chicago,"The Goddess and Grocer","25 E Delaware Pl",3.5,0,150,Delis
 517259,"Miss Asia","434 W Diversey Pkwy",Pass,2012-02-15,"Risk 1 (High)",41.9329932,-87.64071617,miss-asia-chicago,"Miss Asia","434 W Diversey Pkwy",3.5,0,104,"Asian Fusion"
-1150213,"Jr's Burritos Shack","3645-45 W 83rd Pl",Pass,2012-03-26,"Risk 1 (High)",41.74128282,-87.71382962,xoco-chicago,XOCO,"449 N Clark St",4.0,0,1406,Mexican
-158452,"79th Street Fish & Chicken","1359 W 79th St",Fail,2011-02-01,"Risk 2 (Medium)",41.75031663,-87.65852694,yassa-african-restaurant-chicago,"Yassa African Restaurant","716 E 79th St",4.0,0,74,African
 519386,Tweet,"5020 N Sheridan Rd",Fail,2012-02-08,"Risk 1 (High)",41.97395099,-87.65509169,tweet-chicago,Tweet,"5020 N Sheridan Rd",4.0,0,686,"American (New)"
 114386,"East Bank Club","500 N Kingsbury St","Pass w/ Conditions",2011-06-21,"Risk 1 (High)",41.8906843,-87.63939528,east-bank-club-chicago,"East Bank Club","500 N Kingsbury St",4.5,0,114,Gyms
 531590,Starbucks,"1500 E 53rd St",Pass,2011-09-27,"Risk 2 (Medium)",41.79965378,-87.58904895,starbucks-chicago-195,Starbucks,"1500 E 53rd St",2.5,0,8,"Coffee & Tea"
-229317,"Dunkin Donuts","211 W Adams St",Pass,2011-02-25,"Risk 2 (Medium)",41.87927284,-87.6341032,dunkin-donuts-chicago-106,"Dunkin' Donuts","201 W Madison St",4.0,0,12,Restaurants
-327262,"Paddy O'splaine's","2434-2436 W Montrose Ave",Pass,2010-09-01,"Risk 1 (High)",41.9614127,-87.69010741,the-grafton-chicago,"The Grafton","4530 N Lincoln Ave",4.0,0,313,Pubs
 248266,"Jb's Deli","5501 N Clark St","Pass w/ Conditions",2010-11-19,"Risk 1 (High)",41.98172337,-87.66828766,jbs-deli-chicago,"JB's Deli","5501 N Clark St",3.0,0,36,Delis
 409310,"Hyatt Regency Chicago-j's Deli","151 E Wacker Dr",Fail,2012-05-30,"Risk 2 (Medium)",41.88799989,-87.62256513,hyatt-regency-chicago-chicago-3,"Hyatt Regency Chicago","151 E Wacker Dr",3.5,0,260,Hotels
-70337,"Brioche Doree","11601 W Touhy Ave","Pass w/ Conditions",2012-04-20,"Risk 1 (High)",42.0085364,-87.91442844,brioche-doree-chicago,"Brioche Doree","Terminal 1 Gate C19",2.5,0,23,Bakeries
 491206,"D'cuba Restaurant","5653 W Fullerton Ave",Pass,2012-01-05,"Risk 1 (High)",41.92383773,-87.76812296,d-cuba-chicago-2,"D' Cuba","5653 W Fullerton Ave",3.5,0,37,Cuban
 557537,"Czerwone Jabluszko Restaurant","6474 N Milwaukee Ave","Pass w/ Conditions",2012-03-15,"Risk 1 (High)",41.99898437,-87.78954195,czerwone-jabluszko-red-apple-restaurant-chicago,"Czerwone Jabluszko - Red Apple Restaurant","6474 N Milwaukee Ave",4.0,0,67,Polish
-1235226,"Burke's Public Place","5401-5403 N Broadway  St","No Entry",2012-06-15,"Risk 1 (High)",41.9800652,-87.65982411,burkes-public-house-chicago-2,"Burke's Public House","5401 N Broadway St",3.5,0,64,"American (Traditional)"
-285059,"Gorditas Santiago","3825 W 63rd St",Pass,2012-02-07,"Risk 1 (High)",41.77860716,-87.71888742,gorditas-santiago-chicago,"Gorditas Santiago","3811 W 63rd St",5.0,0,2,Mexican
-606319,"Best Sub","8305 S Racine","Pass w/ Conditions",2011-07-12,"Risk 2 (Medium)",41.7430139,-87.65338918,potbelly-sandwich-works-chicago-32,"Potbelly Sandwich Works","7601 S Cicero Ave",4.0,0,22,Sandwiches
 289221,"Nicky's Grill & Yogurt Oasis","10255 S Western Ave",Pass,2010-09-21,"Risk 2 (Medium)",41.70658293,-87.68148089,nickys-grill-and-yogurt-oasis-chicago,"Nicky's Grill and Yogurt Oasis","10255 S Western Ave",4.0,0,8,"Ice Cream & Frozen Yogurt"
-250274,"Jimmy John's","51 W Division St","Pass w/ Conditions",2010-10-05,"Risk 2 (Medium)",41.90380601,-87.63058113,jimmy-johns-chicago-28,"Jimmy John's","51 W Division",4.0,0,11,Sandwiches
 596350,"Daata Darbar","2306 W Devon Ave",Fail,2011-07-27,"Risk 1 (High)",41.99787636,-87.68776355,daata-darbar-chicago,"Daata Darbar","2306 W Devon Ave",4.0,0,17,Indian
 413250,"Cavanaugh's Bar & Restaurant","53 W Jackson Blvd",Pass,2011-06-03,"Risk 1 (High)",41.87805068,-87.62978101,cavanaughs-chicago,"Cavanaugh's","53 W Jackson Blvd",3.5,0,41,Restaurants
 343224,"G&g Restaurant","321 S Jefferson St",Pass,2011-08-05,"Risk 1 (High)",41.87733958,-87.6423689,g-and-g-restaurant-chicago-2,"G & G Restaurant","321 S Jefferson St",4.0,0,5,Diners
 98494,Wingstop,"3326 N Western Ave","Pass w/ Conditions",2012-02-10,"Risk 1 (High)",41.94207713,-87.68839243,wingstop-chicago-3,Wingstop,"3326 N Western Ave",3.0,0,66,"Chicken Wings"
-234093,"China House","4901 W Diversey Ave",Pass,2010-05-20,"Risk 1 (High)",41.93138856,-87.74917553,china-house-restaurant-chicago,"China House Restaurant","4901 W Diversey Avenue",3.5,0,2,Chinese
-391252,,"4609 N Lincoln Ave","Pass w/ Conditions",2010-10-27,"Risk 1 (High)",41.96521836,-87.68615654,fine-wine-brokers-chicago,"Fine Wine Brokers","4621 N Lincoln Ave",5.0,0,67,"Beer, Wine & Spirits"
-569660,Canteen,"251 E Huron St",Pass,2011-10-28,"Risk 1 (High)",41.8949033,-87.62074373,big-delicious-planet-chicago-2,"Big Delicious Planet","412 N Wolcott Ave",5.0,0,7,"Coffee & Tea"
-517343,"Dunkin Donuts / Baskin Robbins","1982 N Clybourn Ave",Pass,2011-05-13,"Risk 2 (Medium)",41.917167,-87.65845323,dunkin-donuts-baskin-robbins-chicago-12,"Dunkin' Donuts / Baskin Robbins","1244 N Ashland Ave",2.5,0,19,Donuts
 414198,"La Cocina De Mama Nenas","2022 W 35th St",Pass,2012-06-14,"Risk 1 (High)",41.83048987,-87.67620688,la-cocina-de-mama-nenas-chicago,"La Cocina De Mama Nena's","2022 W 35th St",3.0,0,1,Mexican
 327247,"White Castle","3212 W Addison St",Pass,2012-03-07,"Risk 2 (Medium)",41.94673627,-87.70842598,white-castle-chicago-7,"White Castle","3212 W Addison St",3.5,0,100,Burgers
-114350,"Mart Plaza Catering Corp","350 N Orleans St",Fail,2012-06-20,"Risk 1 (High)",41.88874104,-87.63708054,joong-boo-market-chicago-2,"Joong Boo Market","3333 N Kimball Ave",4.0,0,197,"Ethnic Food"
 612569,"Ruth's Chris Steak House","431 N Dearborn St",Pass,2011-11-18,"Risk 1 (High)",41.89008217,-87.62946153,ruths-chris-steak-house-chicago,"Ruth's Chris Steak House","431 N Dearborn St",4.0,0,343,Steakhouses
 150240,"D'gigio's Pizzeria","5337 W Belmont Ave",Fail,2011-03-17,"Risk 1 (High)",41.93853943,-87.7606308,d-gigios-pizzeria-chicago,"D'gigio's Pizzeria","5337 W Belmont Ave",3.0,0,16,Pizza
-229387,"Alonti Deli Catering Kitchen","300 S Riverside Plz",Pass,2011-09-06,"Risk 1 (High)",41.87797514,-87.63842217,alonti-cafe-chicago-6,"Alonti Cafe","177 W Washington St",3.5,0,43,"Fast Food"
-67814,"Embassy Suites Hotel","511 N Columbus Dr",Pass,2012-03-06,"Risk 1 (High)",41.89140488,-87.62008123,embassy-suites-hotel-chicago,"Embassy Suites Hotel","600 N State St.",3.5,0,38,Hotels
 343230,"Siam Rice Thai Cuisine","117 N Wells St","Pass w/ Conditions",2012-01-09,"Risk 1 (High)",41.88366157,-87.6337233,siam-rice-chicago,"Siam Rice","117 N Wells St",3.5,0,260,Thai
-150309,"7 Mares","4010-4012 W Montrose Ave","Pass w/ Conditions",2011-03-23,"Risk 1 (High)",41.96105046,-87.72830969,mariscos-7-mares-blue-island,"Mariscos 7 Mares","13308 Olde Western Ave",3.0,0,2,Bars
-491406,"Lilly Bell's Dinner","456 N Damen Ave",Pass,2011-01-27,"Risk 1 (High)",41.89037478,-87.67704268,the-smoke-daddy-chicago,"The Smoke Daddy","1804 W Division St",3.5,0,587,Barbeque
-238222,"Five Loaves Eatery Too","405 E 75th St",Pass,2011-07-21,"Risk 1 (High)",41.7583019,-87.61490561,five-loaves-eatery-chicago,"Five Loaves Eatery","405 E 75th Street",4.5,0,6,Sandwiches
-363421,"Jb Hunt Cafeteria","3650 W 47th St",Pass,2011-12-06,"Risk 1 (High)",41.8080811,-87.7157634,joong-boo-market-chicago-2,"Joong Boo Market","3333 N Kimball Ave",4.0,0,197,"Ethnic Food"
-413691,"Seashell Fish & Chicken","7131 S Jeffery Blvd K-2","Pass w/ Conditions",2010-09-20,"Risk 2 (Medium)",41.76518952,-87.5761331,seashell-restuarant-chicago-2,"Seashell Restuarant","7131 S Jeffery Blvd",3.5,0,3,"Fish & Chips"
 381294,"La Scarola","721 W Grand Ave","Pass w/ Conditions",2012-06-14,"Risk 1 (High)",41.89108321,-87.64691989,la-scarola-chicago,"La Scarola","721 W Grand Ave",4.0,0,512,Italian
 381370,"Dos Diablos","15 W Hubbard St","Pass w/ Conditions",2011-05-02,"Risk 1 (High)",41.8899462,-87.62858931,dos-diablos-mexican-cantina-chicago,"Dos Diablos Mexican Cantina","15 W Hubbard St",3.0,0,193,Mexican
 120634,Potbelly,"1459 W Taylor St",Pass,2012-01-20,"Risk 1 (High)",41.8691916,-87.66401334,potbelly-sandwich-works-chicago-15,"Potbelly Sandwich Works","1459 W Taylor St",3.5,0,15,Sandwiches
-60521,"White Castle","3901 W Madison St","Pass w/ Conditions",2012-05-07,"Risk 2 (Medium)",41.88064565,-87.72337094,white-castle-cicero,"White Castle","2333 S Cicero Ave",3.0,0,6,"Fast Food"
-413557,Subway,"4070 N Milwaukee Ave",Pass,2011-03-02,"Risk 1 (High)",41.954759,-87.74956739,subway-chicago-62,Subway,"4070 N Milwaukee Avenue",5.0,0,1,
-401227,"The Buckingham Athletic Club","440 S La Salle St","Pass w/ Conditions",2011-09-23,"Risk 1 (High)",41.87588847,-87.63188472,the-buckingham-athletic-club-hotel-chicago,"The Buckingham Athletic Club Hotel","One Financial Place",4.0,0,4,Gyms
-491834,"Jamaica Jerk Villa","8 E Cermak Ave","Pass w/ Conditions",2011-02-16,"Risk 1 (High)",41.85295002,-87.62673497,jamaica-jerk-villa-chicago,"Jamaica Jerk Villa","8 E 22nd St",4.5,0,7,Caribbean
 660102,"Franks 'N' Dawgs","1863 N Clybourn Ave","Pass w/ Conditions",2012-01-20,"Risk 1 (High)",41.91498953,-87.65499361,franks-n-dawgs-chicago,"Franks 'N' Dawgs","1863 N Clybourn Ave",4.0,0,404,"American (New)"
 357214,"Bella Notte","1374 W Grand Ave",Pass,2012-06-06,"Risk 1 (High)",41.89114149,-87.66195668,bella-notte-restaurant-chicago,"Bella Notte Restaurant","1374 W Grand Ave",4.0,0,153,Italian
 154585,Macku,"2239 N Clybourn Ave",Fail,2010-10-21,"Risk 1 (High)",41.92244497,-87.66534127,macku-sushi-chicago,"Macku Sushi","2239 N Clybourn Ave",4.0,0,206,"Sushi Bars"
 521930,"Resto Pinoy","3536 W Lawrence Ave",Pass,2011-12-08,"Risk 1 (High)",41.96847046,-87.71733141,resto-pinoy-fine-filipino-cuisine-chicago,"Resto Pinoy - Fine Filipino Cuisine","3536 W Lawrence Ave",4.0,0,9,Filipino
 233396,"Mrs Murphys And Sons Irish Bistro","3905 N Lincoln Ave",Pass,2012-04-05,"Risk 1 (High)",41.95255855,-87.67747503,mrs-murphy-and-sons-irish-bistro-chicago,"Mrs Murphy and Sons Irish Bistro","3905 N Lincoln Ave",4.0,0,244,Irish
-543454,Subway,"6044 S Western Ave",Pass,2011-06-22,"Risk 2 (Medium)",41.7833958,-87.68390217,subway-chicago-176,Subway,"4316 S Ashland Ave",4.5,0,2,Sandwiches
-176710,"Jitlada Thai House Restaurant","3715-3717 N Halsted St",Fail,2010-03-17,"Risk 1 (High)",41.94955706,-87.6494093,jitlada-restaurant-chicago,"Jitlada Restaurant","3715 N Halsted St",3.5,0,141,Thai
-419569,"Little Caesar's Pizza","4445 N Pulaski Rd",Fail,2011-03-28,"Risk 2 (Medium)",41.96223481,-87.72771372,little-caesars-pizza-treat-chicago-2,"Little Caesar's Pizza Treat","3135 W Addison St",3.0,0,17,Pizza
 680011,"Einstein Bros","933 W Diversey Pkwy",Pass,2012-04-17,"Risk 2 (Medium)",41.93254842,-87.65269759,einstein-bros-bagels-chicago-2,"Einstein Bros Bagels","933 W Diversey Pkwy",3.0,0,22,
 114847,"Pret A Manger","211 W Adams St",Pass,2011-11-15,"Risk 1 (High)",41.87927284,-87.6341032,pret-a-manger-chicago,"Pret A Manger","211 W Adams St",4.0,0,108,"Fast Food"
-168217,Subway,"116 W 111th St",Pass,2012-01-06,"Risk 1 (High)",41.692653,-87.62653717,subway-chicago-144,Subway,"116 W 111th",3.0,0,1,Sandwiches
 664314,"Rub Bbq Company","2407 W Lunt Ave","Pass w/ Conditions",2012-01-04,"Risk 1 (High)",42.00853954,-87.69050051,rub-bbq-company-chicago,"Rub BBQ Company","2407 W Lunt Ave",4.0,0,97,Barbeque
 327213,"Wing Chong Restaurant","4077 N Elston Ave",Pass,2010-07-21,"Risk 1 (High)",41.95528789,-87.7212583,wing-chong-restaurant-chicago,"Wing Chong Restaurant","4077 N Elston Ave",4.0,0,24,Chinese
-335235,"New Little China","1737 E 95th St",Pass,2012-04-04,"Risk 1 (High)",41.72228503,-87.58107167,wings-around-the-world-chicago,"Wings Around the World","510 E 75th St",4.5,0,76,"Chicken Wings"
-347278,"Pizza-vending Kitchen S-120","1901 W Madison St",Pass,2011-11-29,"Risk 2 (Medium)",41.88124146,-87.67428253,bismark-enterprises-at-united-center-chicago,"Bismark Enterprises At United Center","1901 W Madison Street",4.0,0,2,Caterers
-583247,"Parkside Cafe","308 W 33rd St",Fail,2011-05-19,"Risk 2 (Medium)",41.83466629,-87.63441435,parkside-cafe-chicago,"Parkside Cafe","308 W 33rd Street",5.0,0,1,Restaurants
 250295,"Dunkin Donuts / Baskin Robbins","5000 W Irving Park Rd",Pass,2011-08-03,"Risk 2 (Medium)",41.95346817,-87.75230593,dunkin-donuts-baskin-robbins-chicago-17,"Dunkin' Donuts Baskin Robbins","5000 W Irving Park Rd",2.5,0,7,Donuts
 197307,"Panda Express","29 E Madison St",Pass,2012-02-21,"Risk 1 (High)",41.88196533,-87.62679322,panda-express-chicago-11,"Panda Express","29 E Madison St",3.0,0,6,Chinese
 413544,"Gilhooley's Grande Saloon","3901 W 103rd St",Pass,2011-09-22,"Risk 1 (High)",41.70582355,-87.71853995,gilhooleys-grand-saloon-chicago,"Gilhooley's Grand Saloon","3901 W 103rd St",2.5,0,13,Pubs
 114408,"Swirl Wine Bar","111 W Hubbard St",Fail,2010-04-15,"Risk 1 (High)",41.88990443,-87.63159249,swirl-wine-bar-chicago,"Swirl Wine Bar","111 W Hubbard St",3.5,1,99,"Wine Bars"
-229373,Starbucks,"116 S Halsted St","Pass w/ Conditions",2011-11-15,"Risk 2 (Medium)",41.87994232,-87.64745274,starbucks-chicago-99,Starbucks,"100 S Halsted St",3.5,0,12,"Coffee & Tea"
-124410,"Dunkin Donuts / Baskin Robbins","5050 N Cicero Ave",Fail,2011-10-07,"Risk 2 (Medium)",41.97290824,-87.74806178,dunkin-donuts-baskin-robbins-chicago-17,"Dunkin' Donuts Baskin Robbins","5000 W Irving Park Rd",2.5,0,7,Donuts
 453278,"Ashkenaz Delicatessen","12 E Cedar St",Pass,2011-09-06,"Risk 1 (High)",41.9024912,-87.62776815,ashkenaz-jewish-style-deli-chicago,"Ashkenaz Jewish Style Deli","12 E Cedar St",3.5,0,118,Caterers
 1215022,"M Kafe","1136 W Thorndale Ave",Fail,2012-05-21,"Risk 1 (High)",41.9901358,-87.65977098,m-kafe-chicago,"M Kafe","1136 W Thorndale Ave",3.5,0,11,Vietnamese
-158439,"Joe's Breakfast & Lunch","1156 W 51st St","Pass w/ Conditions",2012-03-09,"Risk 1 (High)",41.80156348,-87.65491674,joes-breakfast-and-lunch-grill-chicago,"Joe's Breakfast & Lunch Grill","2325 W Taylor St",4.5,0,4,Food
-353215,"Grazie Coffee Shop","6700 N Northwest Hwy",Pass,2010-09-07,"Risk 2 (Medium)",42.00272742,-87.81630052,"caffè-rōm-chicago-6","Caffè RōM","Hyatt Center",4.0,0,82,"Coffee & Tea"
-1229603,"Dany's Taco's","11529 S Michigan Ave",Fail,2012-06-13,"Risk 1 (High)",41.68447443,-87.62058684,gt-fish-and-oyster-chicago,"GT Fish & Oyster","531 N Wells St",4.0,0,383,Seafood
 166295,"Taqueria San Jose","3253 S Halsted St",Fail,2011-03-14,"Risk 1 (High)",41.83471435,-87.64605373,taqueria-san-jose-chicago,"Taqueria San Jose","3253 S Halsted St",4.0,0,70,Mexican
 537601,"Bacardi At The Park","320 W 35th St",Pass,2011-09-28,"Risk 1 (High)",41.83100809,-87.63493249,bacardi-at-the-park-chicago,"Bacardi At the Park","320 W 35th St",5.0,0,4,"American (Traditional)"
-197257,Starbucks,"30 N La Salle St",Pass,2011-03-02,"Risk 2 (Medium)",41.88269467,-87.63253143,starbucks-chicago-96,Starbucks,"200 W Madison St",4.5,0,13,"Coffee & Tea"
-413596,"McDonald's","1400 S Lake Shore Dr",Pass,2012-04-17,"Risk 2 (Medium)",41.86403564,-87.61929707,mcdonalds-chicago-83,"McDonald's","1201 S Lake Shore Dr",2.5,0,3,Burgers
-154483,Boka,"1727-1729 N Halsted St",Pass,2010-09-01,"Risk 1 (High)",41.91360108,-87.64820898,boka-chicago,Boka,"1729 N Halsted St",4.0,0,468,"American (New)"
-539467,"Kindred Chicago-central Hospital","4058 W Melrose St",Fail,2011-10-19,"Risk 1 (High)",41.94008298,-87.7295461,fat-willys-rib-shack-chicago,"Fat Willy's Rib Shack","2416 W Schubert Ave",4.0,0,640,Barbeque
-419677,"Dunkin Donuts","10401 S Western Ave",Pass,2011-11-18,"Risk 2 (Medium)",41.70446536,-87.68141545,dunkin-donuts-chicago-45,"Dunkin Donuts","10401 S Western Avenue",3.0,0,2,Restaurants
-166355,"Pizza Hut","2337 W Cermak Rd",Pass,2011-04-19,"Risk 2 (Medium)",41.85192842,-87.68472649,pizza-hut-chicago-5,"Pizza Hut","2337 W Cermak Road",3.5,0,2,Pizza
-284507,"Harambee House Banquets & Dusties Buffets","11901 S Loomis St",Fail,2012-05-29,"Risk 1 (High)",41.67756555,-87.65638237,ras-dashen-ethiopian-restaurant-chicago,"Ras Dashen Ethiopian Restaurant","5846 N Broadway St",4.5,0,335,Ethiopian
 521459,"Isla Pilipina Restaurant","2501 W Lawrence Ave","Pass w/ Conditions",2012-04-12,"Risk 1 (High)",41.96848269,-87.69140891,isla-pilipina-chicago,"Isla Pilipina","2501 W Lawrence Ave",4.0,0,285,Filipino
-289315,"Uncle Joe's Jerk Chicken","10210 S Vincennes Ave",Pass,2012-05-07,"Risk 1 (High)",41.70842853,-87.65556642,uncle-joes-chicago,"Uncle Joe's","8211 S Cottage Grove Ave",3.0,0,18,Caribbean
-234165,"Chi's Jac Robins","5755 W 63rd St",Pass,2011-10-04,"Risk 2 (Medium)",41.77784508,-87.76638144,northwest-tai-chi-academy-chicago,"Northwest Tai Chi Academy","3516 W Fullerton Ave",4.0,0,1,"Tai Chi"
-234101,"The Original Nicks Gyros","5238 N Nagle Ave",Pass,2011-12-05,"Risk 1 (High)",41.97671903,-87.78800131,nicks-drive-in-chicago,"Nick's Drive-In","7216 N Harlem Ave",3.0,0,17,"Fast Food"
-58487,"Hoosier Mama Pie Company","1618 W Chicago Ave",Fail,2011-08-16,"Risk 1 (High)",41.89616972,-87.66811805,hoosier-mama-pie-company-chicago,"Hoosier Mama Pie Company","1618 1/2 Chicago Ave",4.5,0,334,Desserts
 197462,"Chipotle Mexican Grill","8 E Madison St","Pass w/ Conditions",2010-06-01,"Risk 1 (High)",41.88217262,-87.62756936,chipotle-mexican-grill-chicago-21,"Chipotle Mexican Grill","8 E Madison St",3.5,0,20,Mexican
-659439,"Dunkin Donuts / Baskin Robbins","4644 W Diversey Ave","Pass w/ Conditions",2012-05-14,"Risk 2 (Medium)",41.93168044,-87.74372188,dunkin-donuts-baskin-robbins-chicago-6,"Dunkin Donuts-Baskin Robbins","5650 W Fullerton Ave",1.0,0,1,Donuts
 413416,"Lindo Michoacan Restaurant","3148 W Lawrence Ave",Pass,2011-06-07,"Risk 1 (High)",41.9685703,-87.70802415,lindo-michoacan-restaurant-chicago,"Lindo Michoacan Restaurant","3148 W Lawrence Ave",4.0,0,35,Mexican
 413317,"Green Zebra","1460 W Chicago Ave","Pass w/ Conditions",2010-09-10,"Risk 1 (High)",41.89622225,-87.66479278,green-zebra-chicago,"Green Zebra","1460 W Chicago Ave",4.0,0,622,Vegetarian
 521886,"La Piramide Restaurant","3645 W Lawrence Ave","Pass w/ Conditions",2011-11-10,"Risk 1 (High)",41.96821956,-87.72008438,la-piramide-chicago,"La Piramide","3645 W Lawrence Ave",4.5,0,4,Mexican
 154297,"Adobo Grill","1610 N Wells St",Pass,2012-04-17,"Risk 1 (High)",41.91149437,-87.6348681,adobo-grill-chicago-2,"Adobo Grill","1610 N Wells St",3.5,0,413,"Latin American"
 409288,"Hotel Allegro","171 W Randolph St",Pass,2011-07-27,"Risk 1 (High)",41.88436188,-87.63316454,hotel-allegro-chicago,"Hotel Allegro","171 W Randolph St",4.0,0,159,Hotels
 491447,"Ricky's Deli","949 N Western Ave",Pass,2012-01-10,"Risk 1 (High)",41.89902107,-87.68677928,rickys-deli-chicago,"Ricky's Deli","949 N Western Ave",4.0,0,4,Diners
-401322,"Chipotle Mexican Grill","10 E Jackson Blvd",Pass,2011-11-08,"Risk 1 (High)",41.87833155,-87.6273239,chipotle-mexican-grill-chicago-31,"Chipotle Mexican Grill","14 E Jackson Blvd",3.5,0,55,Tex-Mex
 428999,"The Beetle Bar & Grill","2532 W Chicago Ave",Fail,2011-04-15,"Risk 1 (High)",41.89581359,-87.69068394,the-beetle-bar-and-grill-chicago,"The Beetle Bar and Grill","2532 W Chicago Ave",3.5,0,55,Lounges
 284341,Pockets,"4301 N Lincoln Ave",Pass,2012-01-31,"Risk 1 (High)",41.95967221,-87.68246202,pockets-chicago-4,Pockets,"4301 N Lincoln Ave",2.5,0,40,Sandwiches
-238237,"Lemons Enterprises","311 E 75th St",Pass,2010-03-08,"Risk 1 (High)",41.75825081,-87.61779767,raw-chicago,Raw,"Chicago French Market",4.5,0,85,Vegan
-166250,,"658 E 75th St",Pass,2010-11-12,"Risk 1 (High)",41.75864667,-87.60790603,cafe-trinidad-chicago-2,"Cafe Trinidad","557 E 75th St",4.0,0,26,Trinidadian
 233342,"Troha's Chicken & Shrimp","4151 W 26th St",Pass,2012-03-16,"Risk 1 (High)",41.84408262,-87.72898371,trohas-shrimp-and-fish-house-chicago,"Troha's Shrimp & Fish House","4151 W 26th St",4.5,0,29,Seafood
-250471,"Taco Zone","5536 N Elston Ave",Pass,2010-06-02,"Risk 1 (High)",41.98185048,-87.76272679,taco-zone-chicago-2,"Taco Zone","5536 N. Elston",3.5,0,2,Food
 112330,Tamarind,"614 S Wabash Ave",Pass,2011-05-11,"Risk 1 (High)",41.87406368,-87.62613531,tamarind-chicago,Tamarind,"614 S Wabash Ave",3.5,0,261,"Sushi Bars"
-67925,"Quizno's Sub","3933 N Broadway St","Pass w/ Conditions",2010-01-19,"Risk 1 (High)",41.95377883,-87.64985956,quiznos-subs-chicago-7,"Quizno's Sub's","180 N Stetson Ave",3.0,1,2,Sandwiches
 517563,Potbelly,"565 W Diversey Pkwy",Pass,2011-10-07,"Risk 2 (Medium)",41.93271736,-87.6435639,potbelly-sandwich-works-chicago-31,"Potbelly Sandwich Works","565 W Diversey Pkwy",3.5,0,14,Sandwiches
-58535,"Papa Ray's Pizza & Wings","2551 W Fullerton Ave",Pass,2012-03-14,"Risk 1 (High)",41.92475132,-87.69180095,papa-rays-pizza-and-wings-chicago,"Papa Rays Pizza & Wings","3208 N Pulaski Rd",3.5,0,16,Pizza
 453235,"Lucky Strike Lanes","322 E Illinois St",Fail,2011-11-03,"Risk 1 (High)",41.89113317,-87.61916021,lucky-strike-lanes-and-lounge-chicago-2,"Lucky Strike Lanes & Lounge","322 E Illinois St",2.5,0,247,Bowling
-565606,"Bombon Cake Gallery","500 W Madison St",Pass,2011-11-10,"Risk 2 (Medium)",41.88199434,-87.63975868,bombon-cake-gallery-chicago,"BomBon Cake Gallery","500 W Madison",3.0,0,1,Bakeries
 58427,"Salud Tequila Lounge","1471 N Milwaukee Ave",Pass,2012-04-26,"Risk 1 (High)",41.90872609,-87.67466084,salud-tequila-lounge-chicago,"Salud Tequila Lounge","1471 N Milwaukee Ave",3.5,0,252,Mexican
-567547,"Dunkin Donuts","203 N La Salle St",Pass,2011-08-08,"Risk 2 (Medium)",41.88582205,-87.63230374,dunkin-donuts-chicago-17,"Dunkin' Donuts","205 W Randolph St",4.0,0,3,Restaurants
-285178,"China Star Restaurant","4716 N Milwaukee Ave","Pass w/ Conditions",2010-09-08,"Risk 1 (High)",41.96597189,-87.75928158,china-star-restaurant-niles,"China Star Restaurant","8105 N Milwaukee Ave",2.5,0,12,Chinese
-598296,"Taqueria Guerrero","2551 W Cermak Rd",Pass,2012-01-03,"Risk 1 (High)",41.85186827,-87.69007512,taqueria-guerrero-waukegan,"Taqueria Guerrero","205 W Water St",4.0,0,1,Restaurants
 565444,"Maude's Liquor Bar","840 W Randolph St",Pass,2011-07-28,"Risk 1 (High)",41.88449069,-87.649016,maudes-liquor-bar-chicago,"Maude's Liquor Bar","840 W Randolph St",4.0,0,304,Bars
 327264,"Beat Kitchen","2100 W Belmont Ave",Pass,2012-04-10,"Risk 1 (High)",41.93965193,-87.68090321,beat-kitchen-chicago,"Beat Kitchen","2100 W Belmont Ave",4.0,0,189,Restaurants
 278100,"The Hut","3601 S California Ave",Pass,2011-04-13,"Risk 1 (High)",41.82822852,-87.69461616,the-hut-chicago,"The Hut","3601 S California Ave",3.5,0,2,Restaurants
-177178,"Del Campos Restaurant","3125 W Cermak Rd",Pass,2012-03-01,"Risk 1 (High)",41.85167176,-87.70397303,"café-iberico-chicago-3","Café Iberico","737 N Lasalle Blvd",4.0,0,1183,Spanish
-1154384,"Epic Catering","3146 E 133rd St",Pass,2012-06-12,"Risk 1 (High)",41.65378869,-87.54648963,epic-burger-chicago,"Epic Burger","517 S State St",3.5,0,458,Burgers
-363292,"Reyes Corner Grill","3903 S Kedzie Ave",Fail,2011-08-16,"Risk 1 (High)",41.82244969,-87.70434137,big-star-chicago,"Big Star","1531 N Damen Ave",3.5,0,1209,Mexican
 458894,"Salam Restaurant","4636 N Kedzie Ave",Fail,2010-11-15,"Risk 1 (High)",41.96576179,-87.708539,salam-chicago,Salam,"4636 N Kedzie Ave",4.0,0,201,"Middle Eastern"
 635091,"Luscious Layers Bakery","2315 N Damen Ave",Pass,2011-10-26,"Risk 2 (Medium)",41.92331313,-87.67767532,luscious-layers-bakery-chicago,"Luscious Layers Bakery","2315 N Damen Ave",4.0,0,119,Bakeries
 579298,Taqueria-el-norte,"5600 N Ridge Ave","Pass w/ Conditions",2011-02-23,"Risk 1 (High)",41.98357807,-87.6602278,el-norte-restaurant-chicago-3,"El Norte Restaurant","5600 N Ridge Ave",3.5,0,157,Mexican
-60309,Subway,"3207 W 47th Pl",Fail,2011-02-04,"Risk 1 (High)",41.80670863,-87.70424678,subway-chicago-98,Subway,"3905 S Archer Ave",4.0,0,3,Sandwiches
 543365,Fatburger,"2341 W 95th St","Pass w/ Conditions",2011-05-11,"Risk 2 (Medium)",41.72083853,-87.68131761,fatburger-chicago,Fatburger,"2341 W 95th St",3.0,1,20,Burgers
-517323,Benchmark,"1508-1510 N Wells St","Pass w/ Conditions",2012-05-04,"Risk 1 (High)",41.90947419,-87.63480392,benchmark-chicago-2,Benchmark,"1510 N Wells St",3.5,0,171,Bars
 521745,"Sarajevo Restaurant","2701 W Lawrence Ave",Pass,2011-09-14,"Risk 1 (High)",41.96844205,-87.69630358,restaurant-sarajevo-chicago,"Restaurant Sarajevo","2701 W Lawrence Ave",4.5,0,139,"Modern European"
 88603,Kfc,"3357 W Peterson Ave",Pass,2011-05-10,"Risk 1 (High)",41.99021468,-87.71383608,kfc-chicago-9,KFC,"3357 W Peterson Ave",2.5,0,5,"Chicken Wings"
-381217,Falafill,"3202 N Broadway St","Pass w/ Conditions",2011-05-10,"Risk 1 (High)",41.94015821,-87.64455028,falafill-chicago,Falafill,"3202 N Broadway",3.5,0,242,Vegetarian
-401289,"Burnham Park Yacht Club","1500 S Lynn White Dr",Fail,2011-08-09,"Risk 1 (High)",41.86230608,-87.60952225,burnham-park-yacht-club-chicago,"Burnham Park Yacht Club","1500 S Linn White Dr",4.5,0,4,
-457044,Fuel,"1725 W Division St",Pass,2010-11-09,"Risk 1 (High)",41.90317815,-87.67104319,south-side-fuel-center-plus-chicago,"South Side Fuel Center Plus","970 W Pershing Rd",1.0,0,2,"Gas & Service Stations"
 456484,"Cafe Bolero","2252 N Western Ave",Pass,2012-03-08,"Risk 1 (High)",41.92319989,-87.68773851,cafe-bolero-chicago,"Cafe Bolero","2252 N Western Ave",3.5,0,224,Cuban
 229468,Cosi,"230 W Monroe St",Pass,2012-03-19,"Risk 1 (High)",41.88075716,-87.6347093,cosi-chicago-9,Cosi,"230 W Monroe St",3.5,0,31,Sandwiches
 363423,"Falco's Pizza","2806 W 40th Pl",Fail,2012-01-19,"Risk 1 (High)",41.82023097,-87.69487471,falcos-pizza-chicago,"Falco's Pizza","2806 W 40th Pl",3.5,0,56,Pizza
 409364,"Jamba Juice","190 W Madison St","Pass w/ Conditions",2010-11-01,"Risk 2 (Medium)",41.88205759,-87.63353327,jamba-juice-chicago-10,"Jamba Juice","190 W Madison St",4.0,0,15,"Juice Bars & Smoothies"
 537229,"El Taconcito","10536 S Torrence Ave",Pass,2012-06-21,"Risk 1 (High)",41.70348287,-87.55975999,taqueria-el-taconcito-chicago,"Taqueria El Taconcito","10536 S Torrence Ave",3.5,0,2,Mexican
-154502,"The Spread","2476-2478 N Lincoln Ave",Pass,2012-05-22,"Risk 1 (High)",41.92699992,-87.65114673,the-spread-chicago,"The Spread","2476 N Lincoln Ave",3.0,1,42,"Sports Bars"
-1235227,"Sun Wah Bar-b-q","5039-5043 N Broadway  St","Pass w/ Conditions",2012-06-08,"Risk 1 (High)",41.97385029,-87.65965358,sun-wah-bar-b-que-chicago-2,"Sun Wah Bar-B-Que","5041 N Broadway",4.0,0,593,Chinese
 565503,"Bombacigno's","558 W Van Buren St",Pass,2011-09-15,"Risk 1 (High)",41.87685078,-87.64189705,bombacignos-j-and-c-inn-chicago,"Bombacigno's J & C Inn","558 W Van Buren St",4.5,0,61,Italian
 598393,"Taste Of Chicago","3170 S Ashland Ave",Pass,2011-10-04,"Risk 1 (High)",41.83574906,-87.66584167,taste-of-chicago-restaurant-chicago,"Taste of Chicago Restaurant","3170 S Ashland Ave",4.0,0,9,Burgers
 569374,"Argo Tea","819 N Rush St",Pass,2011-05-27,"Risk 2 (Medium)",41.89740695,-87.62575403,argo-tea-chicago-5,"Argo Tea","819 N Rush St",4.0,0,138,"Coffee & Tea"
-120614,"Caribou Coffee Company","1328 S Halsted St",Fail,2011-11-28,"Risk 2 (Medium)",41.86475002,-87.64699277,caribou-coffee-co-inc-chicago,"Caribou Coffee Co Inc","311 W Monroe St",2.5,0,2,"Coffee & Tea"
-531506,"The Nile Restaurant Corp","1611 E 55th St",Pass,2012-02-17,"Risk 1 (High)",41.79507973,-87.58712654,joong-boo-market-chicago-2,"Joong Boo Market","3333 N Kimball Ave",4.0,0,197,"Ethnic Food"
 233487,"Mundial Restaurant","1640 W 18th St","Pass w/ Conditions",2011-12-15,"Risk 1 (High)",41.85787654,-87.66789942,mundial-cocina-mestiza-chicago,"Mundial Cocina Mestiza","1640 W 18th St",3.5,0,173,"Latin American"
-659936,"Billy Goat","222 W Merchandise Mart Plz","Pass w/ Conditions",2012-01-10,"Risk 2 (Medium)",41.88807428,-87.6349552,billy-goat-tavern-and-grill-chicago-6,"Billy Goat Tavern And Grill","222 Merchandise Mart Plaza",3.5,0,12,Pubs
 251204,Ma&i,"1234 S Michigan Ave",Pass,2011-07-15,"Risk 1 (High)",41.86648928,-87.6242793,ma-and-i-chicago,"Ma & I","1234 S Michigan Ave",3.5,0,168,Thai
-1196281,"Inspiration Corporation","4554 N Broadway  St",Pass,2012-05-02,"Risk 1 (High)",41.96503885,-87.65740624,quads-gym-chicago,"Quads Gym","3727 N Broadway St",4.5,0,33,Gyms
 608251,"Bobo's Market","1953 W Chicago Ave",Pass,2011-08-26,"Risk 1 (High)",41.89580775,-87.67675213,bobos-market-chicago,"Bobo's Market","1953 W Chicago Ave",4.0,1,25,Sandwiches
-509362,"Domino's Pizza","5401 S Harlem Ave",Pass,2011-10-07,"Risk 2 (Medium)",41.79392295,-87.80144211,dominos-pizza-oak-lawn,"Domino's Pizza","9022 S Cicero Ave",4.0,0,1,Pizza
-659730,"Hooters Of Wells St.","658-660 N Wells St",Pass,2011-12-16,"Risk 1 (High)",41.89402711,-87.63428072,o-learys-public-house-chicago,"O'leary's Public House","541 N Wells St",3.5,0,53,Pubs
 569433,"Sayat Nova","157 E Ohio St",Pass,2011-06-22,"Risk 1 (High)",41.89244202,-87.62314748,sayat-nova-east-armenian-restaurant-chicago,"Sayat Nova East Armenian Restaurant","157 E Ohio St",3.5,0,193,Mediterranean
 585273,"Milk & Honey Cafe","1920 W Division St",Pass,2012-04-09,"Risk 1 (High)",41.90332716,-87.67566894,milk-and-honey-cafe-chicago,"Milk & Honey Cafe","1920 W Division St",3.5,0,475,"Breakfast & Brunch"
-229286,"Greektown Gyros","239 S Halsted St",Pass,2012-04-13,"Risk 1 (High)",41.87797994,-87.6470952,greek-town-gyros-chicago,"Greek Town Gyros","239 S Halsted Street",4.0,0,119,Greek
-580701,"Wendy's","242 W Garfield Blvd",Pass,2011-05-03,"Risk 2 (Medium)",41.79463883,-87.63226705,wendys-chicago-15,"Wendy's","8645 S Stony Island Ave",3.0,0,1,"Fast Food"
 289225,"Janson's Drive In","9900 S Western Ave",Pass,2011-10-21,"Risk 2 (Medium)",41.7135699,-87.68198572,jansons-drive-in-chicago,"Jansons Drive-In","9900 S Western Ave",3.5,0,24,"Fast Food"
 549239,"Isla's Marias","4781 S Archer Ave",Pass,2011-02-24,"Risk 1 (High)",41.80666846,-87.71612755,las-islas-marias-chicago-8,"Las Islas Marias","4781 S Archer Ave",2.0,0,1,Mexican
 1196234,"Magnolia Cafe","1224 W Wilson Ave",Pass,2012-03-29,"Risk 1 (High)",41.96546092,-87.66064093,magnolia-cafe-chicago,"Magnolia Cafe","1224 W Wilson Ave",3.5,0,198,"American (New)"
 284808,"Michael Diversey's","670 W Diversey Pkwy",Pass,2011-06-14,"Risk 1 (High)",41.93288386,-87.64627175,michael-diverseys-chicago,"Michael Diversey's","670 W Diversey Pkwy",3.5,0,53,"American (Traditional)"
 391256,"Beijo De Chocolat","3334 W Foster Ave",Pass,2011-12-20,"Risk 2 (Medium)",41.97581378,-87.71255298,beijo-de-chocolat-chicago,"Beijo de Chocolat","3334 W Foster Ave",4.0,0,46,Bakeries
-277028,"Goose Island Chicago","11601 W Touhy Ave",Pass,2012-01-10,"Risk 1 (High)",42.0085364,-87.91442844,champions-sports-bar-chicago,"Champions Sports Bar","Chicago Marriott O'Hare",3.5,0,2,"Sports Bars"
-277596,"Jimenez Restaurant","5716 W Diversey Ave","Pass w/ Conditions",2012-04-12,"Risk 1 (High)",41.93134202,-87.76946868,carniceria-jimenez-chicago-2,"Carniceria Jimenez","3840 W Fullerton Ave",4.0,0,21,Grocery
-166238,"Cinco Estrellas","2908-2912 W 59th St",Fail,2012-02-03,"Risk 1 (High)",41.78646851,-87.69646343,cinco-estrellas-restaurant-chicago,"Cinco Estrellas Restaurant","2908 W 59th St",4.0,0,1,Mexican
-517303,"Lakeshore Racquet Club","1320 W Fullerton Ave",Pass,2011-07-19,"Risk 1 (High)",41.92535736,-87.66138854,midtown-tennis-club-chicago-2,"Midtown Tennis Club","2020 W Fullerton Ave",3.5,0,46,Tennis
-120474,"Au Bon Pain","1725 W Harrison St",Pass,2011-11-08,"Risk 2 (Medium)",41.87401634,-87.67026083,au-bon-pain-chicago-3,"Au Bon Pain","Rush University Medical Center",2.5,0,13,Bakeries
-660256,"Hamilton's A Chicago Bar And Grill","6341-6343 N Broadway St","Pass w/ Conditions",2011-11-15,"Risk 1 (High)",41.99759419,-87.66034487,hamiltons-bar-and-grill-chicago,"Hamilton's Bar and Grill","6341 N Broadway St",3.0,0,71,"Sports Bars"
 285248,"Kroll's South Loop","1736 S Michigan Ave",Pass,2010-08-17,"Risk 1 (High)",41.85799082,-87.62408288,krolls-south-loop-chicago,"Kroll's South Loop","1736 S Michigan Ave",3.0,0,231,"American (Traditional)"
-409367,Lavazza,"33 N Dearborn St",Fail,2011-11-10,"Risk 2 (Medium)",41.88280623,-87.6292815,lavazza-espression-chicago-3,"Lavazza Espression","27 W Washington St",4.0,0,113,"Coffee & Tea"
-197281,"Tokyo Lunch Box","100 W Randolph St",Pass,2012-06-05,"Risk 1 (High)",41.88458627,-87.63101045,tokyo-lunch-box-and-catering-4-chicago,"Tokyo Lunch Box & Catering #4","222 Merchandise Mart Plaza",4.0,0,9,"Sushi Bars"
-397220,"Canteen @ Wright College","4300 N Narragansett Ave",Pass,2011-08-30,"Risk 1 (High)",41.95854835,-87.78691899,the-publican-chicago,"The Publican","837 W Fulton Market",4.0,0,1252,Pubs
-134314,"Sabor Latino Restaurant","3808-3810 W North Ave",Fail,2012-04-10,"Risk 1 (High)",41.91004428,-87.72188751,sabor-latino-restaurant-chicago,"Sabor Latino Restaurant","3400 W Fullerton Ave",3.5,0,26,"Latin American"
-120699,"Pop This","1258 S Halsted St",Pass,2010-12-06,"Risk 2 (Medium)",41.86541681,-87.64701274,pop-this-popcorn-shop-chicago,"Pop This Popcorn Shop","5 Woodfield Mall Dr",4.5,0,10,"Specialty Food"
 547309,Chickies,"2839 S Pulaski Rd",Fail,2011-03-21,"Risk 2 (Medium)",41.83938905,-87.72427111,chickies-chicago,"Chickie's","2839 S Pulaski Rd",3.5,1,11,"Hot Dogs"
-673219,"Dock's","11137 S Vincennes Ave",Fail,2011-12-06,"Risk 2 (Medium)",41.6911392,-87.6638493,docks-chicago-2,"Dock's","112 W 87th Street",3.5,0,3,Restaurants
-250586,"Vaughan's Pub","5485 N Northwest Hwy",Fail,2012-02-27,"Risk 1 (High)",41.9804695,-87.77763062,vaughans-pub-and-grill-chicago,"Vaughan's Pub & Grill","5485 Northwest Hwy",4.0,0,24,Irish
 604259,"Tommy's On Higgins","6954 W Higgins Ave",Fail,2011-06-13,"Risk 1 (High)",41.98016396,-87.80207994,tommys-on-higgins-chicago,"Tommy's On Higgins","6954 W Higgins Ave",3.5,0,16,Bars
-154363,"R J Grunts","2054-2056 N Lincoln Park West",Pass,2010-05-04,"Risk 1 (High)",41.92003078,-87.63654555,rj-grunts-chicago,"RJ Grunts","2056 N Lincoln Park W",4.0,0,373,"American (Traditional)"
 409412,"Argo Tea","16 W Randolph St","Pass w/ Conditions",2010-11-24,"Risk 2 (Medium)",41.88459747,-87.62850188,argo-tea-chicago-21,"Argo Tea","16 W Randolph St",4.0,0,172,"Coffee & Tea"
-492206,"Monica's Sweet Potatoes","501 E 47th St",Fail,2011-01-05,"Risk 1 (High)",41.80931652,-87.61379036,henri-chicago,Henri,"18 S Michigan Ave",4.5,0,160,"American (New)"
 413263,Starbucks,"251 E Huron St",Pass,2011-07-27,"Risk 2 (Medium)",41.8949033,-87.62074373,starbucks-chicago-116,Starbucks,"251 E Huron St",4.5,0,14,"Coffee & Tea"
-311209,"Main Kitchen","720 S Michigan Ave",Pass,2011-12-01,"Risk 1 (High)",41.87279887,-87.62433781,mercat-a-la-planxa-chicago,"Mercat a la Planxa","638 S Michigan Ave",4.0,0,679,"Tapas Bars"
 555320,"I-57 Rib House","1524 W 115th St",Pass,2011-11-10,"Risk 1 (High)",41.68493757,-87.66112259,i-57-rib-house-chicago-3,"I-57 Rib House","1524 W 115th St",3.5,0,11,Southern
 120434,"The Drum & Monkey","1435 W Taylor St",Fail,2012-04-18,"Risk 1 (High)",41.86920687,-87.66308737,drum-and-monkey-chicago,"Drum & Monkey","1435 W Taylor St",3.5,0,57,Irish
-469338,"Wendy's","3516 E 118th St",Pass,2010-12-01,"Risk 2 (Medium)",41.68105584,-87.53825068,wendys-old-fashioned-hamburgers-chicago,"Wendy's Old Fashioned Hamburgers","3516 E 118th Street",1.0,0,1,Restaurants
 205294,"Jaffa Bakery","520 N Michigan Ave","Pass w/ Conditions",2011-02-10,"Risk 1 (High)",41.89168852,-87.62430718,jaffa-bakery-and-roasted-turkey-chicago,"Jaffa Bakery & Roasted Turkey","520 N Michigan Ave",3.0,0,8,Bakeries
 1206238,"Depasada Restaurant","1642 W Chicago Ave",Fail,2012-06-15,"Risk 1 (High)",41.89615633,-87.66891473,de-pasada-chicago-4,"De Pasada","1642 W Chicago Ave",4.5,0,4,Mexican
-679370,Subway,"29 W Lake St",Pass,2012-03-12,"Risk 1 (High)",41.88563898,-87.62905002,subway-chicago-43,Subway,"185 N Wabash Ave",3.0,0,5,Sandwiches
 277317,"Side Street Saloon","1456 W George St",Fail,2010-07-29,"Risk 1 (High)",41.93437222,-87.66585652,side-street-saloon-chicago,"Side Street Saloon","1456 W George St",4.0,0,50,"Dive Bars"
 471175,"Bon Bon Sandwiches","2333 W North Ave",Pass,2011-10-24,"Risk 1 (High)",41.91022784,-87.68605644,bon-bon-vietnamese-sandwiches-chicago-2,"Bon Bon Vietnamese Sandwiches","2333 W North Ave",3.5,0,252,Vietnamese
-567211,"Pinkys Restaurant","100 W Randolph St",Pass,2011-02-04,"Risk 1 (High)",41.88458627,-87.63101045,pinkys-chicago,Pinkys,"100 W Randolph Dr",2.5,0,12,Food
-166232,"La Chaparrita De Chicago","5957 S Kedzie Ave",Pass,2012-05-09,"Risk 1 (High)",41.78462928,-87.70315583,la-chaparrita-2-chicago,"La Chaparrita #2","5958 S Kedzie",5.0,0,1,Mexican
-215225,"Pizza Nova Express","3836 W 79th St",Pass,2012-03-26,"Risk 1 (High)",41.74971286,-87.71976333,prima-la-pizza-hillside,"Prima La Pizza","2211 S Wolf Rd",4.0,0,27,Italian
 63383,"Burger King","2700 S Kedzie Ave",Pass,2011-07-15,"Risk 2 (Medium)",41.84260253,-87.70512781,burger-king-chicago-2,"Burger King","2700 S Kedzie Ave",3.5,0,3,"Fast Food"
 626212,"Ruby's Restaurant","3175 W Madison St",Pass,2011-06-14,"Risk 1 (High)",41.88086598,-87.70585425,rubys-restaurant-chicago-2,"Ruby's Restaurant","3175 W Madison St",4.0,0,5,"Soul Food"
-580799,"Nicky's In-n-out","4240 S Wentworth Ave",Pass,2011-11-09,"Risk 1 (High)",41.81704209,-87.63136993,no-1-china-express-chicago,"No.1 China Express","4248 S Wentworth Ave",4.5,0,8,Chinese
-381218,"Vines On Clark","3552-3554 N Clark St",Pass,2011-08-25,"Risk 1 (High)",41.94689705,-87.65644321,vines-on-clark-chicago,"Vines On Clark","3554 N Clark St",3.5,0,162,"American (New)"
 459384,"Twisted Spoke","501 N Ogden Ave",Fail,2011-05-16,"Risk 1 (High)",41.89103918,-87.65887052,the-twisted-spoke-chicago,"The Twisted Spoke","501 N Ogden Ave",3.5,0,345,"Breakfast & Brunch"
 233956,"Newport Bar & Grille","1344 W Newport Ave","Pass w/ Conditions",2010-05-18,"Risk 1 (High)",41.94445156,-87.66329838,newport-bar-and-grill-chicago,"Newport Bar & Grill","1344 W Newport Ave",3.5,0,72,"Sports Bars"
-88792,"China Star Restaurant","4716 N Milwaukee Ave",Pass,2011-09-02,"Risk 1 (High)",41.96597189,-87.75928158,china-star-restaurant-niles,"China Star Restaurant","8105 N Milwaukee Ave",2.5,0,12,Chinese
-68005,"Chinese Chef's Kitchen","2637 N Central Ave",Pass,2012-03-06,"Risk 1 (High)",41.92876724,-87.76600711,golden-chef-chinese-kitchen-chicago,"Golden Chef Chinese Kitchen","3262 W North Ave",3.5,0,14,Chinese
 229489,"Jimmy Figs","160 N Franklin St",Fail,2011-01-19,"Risk 1 (High)",41.88480929,-87.63553583,jimmy-figs-chicago-2,"Jimmy Figs","160 N Franklin St",3.0,0,30,"Sports Bars"
-114269,"Westin River North Chgo Hotel","320 N Dearborn St","Pass w/ Conditions",2012-03-12,"Risk 1 (High)",41.88779385,-87.62968659,hotel-allegro-chicago,"Hotel Allegro","171 W Randolph St",4.0,0,159,Hotels
 519340,"Taqueria El Ranchito","4651 N Clark St",Fail,2012-01-10,"Risk 1 (High)",41.96678036,-87.66690609,taqueria-el-ranchito-chicago-8,"Taqueria El Ranchito","4651 N Clark St",3.0,0,134,Mexican
-419283,"Bin 36","1559 N Milwaukee Ave",Fail,2010-10-07,"Risk 1 (High)",41.90992611,-87.67653436,bin-36-chicago,"Bin 36","339 N Dearborn St",3.5,0,435,"Wine Bars"
-353328,"Punjabi Dhabha","2525 W Devon",Fail,2011-04-12,"Risk 1 (High)",41.99756039,-87.69339451,punjabi-dhabha-chicago,"Punjabi Dhabha","2525 W Devon Ave",3.0,0,45,Indian
 114607,"Emilio's Tapas","215 E Ohio St","Pass w/ Conditions",2011-08-22,"Risk 1 (High)",41.89246019,-87.62203679,emilios-tapas-sol-y-nieve-chicago,"Emilio's Tapas Sol y Nieve","215 E Ohio St",3.5,0,170,"Tapas Bars"
-519229,"Captain Morgan","1060 W Addison St","Pass w/ Conditions",2012-05-09,"Risk 1 (High)",41.94731749,-87.65641795,captain-morgan-club-chicago,"Captain Morgan Club","1060 W. Addison St",3.0,0,27,"Sports Bars"
 579265,"Jimmy John's Store","3506 S State St",Pass,2011-02-22,"Risk 2 (Medium)",41.83078218,-87.62679018,starbucks-chicago-113,Starbucks,"3506 S State St",4.0,0,13,"Coffee & Tea"
-112350,"Artist's Snack Shop","412 S Michigan Ave","Pass w/ Conditions",2011-06-21,"Risk 1 (High)",41.87666158,-87.62442805,fine-arts-building-chicago,"Fine Arts Building","410 S Michigan Ave",4.5,0,12,"Performing Arts"
-88781,"El Pueblito Mexican Grill","5152 N Cicero Ave",Pass,2011-04-20,"Risk 1 (High)",41.97504399,-87.74813332,el-pueblito-lincolnwood,"El Pueblito","3941 W Touhy",3.5,0,13,"Fast Food"
 472228,"Pizza Hut","5109 S Pulaski Rd",Pass,2011-01-18,"Risk 2 (Medium)",41.80009153,-87.72321361,pizza-hut-chicago-9,"Pizza Hut","5109 S Pulaski Rd",1.5,0,6,Pizza
-60495,"Murry's Fish & Chicken","3357 W Harrison St",Pass,2010-05-12,"Risk 2 (Medium)",41.87352017,-87.71063937,enoteca-roma-ristorante-chicago,"Enoteca Roma Ristorante","2146 W Division St",4.0,0,246,"Wine Bars"
 580524,"Katsu Japanese Restaurant","2651 W Peterson Ave",Fail,2012-06-12,"Risk 3 (Low)",41.99034882,-87.69665169,katsu-chicago,Katsu,"2651 W Peterson Ave",4.0,0,149,Japanese
 569445,Potbelly,"277 E Ontario St",Pass,2011-07-11,"Risk 2 (Medium)",41.8932867,-87.62073604,potbelly-sandwich-works-chicago-16,"Potbelly Sandwich Works","277 E Ontario St",3.5,0,34,Sandwiches
-250415,"McDonald's","555 W Madison St",Pass,2010-06-01,"Risk 2 (Medium)",41.88173752,-87.64180803,mcdonalds-chicago-37,"McDonald's","555 W Madison",1.5,0,5,"Fast Food"
-114256,Starbucks,"30 W Erie St",Pass,2011-02-18,"Risk 2 (Medium)",41.89416541,-87.62938903,starbucks-chicago-145,Starbucks,"600 N State St",3.5,0,9,"Coffee & Tea"
 612318,"Orange Restaurant","738 N Clark St","Pass w/ Conditions",2011-06-30,"Risk 1 (High)",41.89600475,-87.63138052,orange-chicago-5,Orange,"738 N Clark St",3.5,0,141,"Breakfast & Brunch"
-429080,"Pavones Restaurant & Lounge","7547 W Irving Park Rd","Pass w/ Conditions",2010-11-03,"Risk 1 (High)",41.9524374,-87.81649553,pavone-restaurant-and-lounge-chicago,"Pavone Restaurant & Lounge","7547 West Irving Park Rd",3.0,0,12,Italian
-604407,"Eden's House","6313-6323 N Pulaski",Fail,2011-10-12,"Risk 1 (High)",41.99587119,-87.72875639,east-of-eden-carry-outs-chicago,"East of Eden Carry-Outs","6350 N Cicero Ave",3.5,0,43,Greek
-547811,"The Original Maxwell Street","244-246 S Cicero Ave",Pass,2011-11-09,"Risk 2 (Medium)",41.87728403,-87.74530775,original-maxwell-street-chicago-3,"Original Maxwell Street","3801 W Harrison St",4.0,0,9,Polish
 413474,Schwa,"1466 N Ashland Ave","Pass w/ Conditions",2012-06-08,"Risk 1 (High)",41.90891862,-87.66779137,schwa-chicago,Schwa,"1466 N Ashland Ave",4.5,0,287,"American (New)"
 525296,"Palace Gate African Restaurant","4548 N Magnolia Ave",Pass,2011-04-14,"Risk 1 (High)",41.96497072,-87.66115881,palace-gate-restaurant-chicago,"Palace Gate Restaurant","4548 N Magnolia Ave",3.5,0,12,African
 1098414,"Chipotle Mexican Grill","3227 W Addison St","Pass w/ Conditions",2012-06-28,"Risk 1 (High)",41.94651094,-87.70896897,chipotle-mexican-grill-chicago-36,"Chipotle Mexican Grill","3227 W Addison St",3.0,0,17,Mexican
-1158355,"Sicily Pizza","6421 S Dr Martin Luther King Jr Dr",Fail,2012-05-29,"Risk 2 (Medium)",41.77776929,-87.61541728,la-madia-chicago,"La Madia","59 W Grand Ave",4.0,0,568,Pizza
 134321,"Tenochtitlan Bar & Grill","2451 N Milwaukee Ave",Pass,2011-04-14,"Risk 1 (High)",41.92584755,-87.70191911,real-tenochtitlan-restaurant-and-bar-chicago,"Real Tenochtitlan Restaurant & Bar","2451 N Milwaukee Ave",3.5,0,144,Mexican
-491551,"McDonald's","11601 W Touhy Ave",Pass,2012-02-10,"Risk 2 (Medium)",42.0085364,-87.91442844,mcdonalds-niles,"McDonald's","7969 N Milwaukee Ave",3.5,0,3,Burgers
 531519,"La Petite Folie","1504 E 55th St",Pass,2012-03-09,"Risk 1 (High)",41.79530818,-87.58894079,la-petite-folie-chicago,"La Petite Folie","1504 E 55th St",3.5,0,31,French
-284626,"Chili Mac's 5-way Chili","3152 N Broadway St",Fail,2010-08-20,"Risk 1 (High)",41.93918785,-87.64451786,the-bagel-restaurant-and-deli-chicago,"The Bagel Restaurant & Deli","3107 N Broadway St",3.5,0,284,Bakeries
-634743,"Aramark Educational Services","1125 W Loyola Ave","Pass w/ Conditions",2011-09-27,"Risk 1 (High)",42.00143764,-87.65962246,bread-basket-chicago,"Bread Basket","4725 W Belmont Ave",3.5,0,27,Sandwiches
 251132,"Bull-eh-dia's Tapas Bar","3651 N Southport Ave","Pass w/ Conditions",2010-06-21,"Risk 1 (High)",41.94857495,-87.6639087,bull-eh-dias-chicago-2,"Bull-eh-dia's","3651 N Southport Ave",3.5,0,147,"Tapas Bars"
 401213,Sounding,"1200 S Lake Shore Dr",Pass,2012-04-17,"Risk 1 (High)",41.86748423,-87.61915038,soundings-restaurant-chicago,"Soundings Restaurant","1200 S Lake Shore Dr",3.0,0,10,"American (Traditional)"
-114287,English,"444 N La Salle Dr","Pass w/ Conditions",2010-06-14,"Risk 1 (High)",41.89054571,-87.63270199,english-chicago,English,"444 N LaSalle Blvd",3.0,0,328,Lounges
-537216,"H & M Gyros","2948 E 83rd St",Pass,2011-02-14,"Risk 1 (High)",41.74476028,-87.55202548,h-dogs-chicago,H-Dogs,"4655 S Martin Luther King Dr",4.5,0,18,"Fast Food"
-88334,"Pizza Bravo","3256 W Lawrence Ave",Pass,2010-04-09,"Risk 1 (High)",41.96854049,-87.71078268,bravos-pizza-chicago,"Bravo's Pizza","4419 W Fullerton Ave",4.0,0,1,Pizza
 598511,"Taco's Erendira","3207 S Halsted St",Pass,2011-12-09,"Risk 1 (High)",41.83598844,-87.6460816,tacos-erendira-chicago-2,"Tacos Erendira","3207 S Halsted St",4.0,0,55,Mexican
 215271,"King Wah Express","5700 S Cicero Ave",Pass,2012-03-13,"Risk 1 (High)",41.78932932,-87.74164564,king-wah-express-chicago,"King Wah Express","5700 S Cicero Ave",1.5,0,11,Chinese
 114824,"Goodwin's","175 N Franklin St",Pass,2011-03-17,"Risk 1 (High)",41.88521073,-87.63525121,goodwins-chicago,"Goodwin's","175 N Franklin St",4.0,0,174,Sandwiches
 154357,"Twisted Lizard","1964 N Sheffield Ave",Pass,2011-06-23,"Risk 1 (High)",41.91783835,-87.6535054,twisted-lizard-chicago-2,"Twisted Lizard","1964 N Sheffield Ave",3.0,0,146,Mexican
-343249,"McDonald's","500 W Madison St",Fail,2011-06-10,"Risk 2 (Medium)",41.88199434,-87.63975868,mcdonalds-chicago-37,"McDonald's","555 W Madison",1.5,0,5,"Fast Food"
 114339,"Garret Ripley's","712 N Clark St",Pass,2010-02-17,"Risk 1 (High)",41.89530394,-87.6313607,the-shady-lady-chicago,"The Shady Lady","712 N Clark St",3.0,0,18,Bars
-419639,"Bar Casa Blanca","1158 W Grand Ave",Pass,2011-10-12,"Risk 1 (High)",41.89119436,-87.65697067,mercadito-chicago,Mercadito,"108 W Kinzie St",3.5,0,698,Mexican
-112292,"Poag Mahone's","175 W Jackson Blvd","Pass w/ Conditions",2011-11-09,"Risk 1 (High)",41.87801449,-87.63318903,poag-mahones-chicago-2,"Poag Mahone's","333 S Wells St",3.5,0,170,Pubs
 1196248,"The Cousins Restaurant","1463 W Leland Ave",Pass,2012-04-05,"Risk 1 (High)",41.96697754,-87.6666311,the-cousins-chicago,"The Cousins","1463 W Leland Ave",4.0,0,55,"American (Traditional)"
 1194281,"Chinese Kitchen","3539 N Cicero Ave",Pass,2012-05-10,"Risk 1 (High)",41.94584581,-87.74690624,chinese-kitchen-chicago-5,"Chinese Kitchen","3539 N Cicero Ave",3.5,0,14,Chinese
-114877,"Tokyo Lunch Box","300 S Riverside Plz","Pass w/ Conditions",2012-01-04,"Risk 1 (High)",41.87797514,-87.63842217,tokyo-lunch-box-and-sake-bar-chicago,"Tokyo Lunch Box & Sake Bar","300 South Riverside Plaza",3.0,0,3,"Convenience Stores"
 250394,"Fleming's Prime Steakhouse & Winebar","25 E Ohio St",Pass,2012-03-28,"Risk 1 (High)",41.89237877,-87.62698328,flemings-prime-steakhouse-and-wine-bar-chicago,"Fleming's Prime Steakhouse & Wine Bar","25 E Ohio St",4.0,0,219,Steakhouses
 470981,Subway,"6067 N Lincoln Ave","Pass w/ Conditions",2011-05-10,"Risk 1 (High)",41.99212801,-87.70998356,subway-chicago-184,Subway,"6067 N Lincoln Ave",2.5,0,3,Sandwiches
 343429,"New Line","201 N Clinton St",Fail,2011-03-29,"Risk 1 (High)",41.88575261,-87.64116458,new-line-tavern-chicago,"New Line Tavern","201 N Clinton St",3.0,0,106,Bars
 543311,"Sistah's","2239 W 95th St",Pass,2011-10-28,"Risk 1 (High)",41.7208769,-87.67879012,sistahs-vegan-restaurant-chicago,"Sistah's Vegan Restaurant","2239 W 95th St",4.0,0,17,Vegan
-659506,"Taste Bud Banquet Hall & Restaurant","4422 W Madison St",Fail,2011-12-05,"Risk 1 (High)",41.88070919,-87.73643718,klas-restaurant-cicero,"Klas Restaurant","5734 W Cermak Rd",4.0,0,35,"Modern European"
-547835,"Catherine's Place","4203 W Cermak Rd",Fail,2011-11-22,"Risk 1 (High)",41.85136621,-87.72976632,canine-crews-chicago,"Canine Crews","1616 N Washtenaw Ave",4.5,0,56,"Pet Boarding/Pet Sitting"
 176606,"Chen's","3506 N Clark St",Fail,2011-10-11,"Risk 1 (High)",41.94574252,-87.65551181,chens-chicago,Chens,"3506 N Clark St",3.5,0,261,Chinese
 453312,"Millennium Knickerbocker Hotel-nix","163 E Walton St",Pass,2011-08-08,"Risk 1 (High)",41.89991467,-87.62305951,millennium-knickerbocker-hotel-chicago,"Millennium Knickerbocker Hotel","163 E Walton St",3.5,0,89,Hotels
-158540,"Nicky's Restaurant","7829 S Western Ave",Pass,2011-04-25,"Risk 1 (High)",41.75104964,-87.68272735,nickys-restaurant-chicago,"Nicky's Restaurant","7829 S Western Avenue",2.0,0,1,
 491798,"Tacos De Luna","2255 W Taylor St",Pass,2012-02-14,"Risk 1 (High)",41.86890481,-87.6834333,tacos-de-luna-chicago,"Tacos de Luna","2255 W Taylor St",4.0,0,20,Mexican
-353222,"Dunkin Donuts","5949 W Higgins Ave",Pass,2011-04-19,"Risk 2 (Medium)",41.97293449,-87.77778665,dunkin-donuts-and-baskin-and-robins-chicago,"Dunkin Donuts & Baskin & Robins","5205 N Nagle Avenue",3.5,0,6,
 363473,"Taqueria Los Comales","3141 W 26th St",Pass,2012-01-30,"Risk 1 (High)",41.84441606,-87.70421001,taqueria-los-comales-chicago,"Taqueria Los Comales","3141 W 26th St",4.0,0,32,Mexican
-114292,"Lalo's Mexican Restaurant","500 N La Salle Dr",Pass,2010-01-21,"Risk 1 (High)",41.89084146,-87.63270628,lalos-mexican-restaurant-chicago-2,"Lalo's Mexican Restaurant","733 W Maxwell St",2.5,0,54,Mexican
-284858,"White Castle","7912 S Pulaski Rd",Pass,2011-12-01,"Risk 2 (Medium)",41.7490144,-87.72204098,white-castle-system-chicago-5,"White Castle System","7900 S Pulaski Rd",4.0,0,1,"Fast Food"
 52243,"Popeye's","1600 W Irving Park Rd","Pass w/ Conditions",2011-05-05,"Risk 1 (High)",41.9543993,-87.66911287,popeyes-famous-fried-chicken-chicago-17,"Popeye's Famous Fried Chicken","1600 W Irving Park Rd",3.5,0,30,"Fast Food"
 413492,"Seven On State Street.","111 N State St",Pass,2011-07-26,"Risk 1 (High)",41.88347312,-87.62772975,seven-on-state-chicago,"Seven On State","111 N State St",4.0,0,57,Sandwiches
 419223,"Grealy's Pub & Grill","5001 W Lawrence Ave",Pass,2010-10-06,"Risk 1 (High)",41.9678572,-87.75268519,grealys-pub-and-grill-chicago-2,"Grealy's Pub and Grill","5001 W Lawrence Ave",4.5,1,15,Pubs
-664353,"Cravin' Chicago Wings","5750 N California Ave",Fail,2012-01-25,"Risk 1 (High)",41.98647594,-87.69941539,cravin-chicago-wings-chicago,"Cravin' Chicago Wings","5750 N California",4.0,1,66,"Chicken Wings"
-413518,"John's Gar Hot Dogs","2658 W 47th St",Pass,2011-09-27,"Risk 2 (Medium)",41.80843126,-87.69170585,chicago-bulls-chicago,"Chicago Bulls","1901 W Madison",4.5,0,31,"Professional Sports Teams"
-60492,"Crazy Pizza","2809 W 55th St",Pass,2010-05-11,"Risk 1 (High)",41.79357367,-87.69422154,chuchis-pizza-chicago,"Chuchi's Pizza","2809 W. 55th St",4.0,0,4,"Chicken Wings"
-517541,"Jimmy John's","2206 N Clybourn Ave","Pass w/ Conditions",2012-05-21,"Risk 2 (Medium)",41.92172346,-87.66476304,jimmy-johns-chicago-19,"Jimmy Johns","2208 N Clybourn Avenue",2.5,0,16,Delis
 120544,"Jamba Juice","1322 S Halsted St",Pass,2010-08-04,"Risk 2 (Medium)",41.86481082,-87.64699486,jamba-juice-chicago-4,"Jamba Juice","1322 S Halsted St",3.5,0,24,"Juice Bars & Smoothies"
-491333,"Starlite Cafe","4821 W Armitage Ave",Fail,2012-04-13,"Risk 1 (High)",41.91681503,-87.7470576,adler-planetarium-chicago,"Adler Planetarium","1300 S Lake Shore Dr",3.5,0,193,Museums
 285263,"Reggie's Bar & Grill","2105 S State St",Fail,2012-05-11,"Risk 1 (High)",41.85406377,-87.62696054,reggies-music-joint-chicago,"Reggie's Music Joint","2105 S State St",4.0,0,127,"Music & DVDs"
-491318,"White Castle","2356 W Roosevelt Rd",Pass,2011-01-21,"Risk 2 (Medium)",41.86672491,-87.68584255,white-castle-chicago-3,"White Castle","2348 W Roosevelt Rd",3.5,0,10,Burgers
 614278,"Cellars Market","141 W Jackson Blvd",Pass,2011-06-10,"Risk 1 (High)",41.87802566,-87.63206229,cellars-market-chicago,"Cellars Market","141 W Jackson Blvd",4.0,0,34,"American (Traditional)"
-569520,"Banquets/meeting Rooms","401 N Wabash Ave",Pass,2012-05-17,"Risk 1 (High)",41.88928401,-87.62654855,hotel-sax-chicago-chicago-4,"Hotel Sax Chicago","333 N Dearborn",3.5,0,114,Hotels
 250775,"Forever Thai","3900 N Lincoln Ave",Pass,2010-06-10,"Risk 1 (High)",41.95234331,-87.67765677,forever-thai-chicago,"Forever Thai","3900 N Lincoln Ave",3.5,1,53,Thai
-579593,"Craves Cafe","4431 N Milwaukee Ave",Pass,2011-03-09,"Risk 1 (High)",41.96155384,-87.7550994,craves-cafe-chicago-2,"Craves Cafe","4431 N Milwaukee",4.5,1,21,Sandwiches
-60395,"Dunkin Donuts","4701 S Kedzie Ave",Fail,2012-03-20,"Risk 2 (Medium)",41.80805427,-87.70382554,dunkin-donuts-chicago-61,"Dunkin Donuts","4453 S Archer Ave.",4.0,0,5,Donuts
 579672,Wasabi,"2539 N Milwaukee Ave",Fail,2011-03-18,"Risk 1 (High)",41.92756108,-87.70470876,wasabi-chicago,Wasabi,"2539 N Milwaukee Ave",4.0,0,135,Japanese
-250326,"Rusticos Grill","2515 N California Ave",Fail,2010-05-26,"Risk 1 (High)",41.92710373,-87.69733089,buona-terra-chicago,"Buona Terra","2535 N California Ave",4.0,0,391,Italian
-521421,"Smokey Bears","3312-3314 W Foster Ave",Pass,2011-05-09,"Risk 1 (High)",41.97582182,-87.71172941,smokey-bears-bbq-house-chicago,"Smokey Bears BBQ House","3312 W Foster Ave",3.5,1,108,Barbeque
-114335,"Singha Thai Restaurant","340 N Clark St",Pass,2010-02-16,"Risk 1 (High)",41.88852671,-87.63119137,star-of-siam-chicago,"Star of Siam","11 E Illinois St",3.5,0,353,Thai
 537541,"De Arco's Pizza","2832 E 87th St","Pass w/ Conditions",2011-08-10,"Risk 1 (High)",41.73744679,-87.55503912,de-arcos-pizza-chicago-2,"De Arcos Pizza","2832 E 87th St",5.0,0,1,Pizza
 112367,"Taco Fresco","218 S Clark St",Pass,2010-11-12,"Risk 1 (High)",41.87881482,-87.63095049,taco-fresco-chicago-2,"Taco Fresco","218 S Clark St",3.0,1,26,Mexican
-413776,Subway,"7852 S Cottage Grove Ave",Pass,2011-08-04,"Risk 1 (High)",41.75154486,-87.60535958,subway-chicago-121,Subway,"2102 E 71st St",3.0,0,2,Sandwiches
-197249,"Corner Bakery Cafe","56 W Randolph St",Pass,2012-06-08,"Risk 1 (High)",41.88459084,-87.62999749,corner-bakery-cafe-chicago-11,"Corner Bakery Cafe","Goodman Theatre",3.5,0,28,"Breakfast & Brunch"
-1214491,"Delish Diner","2018 W Division Ave",Pass,2012-03-13,"Risk 1 (High)",41.90328631,-87.67806567,delish-diner-chicago,"Delish Diner","2018 W Division St",3.5,0,79,Diners
 409247,"Roma Pizza&pasta","105 W Madison St","Pass w/ Conditions",2010-08-25,"Risk 1 (High)",41.88186603,-87.63106647,roma-pizza-chicago,"Roma Pizza","105 W Madison St",2.5,0,9,Pizza
-401365,Starbucks,"21 S Clark St","Pass w/ Conditions",2011-12-09,"Risk 2 (Medium)",41.88143431,-87.63072038,starbucks-chicago-109,Starbucks,"105 W Adams St",4.5,0,17,"Coffee & Tea"
-409234,"Green Apple Cafe & Juice Bar","200 E Randolph St",Pass,2011-07-25,"Risk 1 (High)",41.88463208,-87.62224799,hannahs-bretzel-chicago,"Hannah's Bretzel","233 N Michigan Ave",4.0,0,161,Sandwiches
-569670,Grami,"160 E Grand Ave",Fail,2011-11-02,"Risk 1 (High)",41.89186605,-87.62294533,grami-chicago,Grami,"160 E Grand",3.0,0,52,"Breakfast & Brunch"
 409265,"Marquette Inn","60 W Adams St","Pass w/ Conditions",2011-09-02,"Risk 1 (High)",41.87953523,-87.63002421,marquette-inn-restaurant-chicago-2,"Marquette Inn Restaurant","60 W Adams St",3.0,0,42,"American (Traditional)"
-585558,"S' Paisans Pizza & Grill","704 W 47th St",Pass,2011-12-01,"Risk 1 (High)",41.80901096,-87.64336385,j-p-graziano-grocery-co-chicago,"J.P. Graziano Grocery Co.","901 W Randolph St",4.5,0,168,Grocery
-88642,Subway,"6352 N Milwaukee Ave",Fail,2012-04-02,"Risk 1 (High)",41.99644718,-87.78720723,subway-chicago-74,Subway,"6352 N Milwaukee Avenue",3.0,0,1,Restaurants
 596407,Kfc,"6732 N Western Ave","Pass w/ Conditions",2011-08-24,"Risk 1 (High)",42.00419503,-87.69019677,kfc-chicago-14,Kfc,"6732 N Western Ave",3.0,0,1,
 343424,"Catalyst Ranch","656 W Randolph St",Fail,2011-11-21,"Risk 1 (High)",41.88452928,-87.64494525,catalyst-ranch-chicago,"Catalyst Ranch","656 W Randolph St",5.0,0,34,"Venues & Event Spaces"
-659365,"Dunkin Donuts","3910 S Archer Ave",Pass,2011-11-17,"Risk 2 (Medium)",41.82270063,-87.69043573,dunkin-donuts-chicago-126,"Dunkin' Donuts","2356 W Cermak Rd",3.5,0,3,Donuts
 680151,"Cafe 57","1520 E 57th St","Pass w/ Conditions",2012-03-16,"Risk 2 (Medium)",41.79165569,-87.58797399,"café-57-chicago-2","Café 57","1520 E 57th St",4.5,0,40,"Coffee & Tea"
-154320,"Tilli's Restaurant","1952 N Halsted St",Fail,2010-03-25,"Risk 1 (High)",41.91748844,-87.64862679,marquee-lounge-chicago,"Marquee Lounge","1973 N Halsted",4.0,0,45,Lounges
-409484,"Johnny Rockets","30 N La Salle St",Pass,2012-03-26,"Risk 1 (High)",41.88269467,-87.63253143,johnny-rockets-chicago-5,"Johnny Rockets","30 N LaSalle St",1.5,0,5,Burgers
 114413,"The Shamrock Club","210 W Kinzie St",Pass,2010-04-12,"Risk 2 (Medium)",41.88927036,-87.63450599,shamrock-club-chicago,"Shamrock Club","210 W Kinzie St",3.5,0,46,Bars
 614692,"Einstein Bros","5318 N Clark St",Fail,2012-01-13,"Risk 2 (Medium)",41.97868454,-87.66846673,einstein-bros-chicago-4,"Einstein Bros","5318 N Clark St",2.5,0,30,Bagels
 419845,"Easy Bar","1944 W Division St",Pass,2010-10-22,"Risk 2 (Medium)",41.90331076,-87.6766517,easy-bar-chicago,"Easy Bar","1944 W Division St",3.5,0,118,Lounges
@@ -622,68 +295,29 @@ inspection_id,name,address,results,last_inspection_date,risk,lat,long,yelp_id,ye
 284715,"Friends Sushi","710 N Rush St",Pass,2011-07-13,"Risk 1 (High)",41.89532082,-87.6256201,friends-sushi-chicago,"Friends Sushi","710 N Rush St",4.0,0,396,"Sushi Bars"
 120678,"Yummy Thai","1418 W Taylor St",Pass,2011-09-19,"Risk 1 (High)",41.86943667,-87.66247602,yummy-thai-chicago,"Yummy Thai","1418 W Taylor St",3.5,0,113,Thai
 70288,"Sami Swoi","3550 N Austin Ave",Pass,2011-04-06,"Risk 1 (High)",41.94548695,-87.77663733,sami-swoi-chicago,"Sami Swoi","3550 N Austin Ave",3.5,0,7,Polish
-1229218,"Agami Japanese Restaurant","4706-4712 N Broadway  St",Fail,2012-06-05,"Risk 1 (High)",41.96735088,-87.65888549,agami-chicago,Agami,"4712 N Broadway",4.0,0,208,"Sushi Bars"
-70422,Ambassador,"7050 W Belmont Ave","Pass w/ Conditions",2011-09-19,"Risk 1 (High)",41.93815885,-87.80315796,ambassador-chicago-2,Ambassador,"1300 N. State Parkway",4.0,0,1,Hotels
 164320,"Ken's","10522 S Western Ave",Pass,2011-03-04,"Risk 1 (High)",41.70201547,-87.68162963,kens-restaurant-chicago,"Ken's Restaurant","10522 S Western Ave",3.0,0,10,"American (Traditional)"
 491573,"Hellas Gyros","1133 W Bryn Mawr Ave",Pass,2012-04-24,"Risk 1 (High)",41.98352468,-87.65939689,hellas-gyros-chicago,"Hellas Gyros","1133 W Bryn Mawr Ave",4.0,0,62,Greek
 470228,"Best Steakhouse","4570 N Broadway St",Pass,2012-02-21,"Risk 1 (High)",41.96527014,-87.65755429,the-best-steak-house-chicago,"The Best Steak House","4570 N Broadway St",3.0,0,12,Steakhouses
-277992,"Wicker Park Seafood And Sushi Bar","11601 W Touhy Ave",Pass,2012-01-10,"Risk 1 (High)",42.0085364,-87.91442844,wicker-park-seafood-and-sushi-bar-chicago,"Wicker Park Seafood & Sushi Bar","Chicago O'Hare International Airport - Terminal 2",3.5,0,39,"Sushi Bars"
 459267,"Little Joe's Circle Lounge","1041 W Taylor St",Pass,2010-11-16,"Risk 2 (Medium)",41.86937118,-87.65278082,little-joes-circle-lounge-chicago-2,"Little Joe's Circle Lounge","1041 W Taylor St",3.5,0,15,Italian
-531501,"Maravillas Restaurant","5506 S Lake Park Ave",Pass,2011-08-16,"Risk 1 (High)",41.79493407,-87.58773626,maravillas-restaurant-chicago,"Maravillas Restaurant","5211 S Harper Ave",3.5,0,46,Mexican
 604264,"Jimmy Mack's","5581 N Northwest Hwy",Pass,2011-06-15,"Risk 2 (Medium)",41.98256422,-87.78137789,jimmy-mack-bar-chicago,"Jimmy Mack Bar","5581 N Northwest Hwy",2.5,0,4,"Dive Bars"
-114667,"Latin School","45 W North Blvd",Pass,2011-06-13,"Risk 1 (High)",41.91108515,-87.6306321,the-latin-school-of-chicago-chicago,"The Latin School of Chicago","59 W North Blvd",5.0,0,7,"Elementary Schools"
 276985,"Mystic Celt","3443 N Southport Ave","Pass w/ Conditions",2011-06-13,"Risk 1 (High)",41.94469544,-87.66380543,mystic-celt-chicago,"Mystic Celt","3443 N Southport Ave",3.5,0,266,Pubs
 565388,"Al's Beef","601 W Adams St",Pass,2011-06-09,"Risk 1 (High)",41.87916362,-87.64264996,als-italian-beef-chicago,"Al's Italian Beef","601 W Adams St",3.0,0,52,"Fast Food"
-413836,"Mancini's","13508 S Brandon Ave",Fail,2010-09-23,"Risk 1 (High)",41.64969509,-87.54607565,mancinis-oak-park,"Mancini's","1111 Lake St",4.0,0,80,Italian
-234188,Yolk,"745 N Wells St",Pass,2012-03-28,"Risk 1 (High)",41.89613188,-87.63404147,yolk-chicago-2,Yolk,"747 N Wells",4.0,0,457,"Breakfast & Brunch"
-1196242,"El Tipico Mexican Grill","1905-1907 W Foster Ave",Fail,2012-03-08,"Risk 1 (High)",41.97596207,-87.67664451,el-tipico-mexican-grill-chicago,"El Tipico Mexican Grill","1905 W Foster Ave",3.5,0,22,Mexican
-579608,,"3500 S Halsted St",Pass,2011-03-09,"Risk 1 (High)",41.83069534,-87.64625092,outer-focus-photos-chicago,"Outer Focus Photos","S Halsted St & 35th St",5.0,0,10,Photographers
-63307,"Extreme Cream Ice Cream","3808 W 26th St","Pass w/ Conditions",2010-03-22,"Risk 2 (Medium)",41.84442156,-87.72010367,sams-club-cicero,"Sam's Club","2601 S Cicero Ave",4.0,0,9,"Department Stores"
 413701,"Birrieria Estilo Jalisco","2230 N Western Ave",Pass,2012-02-10,"Risk 1 (High)",41.92247228,-87.68771381,birrieria-estilo-jalisco-chicago,"Birrieria Estilo Jalisco","2230 N Western Ave",4.0,0,7,"Latin American"
 660129,"Dunkin Donuts / Baskin Robbins","3347 W North Ave",Pass,2012-01-24,"Risk 2 (Medium)",41.90995065,-87.71124469,dunkin-donuts-baskin-robbins-chicago-18,"Dunkin Donuts / Baskin Robbins","3347 W North Ave",2.0,0,4,"Coffee & Tea"
-417262,"Sharks Fish & Chicken","5048 S Cottage Grove Ave",Pass,2010-11-03,"Risk 2 (Medium)",41.80261124,-87.60656466,sharks-fish-and-chicken-chicago-18,"Shark's Fish & Chicken","447 E 63rd St",3.0,0,2,"Fast Food"
-277425,"Golden Wok Corporation","5731 N Central Ave","Pass w/ Conditions",2011-11-08,"Risk 1 (High)",41.98580965,-87.76813467,super-h-mart-niles,"Super H Mart","801 Civic Center Dr",4.5,0,245,Grocery
 176976,"Batter's Eye Suite","1060 W Addison St",Pass,2012-05-09,"Risk 2 (Medium)",41.94731749,-87.65641795,wrigley-field-chicago,"Wrigley Field","1060 W Addison St",4.5,0,704,"Stadiums & Arenas"
-414193,"La Isla Pequena","3755 W Armitage Ave",Pass,2011-02-01,"Risk 1 (High)",41.91711739,-87.72144502,la-isla-pequena-chicago,"La Isla Pequena","4107 W North Ave",3.0,0,1,"Latin American"
-409309,"West Tower Kitchen","151 E Wacker Dr",Pass,2012-05-30,"Risk 1 (High)",41.88799989,-87.62256513,hard-rock-hotel-chicago,"Hard Rock Hotel","230 N Michigan Ave",3.5,0,136,Hotels
 659523,"Alinea Restaurant","1723 N Halsted St",Fail,2011-11-30,"Risk 1 (High)",41.91348383,-87.64820624,alinea-chicago,Alinea,"1723 N Halsted St",4.5,0,809,"American (New)"
-539542,Subway,"3329 N Milwaukee Ave",Pass,2011-12-01,"Risk 1 (High)",41.94170177,-87.72789069,subway-chicago-3,Subway,"3025 N Pulaski Rd",5.0,0,2,Sandwiches
 114420,Zocalo,"358 W Ontario St","Pass w/ Conditions",2011-04-18,"Risk 1 (High)",41.89324648,-87.6378703,zocalo-restaurant-and-tequila-bar-chicago,"Zocalo Restaurant & Tequila Bar","358 W Ontario St",3.5,0,500,Mexican
-1196288,"Cosina Grill","1706-1708 W Foster Ave",Pass,2012-05-04,"Risk 1 (High)",41.97624213,-87.67242685,cosina-grill-chicago,"Cosina Grill","1706 W Foster Ave",4.0,0,95,Mexican
 1184324,"Paddy O Fegan's","204 N Halsted St",Pass,2012-05-17,"Risk 1 (High)",41.88583206,-87.6476263,paddy-o-fegans-chicago,"Paddy O'Fegan's","204 N Halsted St",3.5,0,38,Irish
 612622,Subway,"2412 N Lincoln Ave",Fail,2012-02-06,"Risk 1 (High)",41.92568535,-87.64930844,subway-chicago-104,Subway,"2412 N Lincoln Ave",4.5,0,3,Food
 58440,"Filichia Food & Imports","959 N Western Ave",Fail,2010-04-13,"Risk 1 (High)",41.89933654,-87.68678817,filichias-food-and-imports-chicago,"Filichia's Food & Imports","959 N Western Ave",3.5,1,30,Delis
-154679,"Stone Wall Grill","2273 N Lincoln Ave",Pass,2011-01-06,"Risk 1 (High)",41.923574,-87.64593223,nookies-chicago,Nookies,"1746 N Wells St",4.0,0,287,"Breakfast & Brunch"
-413373,"Aramark Corporation","101 E Erie St",Pass,2012-03-15,"Risk 1 (High)",41.89400969,-87.62536772,chicago-wolves-rosemont-3,"Chicago Wolves","Allstate Arena",4.5,0,28,"Professional Sports Teams"
-67901,"P A Hot Dog Stand","5937 W Division St",Pass,2011-01-11,"Risk 1 (High)",41.90190333,-87.77437428,johnnies-beef-elmwood-park,"Johnnie's Beef","7500 W North Ave",4.5,0,335,Sandwiches
-343213,Subway,"209 W Jackson Blvd",Pass,2011-11-29,"Risk 1 (High)",41.87800606,-87.63402203,subway-chicago-117,Subway,"211 W Adams St",3.0,0,8,Sandwiches
-229514,"Auntie Anne's Pretzels","500 W Madison St",Fail,2012-03-07,"Risk 2 (Medium)",41.88199434,-87.63975868,auntie-annes-pretzels-chicago,"Auntie Anne's Pretzels","845 N Michigan Ave",4.0,0,16,
-413694,"Dunkin Donuts / Baskin Robbins","3801 W Belmont Ave",Pass,2012-02-16,"Risk 2 (Medium)",41.93904479,-87.72235158,dunkin-donuts-baskin-robbins-chicago-15,"Dunkin' Donuts/Baskin-Robbins","3427 W Diversey Ave",4.0,0,2,Donuts
-229220,"Eurest Dining Services","227 W Monroe St",Pass,2011-07-12,"Risk 1 (High)",41.88053925,-87.63459246,eurest-dining-services-chicago-3,"Eurest Dining Services","100 N Riverside Plz",2.0,0,1,Restaurants
 401342,"Buddy Guy's Legends","700 S Wabash Ave",Pass,2010-11-19,"Risk 1 (High)",41.87305962,-87.62611159,buddy-guys-legends-chicago,"Buddy Guy's Legends","700 S Wabash Ave",4.0,0,148,"Jazz & Blues"
-598523,"Dunkin Donuts","1710 W 18th St",Pass,2011-12-15,"Risk 2 (Medium)",41.85785845,-87.66927556,baskin-robbins-and-dunkin-donuts-chicago,"Baskin Robbins & Dunkin Donuts","1651 W Roosevelt Rd",4.0,0,1,"Ice Cream & Frozen Yogurt"
-679587,Caravan,"4810 N Broadway  St",Fail,2012-03-15,"Risk 1 (High)",41.96935748,-87.65982657,caravan-chicago,Caravan,"4810 N Broadway",4.0,0,37,Persian/Iranian
 614346,"Nicola's Pizzeria","400 S Financial Pl",Pass,2011-07-19,"Risk 2 (Medium)",41.87679744,-87.63325591,nicolas-pizzeria-chicago,"Nicola's Pizzeria","400 S Financial Pl",4.0,0,25,Pizza
 598470,"Burger King","2401 W Ogden Ave",Pass,2011-11-17,"Risk 2 (Medium)",41.86464673,-87.68600251,burger-king-chicago-5,"Burger King","2401 W Ogden Ave",1.0,0,1,"Fast Food"
-277167,Adesso,"3332 N Broadway St","Pass w/ Conditions",2010-07-08,"Risk 1 (High)",41.94277375,-87.64465928,adesso-highland-park,Adesso,"600 Central Ave",1.0,0,1,"Home Decor"
-577427,"Arden Restaurant","6207 S Kedzie Ave",Fail,2011-07-12,"Risk 1 (High)",41.7805799,-87.70303419,rezas-restaurant-chicago-2,"Reza's Restaurant","432 W Ontario St",3.5,0,263,"Middle Eastern"
 521799,"San Chae Dol Sot Restaurant","3737 W Lawrence Ave","Pass w/ Conditions",2011-10-04,"Risk 1 (High)",41.96819486,-87.7222708,san-chae-dol-sot-restaurant-chicago,"San Chae Dol Sot Restaurant","3737 W Lawrence Ave",4.0,1,17,Korean
 205343,"Greek Delight","700 E Grand Ave",Pass,2012-04-24,"Risk 1 (High)",41.89224916,-87.60951805,greek-delight-chicago,"Greek Delight","700 E Grand Ave",2.5,0,8,Greek
-60545,"Mariscos El Kora","3016-3018 W 47th St",Pass,2011-03-23,"Risk 1 (High)",41.80829789,-87.69983243,mariscos-el-kora-restaurant-chicago,"Mariscos El Kora Restaurant","3018 W 47th St",3.5,0,2,Seafood
-549249,"Dominos Pizza","5016 S Pulaski Rd",Pass,2011-03-04,"Risk 2 (Medium)",41.80178684,-87.72355455,dominos-pizza-chicago-22,"Domino's Pizza","1234 S Canal St",4.0,0,17,Pizza
-251287,"Rocky Mountain Chocolate Factory","11601 W Touhy Ave",Pass,2011-07-18,"Risk 2 (Medium)",42.0085364,-87.91442844,rocky-mountain-chocolate-factory-park-ridge,"Rocky Mountain Chocolate Factory","31 S NW Hwy",5.0,0,5,Desserts
-634422,"Hooks Fish & Chicken","4024 W Roosevelt Rd",Pass,2011-08-29,"Risk 2 (Medium)",41.86626841,-87.72611133,captain-hooks-fish-and-chicken-chicago-6,"Captain Hooks Fish and Chicken","3948 W Cermak Rd",3.0,0,1,"Chicken Wings"
-634777,"Aramark Educational Services","1125 W Loyola Ave",Pass,2011-09-29,"Risk 1 (High)",42.00143764,-87.65962246,bread-basket-chicago,"Bread Basket","4725 W Belmont Ave",3.5,0,27,Sandwiches
-673302,"Leona's Pizzeria","1236 E 53rd St","Pass w/ Conditions",2012-02-03,"Risk 1 (High)",41.79958201,-87.59510894,leonas-pizzeria-chicago-3,"Leona's Pizzeria","1936 W Augusta Blvd",3.0,0,1,Pizza
-397262,"Tuscany Cafe","11601 W Touhy Ave",Pass,2012-03-14,"Risk 1 (High)",42.0085364,-87.91442844,"stefanis-tuscany-café-chicago-3","Stefani's Tuscany Café","O'Hare International Airport",3.0,0,32,Italian
-679675,"Big & Little's","860 N Orleans St",Pass,2012-03-06,"Risk 1 (High)",41.89826881,-87.63738319,big-and-littles-chicago,"BIG & little's","860 N Orleans",4.0,0,398,"Fast Food"
 284692,"Thai Classic Restaurant","3332 N Clark St","Pass w/ Conditions",2010-08-23,"Risk 1 (High)",41.94253238,-87.65293398,thai-classic-restaurant-chicago,"Thai Classic Restaurant","3332 N Clark St",4.0,0,286,Thai
 233789,Caoba,"1619 N Damen Ave",Pass,2012-05-15,"Risk 1 (High)",41.91103747,-87.67732921,caoba-chicago,Caoba,"1619 N Damen Ave",3.0,1,102,Mexican
-409472,"Arby's","100 W Randolph St",Pass,2010-12-21,"Risk 2 (Medium)",41.88458627,-87.63101045,arbys-chicago-4,"Arby's","5 N. Wells St",4.5,0,2,"Fast Food"
 361226,"Thai Aree House","3592 N Milwaukee Ave",Pass,2012-04-03,"Risk 1 (High)",41.94602898,-87.73546639,thai-aree-house-chicago,"Thai Aree House","3592 N Milwaukee Ave",4.5,0,52,Thai
-575229,"Mista Piza","134 N La Salle St",Pass,2011-10-18,"Risk 1 (High)",41.88411127,-87.63257639,great-lake-chicago,"Great Lake","1477 W Balmoral Ave",3.5,0,273,Grocery
-413698,"The Park Grill","11-35 N Michigan Ave",Pass,2010-09-20,"Risk 1 (High)",41.88238074,-87.62422863,park-grill-chicago,"Park Grill","11 N Michigan Ave",3.5,0,302,"American (New)"
-491814,Subway,"3538 E 118th St",Pass,2012-02-03,"Risk 1 (High)",41.68105388,-87.53738914,subway-whiting,Subway,"1451 Indianapolis Blvd",4.0,0,1,
 581017,"Anna Held Fountain Cafe","5557 N Sheridan Rd",Pass,2011-05-19,"Risk 2 (Medium)",41.98347291,-87.65503287,anna-held-flower-shop-chicago,"Anna Held Flower Shop","5557 N Sheridan Rd",4.5,0,23,Florists
 1214271,"Edwardo's Natural Pizza","2662 N Halsted St","Pass w/ Conditions",2012-03-02,"Risk 1 (High)",41.93080351,-87.64909406,edwardos-natural-pizza-chicago,"Edwardo's Natural Pizza","2662 N Halsted St",4.0,0,68,Pizza
 176982,"The Cub House","1060 W Addison St","Pass w/ Conditions",2012-05-09,"Risk 2 (Medium)",41.94731749,-87.65641795,wrigley-field-chicago,"Wrigley Field","1060 W Addison St",4.5,0,706,"Stadiums & Arenas"
@@ -693,75 +327,41 @@ inspection_id,name,address,results,last_inspection_date,risk,lat,long,yelp_id,ye
 491542,"Thorek Memorial Hospital","850 W Irving Park Rd",Fail,2011-02-03,"Risk 1 (High)",41.95464083,-87.65156901,thorek-memorial-hospital-chicago,"Thorek Memorial Hospital","850 W Irving Park Rd",2.0,0,18,Hospitals
 679462,"Chicago's Legal Cafe","1338 W Madison St",Pass,2012-03-09,"Risk 2 (Medium)",41.88166048,-87.66115612,chicagos-legal-cafe-chicago-3,"Chicago's Legal Cafe","1338 W Madison St",4.0,0,12,Lawyers
 343206,"Philly's Best","769 W Jackson Blvd",Fail,2012-04-11,"Risk 1 (High)",41.87784358,-87.64678183,phillys-best-chicago-5,"Philly's Best","769 W Jackson Blvd",4.0,0,84,"American (Traditional)"
-491018,"El Novillo Taqueria","7137 N Clark St",Pass,2011-01-06,"Risk 1 (High)",42.01258706,-87.67448205,el-novillo-taqueria-chicago,"El Novillo Taqueria","7137 N. Clark Street",2.0,0,5,Mexican
 120563,Jaipur,"847 W Randolph St",Pass,2011-04-14,"Risk 1 (High)",41.88426637,-87.64927147,jaipur-chicago,Jaipur,"847 W Randolph St",4.0,0,179,Indian
-414092,"John Schaller","3714 S Halsted St",Pass,2011-07-25,"Risk 1 (High)",41.82718502,-87.64617046,vito-and-nicks-pizzeria-chicago,"Vito & Nick's Pizzeria","8433 S Pulaski Rd",4.0,0,189,Pizza
 413451,"Cafe Bella","3311 W Fullerton Ave",Pass,2011-03-14,"Risk 1 (High)",41.92456429,-87.71106463,cafe-bella-chicago,"Cafe Bella","3311 W Fullerton Ave",3.5,0,134,"Latin American"
-238255,"Avalon Eat Shop","1016 E 83rd St",Pass,2012-01-03,"Risk 1 (High)",41.74415162,-87.59945492,yolk-chicago,Yolk,"1120 S Michigan Ave",3.5,0,699,"Breakfast & Brunch"
-277422,"Fitness Formula Clubs","3232 N Halsted St",Pass,2010-07-15,"Risk 2 (Medium)",41.94085534,-87.64944159,fitness-formula-clubs-chicago-8,"Fitness Formula Clubs","3228 N Halsted St",3.5,0,68,Gyms
 284929,"Rebel Bar & Grill","3462 N Clark St",Fail,2010-08-31,"Risk 1 (High)",41.94504968,-87.65495322,rebel-bar-and-grill-chicago,"Rebel Bar & Grill","3462 N Clark St",3.0,0,104,Restaurants
-606301,"J & B Gyros","733 W 79 St",Fail,2011-06-30,"Risk 2 (Medium)",41.75054985,-87.64288013,mister-js-chicago,"Mister J's","822 N State St",3.5,0,71,"American (Traditional)"
 419801,Service,"8535 W Higgins Rd",Pass,2010-10-22,"Risk 2 (Medium)",41.98678859,-87.84012417,chicago-marriott-o-hare-chicago-2,"Chicago Marriott O'Hare","8535 W Higgins Rd",3.0,0,34,Hotels
 229447,"La Luce","1393 W Lake St",Pass,2011-03-18,"Risk 1 (High)",41.88530742,-87.66233715,la-luce-chicago,"La Luce","1393 W Lake St",4.0,0,130,Italian
 154610,Subway,"1917 W Fullerton Ave",Pass,2010-11-04,"Risk 2 (Medium)",41.92493349,-87.6765583,subway-sandwich-and-salad-chicago-2,"Subway Sandwich & Salad","1917 W Fullerton Ave",2.0,0,3,Restaurants
-569715,"Wolfgang Puck","220 E Chicago Ave",Pass,2011-11-22,"Risk 1 (High)",41.89687696,-87.62193403,wolfgang-puck-catering-chicago,"Wolfgang Puck Catering","220 East Chicago Avenue",3.5,0,2,
 491728,Coalfire,"1321 W Grand Ave",Fail,2011-02-10,"Risk 1 (High)",41.89094232,-87.65985672,coalfire-pizza-chicago,"Coalfire Pizza","1321 W Grand Ave",4.0,0,406,Pizza
 509243,"La Central Bakery","3306 W 55th St",Fail,2011-07-05,"Risk 2 (Medium)",41.79358404,-87.70634492,la-central-bakery-chicago-2,"La Central Bakery","3306 W 55th St",4.0,0,1,Bakeries
 488931,"Cafe Fresco","1202 W Grand Ave",Pass,2010-12-27,"Risk 1 (High)",41.89118845,-87.6575687,cafe-fresco-chicago,"Cafe Fresco","1202 W Grand Ave",4.0,0,71,Italian
-233452,"J & J Loung & Banquet Hall","6539-6541 W 63rd St",Pass,2011-05-26,"Risk 1 (High)",41.77750758,-87.78530285,signature-lounge-at-the-96th-chicago-2,"Signature Lounge at the 96th","875 N Michigan Ave",4.0,0,909,Lounges
-659252,Surgery,"1653 W Congress Pkwy Ste",Pass,2011-11-08,"Risk 2 (Medium)",41.87503334,-87.668753,midwest-orthopaedics-at-rush-chicago,"Midwest Orthopaedics At Rush","1611 W Harrison St",5.0,0,11,Orthopedists
-543275,"Kentucky Fried Chicken","5852 S Western Ave",Pass,2011-03-18,"Risk 2 (Medium)",41.78678809,-87.68398488,kentucky-fried-chicken-chicago-9,"Kentucky Fried Chicken","4200 W 55th St",4.0,0,1,"Fast Food"
-579893,"Tnt Pizza & Beef","601 W Root St",Pass,2011-09-01,"Risk 1 (High)",41.81887826,-87.64099728,michaels-pizzeria-and-sports-pub-chicago,"Michael's Pizzeria & Sports Pub","4091 N Broadway St",4.0,0,184,Pubs
-176460,"Los Toritos Restaurant Y Taqueria","1825 W Montrose Ave",Pass,2011-02-08,"Risk 1 (High)",41.96139215,-87.67547611,frontera-grill-chicago,"Frontera Grill","445 N Clark St",4.0,0,1003,Mexican
 154230,"Sushi O Sushi","346 W Armitage Ave",Pass,2010-01-11,"Risk 1 (High)",41.91844043,-87.63825829,sushi-o-sushi-chicago,"Sushi O Sushi","346 W Armitage Ave",4.0,0,109,Japanese
 251180,"Cousin's Incredible Vitality","3038 W Irving Park Rd",Fail,2010-06-22,"Risk 1 (High)",41.9540501,-87.70472907,cousins-incredible-vitality-chicago,"Cousin's Incredible Vitality","3038 W Irving Park Rd",3.0,1,181,Vegetarian
-670978,"Mei Shung Restaurant","5511 N Broadway  St",Fail,2012-06-20,"Risk 1 (High)",41.98217442,-87.65988083,mei-shung-chicago,"Mei Shung","5511 N Broadway St",3.5,0,75,Chinese
 120613,"Cold Stone Creamery","1316 S Halsted St",Pass,2010-10-06,"Risk 2 (Medium)",41.8649599,-87.64699992,cold-stone-creamery-chicago-5,"Cold Stone Creamery","1316 S Halsted St",3.5,0,31,"Ice Cream & Frozen Yogurt"
 215268,"Pegasus On The Fly","5700 S Cicero Ave",Pass,2012-03-16,"Risk 1 (High)",41.78932932,-87.74164564,pegasus-on-the-fly-chicago,"Pegasus On the Fly","5700 S Cicero Ave",3.0,0,27,Sandwiches
 614497,"Standing Room Only Chicago","610 S Dearborn St",Pass,2011-09-23,"Risk 2 (Medium)",41.87432705,-87.62935648,standing-room-only-chicago,"Standing Room Only","610 S Dearborn St",3.5,0,88,Burgers
-413790,"Amato's Pizzeria","1737 N Harlem Ave",Pass,2012-06-05,"Risk 1 (High)",41.91182049,-87.80571899,amatos-pizzeria-chicago-3,"Amato's Pizzeria","953 W Willow St",4.0,0,58,Pizza
-176595,"Cafe 28","1800-1806 W Irving Park Rd","Pass w/ Conditions",2010-03-11,"Risk 1 (High)",41.95432384,-87.67432084,cafe-28-chicago,"Cafe 28","1800 W Irving Park Rd",4.0,0,595,Mexican
 112377,"Savoy Bar & Grill","800 S Michigan Ave",Pass,2010-12-14,"Risk 1 (High)",41.87181181,-87.6243155,savoy-bar-and-grill-chicago,"Savoy Bar & Grill","800 S Michigan Ave",2.0,1,6,"American (Traditional)"
-612503,,"237 W North Ave","Pass w/ Conditions",2011-10-11,"Risk 2 (Medium)",41.91103768,-87.63621881,the-spice-house-chicago,"The Spice House","1512 N Wells St",5.0,0,243,"Herbs and Spices"
-114509,"Ryba's Fudge Shops","600 E Grand Ave",Pass,2012-04-30,"Risk 2 (Medium)",41.89209414,-87.61156988,rybas-fudge-shops-chicago-2,"Ryba's Fudge Shops","700 E Grand Ave",4.0,0,4,Bakeries
 579303,"La Encantada Restaurant","3437 W North Ave",Pass,2012-01-25,"Risk 1 (High)",41.90992353,-87.71344146,la-encantada-chicago,"La Encantada","3437 W North Ave",4.5,0,95,Mexican
-114261,"Tokyo Lunch Box","222 W Merchandise Mart Plz",Pass,2012-02-21,"Risk 1 (High)",41.88807428,-87.6349552,tokyo-lunch-box-and-catering-4-chicago,"Tokyo Lunch Box & Catering #4","222 Merchandise Mart Plaza",4.0,0,9,"Sushi Bars"
-58360,"Ey Cafe","1044 N Mozart St",Pass,2011-10-06,"Risk 1 (High)",41.90051788,-87.69821707,"knockbox-café-chicago-2","KnockBox Café","1001 N California Ave",4.5,0,98,"Coffee & Tea"
-197297,"Health Care Service Corp","300 E Randolph St",Pass,2010-02-25,"Risk 1 (High)",41.88462378,-87.62047604,sheraton-chicago-hotel-and-towers-chicago,"Sheraton Chicago Hotel & Towers","301 East North Water Street",3.0,0,145,Hotels
 579258,"Morgan Street Cafe","111 S Morgan St",Pass,2012-04-05,"Risk 1 (High)",41.88004797,-87.65183157,morgan-street-cafe-chicago,"Morgan Street Cafe","111 S Morgan St",4.0,0,77,"Coffee & Tea"
-565381,"Jim Ching Restaurant","735 W Randolph St",Pass,2011-06-06,"Risk 1 (High)",41.88429999,-87.64712646,jim-chings-restaurant-chicago,"Jim Ching's Restaurant","733 W Randolph St",3.0,0,54,Chinese
-250413,"Dunkin Donuts / Baskin Robbins","6408 W Irving Park Rd",Fail,2012-06-15,"Risk 2 (Medium)",41.95302136,-87.78695613,dunkin-donuts-and-baskin-robbins-chicago-3,"Dunkin Donuts & Baskin Robbins","4867 N Milwaukee Ave",2.5,0,7,"Ice Cream & Frozen Yogurt"
 1215139,"Sully's House","1501 N Dayton St",Pass,2012-05-24,"Risk 1 (High)",41.90861973,-87.64929457,sullys-house-chicago,"Sully's House","1501 N Dayton St",3.5,0,80,"Sports Bars"
 277124,"Smokin' Woody's","4160 N Lincoln Ave",Pass,2012-05-21,"Risk 1 (High)",41.95755793,-87.68130813,smokin-woodys-bbq-chicago,"Smokin' Woody's BBQ","4160 N Lincoln Ave",3.5,0,222,Barbeque
-363318,"Narys Grill & Pizza","4230 S Archer Ave","Pass w/ Conditions",2011-08-15,"Risk 1 (High)",41.81659663,-87.70039261,narys-grill-and-pizza-chicago,"Nary's Grill & Pizza","4230 S Archer Avenue",4.5,0,3,Pizza
 215212,"Cipriani's Pizza","5840 W 63rd St",Pass,2012-02-08,"Risk 1 (High)",41.7780377,-87.76816656,ciprianis-pizza-chicago,"Cipriani's Pizza","5840 W 63rd St",4.5,0,11,Pizza
 160330,"Empire Restaurant","49 W Division St",Fail,2011-02-08,"Risk 1 (High)",41.90380744,-87.63049359,empire-restaurant-chicago,"Empire Restaurant","49 W Division St",3.0,0,38,Chinese
 134268,"George's Hot Dog","1876 N Damen Ave",Pass,2011-10-26,"Risk 2 (Medium)",41.91595533,-87.6777278,georges-hot-dogs-chicago-2,"George's Hot Dogs","1876 N Damen Ave",4.0,0,94,"Fast Food"
-176853,"Pop's Place Fried Rice","5531 W Chicago Ave",Pass,2012-02-07,"Risk 1 (High)",41.89474837,-87.76489253,chicagos-home-of-chicken-and-waffles-ii-oak-park,"Chicago's Home of Chicken & Waffles II","543 Madison St",4.0,0,117,"Soul Food"
-70440,"Gold Coast Dogs","11601 W Touhy Ave","Pass w/ Conditions",2011-12-08,"Risk 1 (High)",42.0085364,-87.91442844,gold-coast-dogs-chicago-6,"Gold Coast Dogs","O'Hare International Airport, International Terminal 5",3.0,0,15,"Fast Food"
-277990,"Johnny Rockets","11601 W Touhy Ave",Pass,2012-04-11,"Risk 1 (High)",42.0085364,-87.91442844,johnny-rockets-skokie,"Johnny Rockets","34 Old Orch Shoppng Ctr",3.0,0,17,Burgers
 154443,"Taco & Burritos Los 3 Pancho's","1155 W Diversey Pkwy",Pass,2011-09-26,"Risk 1 (High)",41.93245781,-87.65805863,los-3-panchos-taco-and-burrito-place-chicago,"Los 3 Panchos Taco & Burrito Place","1155 W Diversey Pkwy",4.0,0,86,Mexican
 98542,"John's Place","2132 W Roscoe St",Pass,2011-06-23,"Risk 1 (High)",41.94328079,-87.68215298,johns-place-chicago-2,"John's Place","2132 W Roscoe St",3.5,0,128,"American (Traditional)"
 88566,"Pita Kabab","5701 N California Ave",Pass,2012-04-20,"Risk 1 (High)",41.98497207,-87.6990721,pita-kabab-chicago-4,"Pita Kabab","5701 N California Ave",4.0,0,48,Mediterranean
 565259,"Taqueria La Lagartija","132 S Ashland Ave",Pass,2012-02-02,"Risk 1 (High)",41.87914037,-87.6669,la-lagartija-taqueria-chicago-2,"La Lagartija Taqueria","132 S Ashland Ave",4.0,0,71,"Latin American"
-98374,"Carniceria La Zacatecana","3024 N California Ave",Pass,2012-05-08,"Risk 1 (High)",41.93660967,-87.69789301,carniceria-la-zacatecana-chicago,"Carniceria La Zacatecana","3024 N. California",4.5,0,17,Mexican
-277227,"New Naan On Devon & Grill","2241 W Devon Ave",Fail,2012-01-10,"Risk 1 (High)",41.99767672,-87.68662389,naan-on-devon-and-grill-chicago,"Naan on Devon & Grill","2305 W Devon Ave",3.5,0,10,Indian
 250576,Starbucks,"5400 W Devon Ave",Pass,2011-07-15,"Risk 2 (Medium)",41.99743743,-87.7638592,starbucks-chicago-163,Starbucks,"5400 W Devon Ave",3.5,0,9,"Coffee & Tea"
 417297,"Boston Market","1424 E 53rd St","Pass w/ Conditions",2012-03-07,"Risk 1 (High)",41.7996338,-87.59068096,boston-market-chicago-3,"Boston Market","1424 E 53rd St",3.5,0,7,"American (Traditional)"
-565322,"Juice Bar","131 N Clinton St",Pass,2012-04-23,"Risk 2 (Medium)",41.88418751,-87.64111967,loop-juice-chicago,"Loop Juice","Chicago French Market",5.0,0,21,"Juice Bars & Smoothies"
-465387,"Zachary's For Cocktails","5368 N Milwaukee Ave",Fail,2010-11-22,"Risk 3 (Low)",41.97836393,-87.7703772,las-palmas-chicago,"Las Palmas","1835 W North Ave",4.0,0,311,Mexican
 509283,"All Style Buffet","4305 S Pulaski Rd",Fail,2011-08-16,"Risk 1 (High)",41.8149936,-87.7237077,all-style-buffet-chicago-2,"All Style Buffet","4305 S Pulaski Rd",3.5,0,11,Buffets
-585859,Subway,"3510 S Ashland Ave",Pass,2011-07-18,"Risk 1 (High)",41.83012507,-87.66570582,subway-chicago-164,Subway,"1601 W 35th Street",5.0,0,1,Sandwiches
 659388,"Awash Ethiopian Restaurant","6322 N Broadway St",Pass,2011-11-18,"Risk 1 (High)",41.99708065,-87.66061649,awash-chicago,Awash,"6322 N Broadway St",4.0,0,12,Ethiopian
 160238,"Ciao Pizza","349 W Oak St",Fail,2010-01-27,"Risk 1 (High)",41.90038948,-87.63772434,ciao-pizza-chicago,"Ciao Pizza","349 W Oak St",3.0,0,16,Pizza
-679325,"Original Pancake House","2020 N Lincoln Park West",Pass,2012-03-29,"Risk 1 (High)",41.9193571,-87.63653408,the-original-pancake-house-chicago-3,"The Original Pancake House","2020 N Lincoln Park W",3.5,0,66,Diners
-229487,"Eppys Cafe & Deli","162 N Franklin St",Pass,2011-01-20,"Risk 1 (High)",41.88487225,-87.63553722,taza-chicago,Taza,"176 N Franklin St",4.5,0,339,"Middle Eastern"
 250368,"Smith & Wollensky","318 N State St",Pass,2012-05-31,"Risk 1 (High)",41.88804059,-87.62817066,smith-and-wollensky-chicago,"Smith & Wollensky","318 N State St",3.5,0,270,Steakhouses
-491142,"Captain Fish-fish & Chicken","754-756 W Garfield Blvd",Fail,2011-01-12,"Risk 2 (Medium)",41.79441531,-87.64489156,captain-fish-and-chicken-chicago,"Captain Fish and Chicken","754 W Garfield Blvd",3.0,0,1,Seafood
 229408,"Rosie's Cafe & Catering","111 N Canal St",Pass,2011-04-28,"Risk 1 (High)",41.88356531,-87.63963728,rosies-cafe-and-catering-chicago,"Rosie's Cafe & Catering","111 N Canal St",3.5,0,5,Caterers
 114336,"Frankie Z' Clark Bar","435 N Clark St",Pass,2010-02-16,"Risk 1 (High)",41.89020779,-87.63094084,frankie-zs-clark-bar-chicago,"Frankie Z's Clark Bar","435 N Clark St",3.5,1,31,"Dive Bars"
 276949,"Edible Arrangements","3722 N Southport Ave",Pass,2010-06-28,"Risk 2 (Medium)",41.94959988,-87.66423354,edible-arrangements-chicago-10,"Edible Arrangements","3722 N Southport Ave",4.0,0,5,
-397207,"Chili's Too","11601 W Touhy Ave",Pass,2012-05-08,"Risk 1 (High)",42.0085364,-87.91442844,chilis-too-chicago-3,"Chili's too","O'Hare International Airport Terminal 3",3.0,0,3,"American (Traditional)"
 134323,"Fiesta Uno","2715 N Milwaukee Ave",Pass,2010-03-02,"Risk 1 (High)",41.93060513,-87.70968937,fiesta-uno-chicago,"Fiesta Uno","2715 N Milwaukee Ave",2.5,1,9,"American (New)"
 383220,"Oodles Of Noodles","2540 N Clark St","Pass w/ Conditions",2010-08-23,"Risk 1 (High)",41.92882225,-87.64256221,oodles-of-noodles-chicago,"Oodles of Noodles","2540 N Clark St",3.0,0,173,"Asian Fusion"
 120601,"Hawkeye's Bar & Grill","1458 W Taylor St",Pass,2012-02-01,"Risk 1 (High)",41.8694111,-87.66401783,hawkeyes-bar-and-grill-chicago,"Hawkeye's Bar & Grill","1458 W Taylor St",3.0,0,125,"Sports Bars"
@@ -769,37 +369,21 @@ inspection_id,name,address,results,last_inspection_date,risk,lat,long,yelp_id,ye
 521245,"McDonald's","4546 N Kedzie Ave",Pass,2011-02-18,"Risk 2 (Medium)",41.96438753,-87.70849248,mcdonalds-chicago-47,"McDonald's","4546 N Kedzie Ave",2.5,0,7,Burgers
 531436,"Dunkin Donuts","1411 E 53rd St",Pass,2011-06-30,"Risk 2 (Medium)",41.79940701,-87.59128321,dunkin-donuts-chicago-37,"Dunkin' Donuts","1411 E 53rd St",3.0,0,14,Donuts
 409341,"Cafe At The Cultural Center","78 E Washington St",Pass,2011-08-24,"Risk 1 (High)",41.88333428,-87.62505014,chicago-cultural-center-chicago,"Chicago Cultural Center","78 E Washington St",5.0,0,176,"Performing Arts"
-112312,"Ginas Cuisine Ii","424 S Wabash Ave",Pass,2010-02-11,"Risk 1 (High)",41.87635127,-87.6261892,rose-angelis-chicago,"Rose Angelis","1314 W Wrightwood Ave",4.0,0,376,Italian
 414186,Sinbad,"921 W Belmont Ave",Fail,2010-10-05,"Risk 1 (High)",41.93982742,-87.65238792,sinbads-chicago-3,"Sinbad's","921 W Belmont Ave",3.0,0,48,Mediterranean
 197326,"La Bamba Chicago","122 W Madison St",Pass,2011-01-06,"Risk 1 (High)",41.88208044,-87.6315688,la-bamba-chicago,"La Bamba","122 W Madison St",3.0,0,54,Mexican
-250807,"Tacos Place's 1","3748 W Division St",Pass,2010-09-28,"Risk 1 (High)",41.90282627,-87.72098094,cemitas-puebla-chicago-2,"Cemitas Puebla","3619 W North Ave",4.0,0,536,Mexican
 612230,"Mr Beef","666 N Orleans St",Fail,2011-05-19,"Risk 1 (High)",41.89427722,-87.63725825,mr-beef-on-orleans-chicago,"Mr Beef On Orleans","666 N Orleans St",3.5,0,180,Sandwiches
 160312,"Chataigne Restaurant","361 W Chestnut St","Pass w/ Conditions",2010-03-25,"Risk 1 (High)",41.89804116,-87.63792798,the-cooking-and-hospitality-institute-chicago,"The Cooking and Hospitality Institute","361 W Chestnut St",3.0,0,7,"Cooking Schools"
-284680,"Seattle Sutton's Healthy Eating","5244 N Sheridan Rd",Pass,2010-08-23,"Risk 3 (Low)",41.9777322,-87.65517227,seattle-sutton-healthy-eating-chicago-5,"Seattle Sutton Healthy Eating","5244 N Sheridan Road",4.0,0,1,"Specialty Food"
 1271211,"Armand's Pizzeria","6694 N Northwest Hwy",Pass,2012-06-06,"Risk 1 (High)",42.00258143,-87.81607036,armands-pizzeria-chicago-2,"Armand's Pizzeria","6694 N Northwest Hwy",3.5,0,22,Pizza
-251094,"Natalino's","1523-1527 W Chicago Ave",Fail,2011-07-29,"Risk 1 (High)",41.89598602,-87.665814,natalinos-italian-ristorante-chicago,"Natalino's Italian Ristorante","1523 W Chicago Ave",3.5,1,81,Italian
-383244,,"1319 W Wilson Ave",Fail,2011-02-15,"Risk 2 (Medium)",41.96521193,-87.66326006,monitor-formal-wear-chicago-2,"Monitor Formal Wear","1422 W Wilson Ave",5.0,0,15,"Men's Clothing"
 596429,Uru-swati,"2629 W Devon Ave",Fail,2011-09-02,"Risk 1 (High)",41.99751644,-87.69592211,uru-swati-chicago,Uru-Swati,"2629 W Devon Ave",4.0,0,197,Indian
 74466,"Pearl's Place","3901 S Michigan Ave",Pass,2012-03-02,"Risk 1 (High)",41.82364932,-87.62302379,pearls-place-chicago,"Pearl's Place","3901 S Michigan Ave",4.0,0,47,"Breakfast & Brunch"
-205254,"The Westin Hotel","909 N Michigan Ave",Pass,2011-12-12,"Risk 1 (High)",41.89953903,-87.623989,the-westin-michigan-avenue-chicago-chicago,"The Westin Michigan Avenue Chicago","909 North Michigan Avenue",3.5,0,107,Hotels
 114332,"Karyn's Cooked","738 N Wells St",Pass,2010-02-11,"Risk 1 (High)",41.89592017,-87.63433036,karyns-cooked-chicago,"Karyn's Cooked","738 N Wells St",3.5,0,458,Vegetarian
-233826,"Super China Buffet","2650 N Narragansett Ave","Pass w/ Conditions",2012-01-09,"Risk 1 (High)",41.92884722,-87.78578102,brickyard-super-china-buffet-chicago,"Brickyard Super China Buffet","2650 N. Narragansett Avenue",2.5,0,7,Chinese
-598272,"Pete The Greeks Rest","1215 S Ashland Ave",Pass,2011-06-10,"Risk 1 (High)",41.86642817,-87.66623648,la-casa-del-pueblo-chicago,"La Casa Del Pueblo","1810 S Blue Island Ave",4.5,0,49,Grocery
 567257,"Ronny's Original Steak House","100 W Randolph St",Pass,2011-03-02,"Risk 1 (High)",41.88458627,-87.63101045,ronnys-original-chicago-steak-house-chicago,"Ronny's Original Chicago Steak House","100 W Randolph St",3.5,0,69,Steakhouses
 580476,"Papa Ray's Pizza & Wings","3208 N Pulaski Rd",Pass,2011-11-14,"Risk 1 (High)",41.93937235,-87.72734067,papa-rays-pizza-and-wings-chicago,"Papa Rays Pizza & Wings","3208 N Pulaski Rd",3.5,0,16,Pizza
-1196322,Masala,"1002 W Argyle St",Pass,2012-05-16,"Risk 1 (High)",41.97342006,-87.65508564,masala-indian-and-thai-cuisine-chicago-2,"Masala Indian & Thai Cuisine","1002 W. Argyle St",2.5,0,56,Indian
 120736,"Pizza Nova","1842 W 18th St",Pass,2011-01-26,"Risk 1 (High)",41.85781115,-87.67282194,pizza-nova-chicago-5,"Pizza Nova","1842 W 18th St",3.5,0,9,Pizza
 98396,"Guey Lon Restaurant","3968 N Elston Ave",Pass,2011-04-01,"Risk 1 (High)",41.95333251,-87.71879172,guey-lon-chicago,"Guey Lon","3968 N Elston Ave",4.0,0,22,Chinese
-409321,"The Art Institute Of Chicago","112 S Michigan Ave","Pass w/ Conditions",2011-10-12,"Risk 2 (Medium)",41.88048754,-87.62450336,art-institute-of-chicago-chicago-2,"Art Institute of Chicago","111 S Michigan Ave",4.5,0,5,Museums
-420041,"Fat Boys Steak & Lemonade","11857 S Michigan Ave","Pass w/ Conditions",2010-10-26,"Risk 2 (Medium)",41.67816957,-87.62036637,panos-big-boy-calumet-city,"Panos Big Boy","732 Burnham Ave",5.0,0,13,"Fast Food"
 250494,"Burwood Tap","724 W Wrightwood Ave",Pass,2010-06-02,"Risk 2 (Medium)",41.92920519,-87.64752249,burwood-tap-chicago,"Burwood Tap","724 W Wrightwood Ave",3.5,0,67,Bars
-88404,"Big Buns And Pita Corporation","6649 N Clark St",Pass,2011-10-03,"Risk 1 (High)",42.00314757,-87.67220279,leonas-restaurant-chicago-7,"Leona's Restaurant","6935 N Sheridan Rd",3.5,0,142,Italian
 401241,"Caffe Baci","231 S La Salle St","Pass w/ Conditions",2011-11-30,"Risk 1 (High)",41.87854293,-87.63212058,caffe-baci-chicago-5,"Caffe Baci","231 S La Salle St",2.5,0,3,Restaurants
-177149,,"2964 N Lincoln Ave",Fail,2010-04-19,"Risk 1 (High)",41.93569284,-87.663311,bottle-and-bottega-chicago,"Bottle & Bottega","2900 N Lincoln Ave",5.0,0,41,"Art Schools"
 659897,"McDonald's","2350 N Central Ave",Pass,2012-01-06,"Risk 2 (Medium)",41.92366106,-87.76612552,mcdonalds-chicago-151,"McDonald's","2350 N Central Ave",4.0,0,1,"Fast Food"
-250491,"Taqueria El Potosi","3710 N Elston Ave",Pass,2012-02-15,"Risk 1 (High)",41.9486761,-87.7120596,el-potosi-chicago,"El Potosi","3710 N Elston",3.5,0,34,Mexican
-233671,"Nick's Gyros","2011 W 63rd St",Pass,2011-01-26,"Risk 1 (High)",41.77919934,-87.67441843,nicks-gyros-chicago,"Nick's Gyros","2013 W 63rd St",5.0,0,2,Greek
-154507,"Zen Sushi & Noodle","714 W Diversey Pkwy","Pass w/ Conditions",2011-10-06,"Risk 1 (High)",41.93286388,-87.64724608,toro-sushi-chicago,"Toro Sushi","2546 N Clark St",4.5,0,658,"Sushi Bars"
 383240,"Martyrs'","3855 N Lincoln Ave",Pass,2010-09-29,"Risk 1 (High)",41.95203002,-87.67710953,martyrs-chicago,"Martyrs'","3855 N Lincoln Ave",4.0,0,113,"Music Venues"
 491624,"Los Alamos","2157 S Damen Ave","Pass w/ Conditions",2012-01-24,"Risk 1 (High)",41.85228855,-87.67569748,taqueria-los-alamos-chicago,"Taqueria Los Alamos","2157 S Damen Ave",3.5,0,16,Mexican
 567593,"Hannah's Bretzel","131 S Dearborn St",Pass,2011-09-06,"Risk 1 (High)",41.87988544,-87.62921159,hannahs-bretzel-chicago-5,"Hannah's Bretzel","131 S Dearborn St",4.0,0,110,Sandwiches
@@ -808,39 +392,24 @@ inspection_id,name,address,results,last_inspection_date,risk,lat,long,yelp_id,ye
 250385,"Blue 13","416 W Ontario St",Pass,2011-07-28,"Risk 1 (High)",41.89322898,-87.63930513,blue-13-chicago,"Blue 13","416 W Ontario St",4.0,1,228,"American (New)"
 160403,"@spot cafe","901 N Larrabee St","Pass w/ Conditions",2011-10-19,"Risk 2 (Medium)",41.89875669,-87.64287887,spot-cafe-chicago,"@spot cafe","901 N Larrabee St",3.0,1,57,"Coffee & Tea"
 335389,"Wings N Fins","1751 E 75th St",Pass,2010-11-05,"Risk 2 (Medium)",41.75870609,-87.58143892,wings-n-fins-chicago,"Wings N Fins","1751 E 75th St",4.5,0,3,"Fish & Chips"
-567453,"Brown's Chicken","151 N Michigan Ave",Pass,2012-04-25,"Risk 1 (High)",41.88454011,-87.62430852,browns-chicken-and-pasta-chicago,"Brown's Chicken & Pasta","3036 S Halsted St",1.0,1,1,"American (Traditional)"
 428390,"Chi Pie Pizza","3413 N Clark St",Pass,2010-10-29,"Risk 1 (High)",41.94396697,-87.65373707,chi-pie-pizza-chicago,"Chi Pie Pizza","3413 N Clark St",3.0,1,20,Pizza
 612551,"Kan Zaman Restaurant","617 N Wells St",Fail,2011-11-07,"Risk 1 (High)",41.89300677,-87.63395925,kan-zaman-chicago-2,"Kan Zaman","617 N Wells St",3.5,0,163,"Middle Eastern"
-234178,"Pancho Iii Corporation","2200-2202 N California Ave",Pass,2012-03-19,"Risk 1 (High)",41.92172351,-87.69746848,pancho-iii-corporation-chicago,"Pancho III Corporation","2202 N California Avenue",1.0,0,1,Restaurants
 112315,"South Loop Club","701 S State St",Pass,2011-05-18,"Risk 1 (High)",41.87305558,-87.62741781,south-loop-club-chicago,"South Loop Club","701 S State St",2.5,0,106,"Dive Bars"
 472235,"Wing Wah Lau Restaurant","4340 S Archer Ave",Pass,2011-01-24,"Risk 1 (High)",41.81455427,-87.7037213,wing-wah-lau-restaurant-chicago,"Wing Wah Lau Restaurant","4340 S Archer Ave",4.5,0,6,Chinese
-284403,"Dino's Pizza","7004-7006 W Higgins Ave","Pass w/ Conditions",2011-04-08,"Risk 1 (High)",41.98026875,-87.80254235,dinos-pizza-niles,"Dino's Pizza","N Harlem Ave",1.0,0,1,Pizza
 419762,"Picante Taqueria","2016 W Division St",Pass,2011-05-18,"Risk 1 (High)",41.90328773,-87.67798988,picante-taqueria-restaurant-chicago,"Picante Taqueria Restaurant","2016 W Division St",3.5,0,195,Mexican
 565493,"Giordano's","815 W Van Buren St",Pass,2011-09-09,"Risk 1 (High)",41.87655166,-87.6478697,giordanos-famous-stuffed-pizza-chicago-3,"Giordano's Famous Stuffed Pizza","815 W Van Buren St",3.5,0,66,Pizza
 525292,"Homemade Pizza","5303 N Clark St","Pass w/ Conditions",2012-05-21,"Risk 2 (Medium)",41.97812918,-87.66819987,homemade-pizza-company-chicago-7,"HomeMade Pizza Company","5303 N Clark St",3.5,0,24,Italian
-537223,"Hacienda Restaurant","9706 S Commercial Ave",Pass,2011-02-24,"Risk 1 (High)",41.71885614,-87.55117358,la-hacienda-vieja-restaurant-aurora,"La Hacienda Vieja Restaurant","907 S Union St",4.0,0,1,Mexican
-579706,"Dunkin Donuts","5201 W Fullerton Ave",Pass,2011-03-11,"Risk 2 (Medium)",41.92399632,-87.75620397,dunkin-donuts-chicago-42,"Dunkin Donuts","2337 N Cicero Ave",3.0,0,2,Restaurants
-543316,"Pizza Hut","5900 S Western Ave",Pass,2011-04-12,"Risk 2 (Medium)",41.78643717,-87.68397525,pizza-hut-chicago-10,"Pizza Hut","5900 S Western Avenue",3.0,0,2,Restaurants
 154253,"Chicago Whirly","1880 W Fullerton Ave",Pass,2011-09-27,"Risk 1 (High)",41.92516323,-87.67567996,whirlyball-chicago,WhirlyBall,"1880 W Fullerton Ave",4.0,0,154,"Venues & Event Spaces"
 569491,"Big Bowl","60 E Ohio St",Pass,2012-03-29,"Risk 1 (High)",41.89262531,-87.6257263,big-bowl-chicago,"Big Bowl","60 E Ohio St",3.5,0,264,Chinese
-176929,"Leona's Pizzeria","3215 N Sheffield Ave",Fail,2012-05-24,"Risk 1 (High)",41.94040369,-87.65397516,leonas-pizzeria-chicago-3,"Leona's Pizzeria","1936 W Augusta Blvd",3.0,0,1,Pizza
-233206,"La Fuente","3640 W 59th St",Pass,2012-02-03,"Risk 1 (High)",41.78617397,-87.71487272,las-fuentes-restaurant-chicago,"Las Fuentes Restaurant","2558 N Halsted St",3.5,0,35,Mexican
-491714,"American Airlines/flagship Lounge","11601 W Touhy Ave",Pass,2012-04-12,"Risk 2 (Medium)",42.0085364,-87.91442844,american-airlines-flagship-lounge-chicago,"American Airlines Flagship Lounge","Chicago O'Hare International Airport",2.5,0,5,"Travel Services"
 413264,Subway,"630 S Clark St","Pass w/ Conditions",2011-08-24,"Risk 2 (Medium)",41.87392528,-87.6308034,subway-chicago-125,Subway,"630 S Clark St",3.0,0,5,Sandwiches
 413873,"California Pizza Kitchen","52 E Ohio St","Pass w/ Conditions",2011-12-28,"Risk 1 (High)",41.89261958,-87.6260733,california-pizza-kitchen-chicago-2,"California Pizza Kitchen","52 E Ohio St",3.5,0,88,Pizza
 586319,"Marriott Chicago Medical District/uic","625 S Ashland Ave",Pass,2012-01-23,"Risk 1 (High)",41.87343457,-87.66643368,chicago-marriott-at-medical-district-uic-chicago-2,"Chicago Marriott at Medical District/UIC","625 S Ashland Ave",3.0,0,14,Hotels
-579438,Subway,"1505 E 87th St",Pass,2011-02-28,"Risk 1 (High)",41.73677276,-87.58780321,subway-chicago-121,Subway,"2102 E 71st St",3.0,0,2,Sandwiches
 664260,"Sher A Punjab","2510 W Devon Ave",Fail,2011-12-06,"Risk 1 (High)",41.99778803,-87.69280879,sher-a-punjab-indian-restaurant-chicago,"Sher-A-Punjab Indian Restaurant","2510 W Devon Ave",3.5,0,73,Indian
-277534,"La Cocina Mexican Grill","11 W Jackson Blvd",Pass,2010-07-19,"Risk 1 (High)",41.87806771,-87.62810346,la-cocina-mexican-grill-chicago-2,"La Cocina Mexican Grill","178 N Franklin St",3.5,0,4,Mexican
 154662,"Allende Restaurant","2221 N Lincoln Ave","Pass w/ Conditions",2012-03-19,"Risk 1 (High)",41.92247791,-87.64439905,allende-restaurant-chicago-2,"Allende Restaurant","2221 N Lincoln Ave",4.0,0,45,Mexican
-419975,"Porretta's Restaurant","3718 N Central Ave",Pass,2011-04-27,"Risk 1 (High)",41.94827472,-87.7669845,trattoria-porretta-chicago,"Trattoria Porretta","3656 N Central Ave",4.0,0,63,Pizza
 419476,"Estrella Negra","2346 W Fullerton Ave",Pass,2011-03-03,"Risk 1 (High)",41.92501589,-87.68706965,estrella-negra-chicago,"Estrella Negra","2346 W Fullerton Ave",4.0,0,211,"Latin American"
 569458,"The Spirit Of Chicago","600 E Grand Ave",Pass,2011-07-18,"Risk 1 (High)",41.89209414,-87.61156988,spirit-of-chicago-chicago,"Spirit of Chicago","600 E Grand Ave",3.5,0,58,"Boat Charters"
-565626,"La Taberna On Halsted","1301 S Halsted St",Pass,2011-11-28,"Risk 1 (High)",41.8653607,-87.64671741,la-taberna-tapas-on-halsted-chicago,"La Taberna Tapas on Halsted","1301 S Halsted",3.5,0,96,Spanish
 58449,"Baza Sports Club","2500 W Chicago Ave",Pass,2012-04-11,"Risk 1 (High)",41.89582528,-87.68937132,baza-chicago-2,Baza,"2500 W Chicago Ave",4.0,0,29,Nightlife
-44262,"New Peking Restaurant","3132 N Broadway St",Pass,2010-06-09,"Risk 1 (High)",41.93864794,-87.64449909,new-peking-restaurant-chicago,"New Peking Restaurant","3132 N Broadway",2.5,1,55,Chinese
 401222,"Bionda To Go","400 S Financial Pl",Pass,2010-09-22,"Risk 1 (High)",41.87679744,-87.63325591,bionda-to-go-chicago,"Bionda To Go","400 S Financial Pl",3.5,1,13,Italian
-177038,"Sluggers Grill","3540 N Clark St",Fail,2011-08-25,"Risk 1 (High)",41.94657696,-87.65618754,deuces-and-the-diamond-club-chicago,"Deuces and the Diamond Club","3505 N Clark St",3.5,0,72,"Dance Clubs"
 420222,"Shanghai Terrace","108 E Superior St",Pass,2011-03-14,"Risk 1 (High)",41.89583964,-87.62498814,shanghai-terrace-at-the-peninsula-chicago-chicago,"Shanghai Terrace At the Peninsula Chicago","108 E Superior St",4.0,0,73,Chinese
 160244,"Chipotle Mexican Grill","1166 N State St",Pass,2011-02-08,"Risk 1 (High)",41.90383566,-87.62882611,chipotle-mexican-grill-chicago-3,"Chipotle Mexican Grill","1166 N State St",3.5,0,31,Mexican
 114294,"Bin 36","339 N Dearborn St",Fail,2011-03-08,"Risk 1 (High)",41.88843575,-87.62941162,bin-36-chicago,"Bin 36","339 N Dearborn St",3.5,0,436,"Wine Bars"

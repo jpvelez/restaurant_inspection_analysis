@@ -98,28 +98,29 @@ from the City of Chicago's data portal.
   * Here is the t-test result:
     ```r
     Welch Two Sample t-test
-    
+
     data:  rest.pass$yelp_rating and rest.fail$yelp_rating 
-    t = 0.928, df = 251.174, p-value = 0.3543
+    t = 2.1766, df = 120.181, p-value = 0.03147
     alternative hypothesis: true difference in means is not equal to 0 
     95 percent confidence interval:
-    -0.06726126  0.18712229 
+    0.01720489 0.36364112 
     sample estimates:
     mean of x mean of y 
-    3.636364  3.576433
+    3.621673  3.431250 
+
     ```
 
 ## Findings 
 
 This analysis found two things:
 
-1. There is a small difference (of .059) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.636) 
-and those that failed (3.576).
+1. There is a modest difference (of .19) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.62) 
+and those that failed (3.43).
 
-2. This difference in Yelp ratings is not statistically significant. Why? If we assume that there is actually no 
-difference in the mean Yelp ratings of the two restaurant groups, there is a 35% probability (p = 0.354) that the observed 
-difference of ~.06 is due to random chance. That is not a reliable estimate of the hypothesized effect if we adopt a 95% 
-confidence interval.
+2. This difference in Yelp ratings is statistically significant. If we assume that there is actually no 
+difference in the mean Yelp ratings of the two restaurant groups, there is a 3% probability (p = 0.031) that the observed 
+difference of .19 is due to random chance. That satisfies our confidence level of 95% - it is really unlikely that the observed
+result is due to chance.
 
 ## Justification
 
@@ -179,14 +180,16 @@ showed up in both datasets.
 
 2. The second reason is due to the challenge of getting Yelp data. Yelp's api has a rate limit of 100 requests per day, so it would have
 taken approximately two months to get all the data necessary. Instead of waiting, I chose to analyze a representative sample of this
-dataset.
+dataset. 
 
 To make sure my sample was in fact representative, I randomized the list of inspected restaurants I used to query the Yelp api. That
 way, every Yelp api call would return a random sample of the total population of restaurants that appeared both in Yelp and in the
 inspections dataset. The more api calls I made, the larger the sample size would be, but it would still be random with every call.
 
-I used python's random.shuffle function to randomize the list. As far as I could glean from StackOverflow posts, this function
+I used python's random.shuffle function to randomize the restaurant list. As far as I could glean from StackOverflow posts, this function
 provides 'good-enough' randomness for lists with only a few thousand items.
+
+I made api calls for the first **900 of 6342** restaurants in the randomized list.
 
 3. The final reason is that matching restaurants in the inspection dataset to restaurants on Yelp proved challenging, so I ended up
 getting only a subset of restaurants that showed up in both datasets - in other words, a sample of a sample. 
@@ -195,9 +198,11 @@ To understand why, I will elaborate on the method I used to match restaurants: I
 and addresses from the inspection dataset. Each of these searches returned a list of 10 restaurants that Yelp thought were relevant 
 to the search query. So now I had a set of up to 10 Yelp restaurants associated with a restaurant from the inspection dataset, and I had to find find 
 the matches. Some of the time, none of Yelp restaurants matched the inspection restaurant. 45% of the time, however, the Yelp list did
-contain a matching restaurant, and it was always the first item in the list, according to a hit rate test I ran on 20 queries. To find
-find matching restaurants, then, I decided to compare the address of the inspection restaurant with that of the first restaurant 
-in the returned Yelp list.
+contain a matching restaurant, and it was always the first item in the list, according to a hit rate test I ran on 20 queries. 
+
+To find find matching restaurants, then, I decided to compare the address of the inspection restaurant with that of the first restaurant 
+in the returned Yelp list. I found 415 matches out of 900 api calls, so **n = 415** for the analysis. That's 4.4% of the unique restaurants
+in the inspection dataset, a large enough sample to answer the question.
 
 I was concerned that my method might be disproportionately finding matches for certain types of restaurants, which could bias the analysis. 
 So I spot-checked the restaurant names I used in the hit rate test. Initially it looked like fast food restaurants were being matched
@@ -208,9 +213,6 @@ I was also concerned about false matches, so inspected every one of the 415 matc
 clearly false or ambiguous matches. This number was small enough that I did not remove these false/ambiguous restaurants from the
 analysis dataset.
 
-Lastly, around ~20 of the 450 matched restaurants were lost when trying to export them for analysis. The problem had to do with
-unicode encoding: basically, python would choke on accents and other non-ascii character when asked to dump to matched restaurant data
-to sql. It worked for csv, but then TK TK TK
 
 **Why did you need to use a t-test to answer the question?**
 
@@ -219,17 +221,3 @@ canvass inspections. Why? It is always possible that an observed effect - in thi
 random chance. So to be confident in our findings, we need need to quantify how likely it is that the observed difference between 
 means of ~0.6 is due to chance alone. In other words, we need to use a statistical hypothesis test, and a t-test is a type of hypothesis
 test that is appropriate for comparing means.
-
-
-
-
-Why should the reader believe you actually got this finding? 
-(Because I can argue that I'm looking at the right thing, and that my steps were sound for looking at that thing)
-What are the important choices, and why are they the right ones?
-
-- the choice of last inspection
-- the way i tried to get data from yelp - random samples, no obvious bias in the hit rate
-- the acceptable losses due to unicode encoding, other stuff..
-- the use of a t-test to see if small diff was statistically significant
-
-
