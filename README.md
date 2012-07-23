@@ -1,6 +1,9 @@
+## The Question
+
 This analysis tries to answer a simple question: do Chicago restaurants that the City's health inspection 
 have a lower rating on Yelp? 
 
+## Steps
 Here are the steps taken to answer that question:
 
 1. Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
@@ -9,7 +12,7 @@ from the City of Chicago's data portal.
   * `food_inspections.csv`: csv of food inspection data, as of 7/9/2012.
 
 
-2. Cleaned the food inspection data, and loaded it into sqlite database.
+1. Cleaned the food inspection data, and loaded it into sqlite database.
 
   * `food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
   `sqlite3 food_insection.db`
@@ -33,8 +36,8 @@ from the City of Chicago's data portal.
 5. Normalized restaurant names and addresses.
 
   * `recent_restaurant_inspections_normalized.google-refine.tar.gz` - Google Refine project that: 
-    - normalizes restaurant names by titlecasing them, clustering and renaming chain restaurants, removing 'Inc.' and other corporates from the end of names, and generally rewriting weird names, and 
-    b. normalizing addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
+    - a. normalizes restaurant names by titlecasing them, clustering and renaming chain restaurants, removing 'Inc.' and other corporates from the end of names, and generally rewriting weird names, and 
+    - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
   * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: "--db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv"
 
@@ -92,3 +95,5 @@ from the City of Chicago's data portal.
     sample estimates:
     mean of x mean of y 
     3.636364  3.576433
+
+## Findings (and why they're valid)
