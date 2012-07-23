@@ -6,13 +6,13 @@ have a lower rating on Yelp?
 ## Steps Taken 
 Here are the steps taken to answer that question:
 
-1.   Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
+1)   Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
 from the City of Chicago's data portal.
 
   * `food_inspections.csv`: csv of food inspection data, as of 7/9/2012.
 
 
-2.   Cleaned the food inspection data, and loaded it into sqlite database.
+2)   Cleaned the food inspection data, and loaded it into sqlite database.
 
   * `food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
   `sqlite3 food_insection.db`
@@ -24,16 +24,16 @@ from the City of Chicago's data portal.
     - loads cleaned food inspections into new table inspections_clean
 
 
-3.   Filtered out restaurants inspections from inspection data, selecting only canvass (i.e. routine) inspections for restaurants that were not out of business.
+3)   Filtered out restaurants inspections from inspection data, selecting only canvass (i.e. routine) inspections for restaurants that were not out of business.
 
   * `filter_db.py`: creates new table inspection_clean_restaurants from table inspections_clean using SQL query.
 
 
-4.   Found most recent canvass restaurant inspections.
+4)   Found most recent canvass restaurant inspections.
 
   * `filter_db.py`: creates new table inspections_clean_restaurants_recent from table inspections_clean_restaurants using SQL query.
 
-5.    Normalized restaurant names and addresses.
+5)    Normalized restaurant names and addresses.
 
   * `recent_restaurant_inspections_normalized.google-refine.tar.gz` - Google Refine project that: 
     - a. normalizes restaurant names by titlecasing them, clustering and renaming chain restaurants, removing 'Inc.' and other corporates from the end of names, and generally rewriting weird names, and 
@@ -44,12 +44,12 @@ from the City of Chicago's data portal.
     csvsql --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
     ```
 
-6.   Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
+6)   Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
 
   * `randomize_restaurants.py`: randomizes inspections in table inspections_clean_restaurants_recent_normalized using Python's random.shuffle()
     - creates new table inspections_clean_restaurants_recent_normalized_randomized and inserts randomized inspections into it.
 
-7.   Fetched Yelp restaurant data using randomized restaurant inspections.
+7)   Fetched Yelp restaurant data using randomized restaurant inspections.
 
   * `get_yelp_restaurants.py`: for each restaurant in table inspections_clean_restaurants_recent_normalized_randomized, calls Yelp search api using that restaurant's (normalized) name and address. 
     - NOTES: Due to Yelp api rate limits, script only gets data for 100 inspection restaurants at a time, and the offset has to be set manually. 
@@ -65,7 +65,7 @@ from the City of Chicago's data portal.
   cat yelp_restaurants.json >> cat yelp_restaurants_0-<NUM>.json && mv yelp_restaurants_0-<NUM>.json yelp_restaurants_0-<NUM + 100>.json
   ```
 
-8.   Joined yelp and inspection data.
+8)   Joined yelp and inspection data.
 
   * `join_yelp_inspection_data.py`: Only inspection ids, names, and addresses were added to json output. 
 
@@ -75,7 +75,7 @@ from the City of Chicago's data portal.
 
   * `restaurants_yelp_inspection_nomatch.csv`: the script then saves the merged data to this csv file (sqlite kept chocking on the data.) 
 
-9.   Matched inspection restaurants to yelp restaurants.
+9)   Matched inspection restaurants to yelp restaurants.
 
   * Loaded restaurants_yelp_inspection_nomatch.csv into db using this command: 
   ```sh
@@ -91,7 +91,7 @@ from the City of Chicago's data portal.
 
   * `failed_matches.txt`: Short list of spurious matches.
 
-10.   Analyzed data in R.
+10)   Analyzed data in R.
 
   * `analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .06) is statistically significant.
 
