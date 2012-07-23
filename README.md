@@ -93,7 +93,7 @@ from the City of Chicago's data portal.
 
 10)   Analyzed data in R.
 
-  * `analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .06) is statistically significant.
+  * `analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .19) is statistically significant.
 
   * Here is the t-test result:
     ```r
@@ -107,18 +107,17 @@ from the City of Chicago's data portal.
     sample estimates:
     mean of x mean of y 
     3.621673  3.431250 
-
     ```
 
 ## Findings 
 
 This analysis found two things:
 
-1. There is a modest difference (of .19) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.62) 
+1. There is a **modest difference of .19** in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.62) 
 and those that failed (3.43).
 
 2. This difference in Yelp ratings is statistically significant. If we assume that there is actually no 
-difference in the mean Yelp ratings of the two restaurant groups, there is a 3% probability (p = 0.031) that the observed 
+difference in the mean Yelp ratings of the two restaurant groups, there is a 3% probability (**p = 0.031**) that the observed 
 difference of .19 is due to random chance. That satisfies our confidence level of 95% - it is really unlikely that the observed
 result is due to chance.
 
@@ -127,7 +126,7 @@ result is due to chance.
 To reach these findings, I analyzed a random sample of Chicago restaurants, looking at their most recent canvass inspections
 and current Yelp ratings. I analyzed the data with a t-test.
 
-I will now explain why the data I chose to answer my question is appropriate, and why I am confident that I did the data gathering 
+I will now explain why I chose the appropriate data to answer my question, and why I am confident that I did the data gathering 
 and analysis correctly.
 
 **Why look at canvass inspections?**
@@ -172,13 +171,13 @@ also appeared in the recent inspections dataset, it seemed appropriate to includ
 
 **Why use a random sample of Chicago restaurants?**
 
-1. The first reason I chose to use a sample of Chicago restaurants is because there is no definitive dataset of Chicago restaurants 
+1) The first reason I chose to use a sample of Chicago restaurants is because there is no definitive dataset of Chicago restaurants 
 that includes both their health inspection history and Yelp rating. These two variables were available in different datasets, each
 of which had a different number of unique restaurants - 6342 in the inspection dataset, ~5700 on Yelp. Therefore, any analysis
 performed on this data would necessarily be working with sample of the total restaurant population - those unique restaurants that
 showed up in both datasets.
 
-2. The second reason is due to the challenge of getting Yelp data. Yelp's api has a rate limit of 100 requests per day, so it would have
+2) The second reason is due to the challenge of getting Yelp data. Yelp's api has a rate limit of 100 requests per day, so it would have
 taken approximately two months to get all the data necessary. Instead of waiting, I chose to analyze a representative sample of this
 dataset. 
 
@@ -191,7 +190,7 @@ provides 'good-enough' randomness for lists with only a few thousand items.
 
 I made api calls for the first **900 of 6342** restaurants in the randomized list.
 
-3. The final reason is that matching restaurants in the inspection dataset to restaurants on Yelp proved challenging, so I ended up
+3) The final reason is that matching restaurants in the inspection dataset to restaurants on Yelp proved challenging, so I ended up
 getting only a subset of restaurants that showed up in both datasets - in other words, a sample of a sample. 
 
 To understand why, I will elaborate on the method I used to match restaurants: I searched for restaurants on Yelp using restaurant names 
@@ -217,7 +216,9 @@ analysis dataset.
 **Why did you need to use a t-test to answer the question?**
 
 To answer the question, it was not enough to find the mean Yelp ratings for restaurants that passed and failed their most recent 
-canvass inspections. Why? It is always possible that an observed effect - in this case the difference between means - is due to 
+canvass inspections. 
+
+Why? Because it is always possible that an observed effect - in this case the difference between means - is due to 
 random chance. So to be confident in our findings, we need need to quantify how likely it is that the observed difference between 
-means of ~0.6 is due to chance alone. In other words, we need to use a statistical hypothesis test, and a t-test is a type of hypothesis
+means of 0.19 is due to chance alone. In other words, we need to use a statistical hypothesis test, and a t-test is a type of hypothesis
 test that is appropriate for comparing means.
