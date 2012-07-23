@@ -1,9 +1,9 @@
-## The Question
+## Question
 
 This analysis tries to answer a simple question: do Chicago restaurants that the City's health inspection 
 have a lower rating on Yelp? 
 
-## Steps
+## Steps Taken 
 Here are the steps taken to answer that question:
 
 1. Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
@@ -39,7 +39,8 @@ from the City of Chicago's data portal.
     - a. normalizes restaurant names by titlecasing them, clustering and renaming chain restaurants, removing 'Inc.' and other corporates from the end of names, and generally rewriting weird names, and 
     - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
-  * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: "--db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv"
+  * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
+    --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
 
 6. Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
 
@@ -96,4 +97,4 @@ from the City of Chicago's data portal.
     mean of x mean of y 
     3.636364  3.576433
 
-## Findings (and why they're valid)
+## Findings 
