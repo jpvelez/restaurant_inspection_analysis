@@ -40,7 +40,7 @@ from the City of Chicago's data portal.
     - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
   * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
-    ```bash
+    ```sh
     csvsql --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
     ```
 
@@ -61,7 +61,7 @@ from the City of Chicago's data portal.
   * `yelp_restaurants.json`: this is where get_yelp_restaurants.py saves Yelp json response + associated inspection values. Always going to have only 100 responses.
 
   * `yelp_restaurants_0-<NUM>`: this is every Yelp response gathered so far. Created out of yelp_restaurants.json using the following command: 
-  ```bash
+  ```sh
   cat yelp_restaurants.json >> cat yelp_restaurants_0-<NUM>.json && mv yelp_restaurants_0-<NUM>.json yelp_restaurants_0-<NUM + 100>.json
   ```
 
@@ -78,7 +78,7 @@ from the City of Chicago's data portal.
 9. Matched inspection restaurants to yelp restaurants.
 
   * Loaded restaurants_yelp_inspection_nomatch.csv into db using this command: 
-  ```bash
+  ```sh
   csvsql --db sqlite:///food_inspections.db --table restaurants_yelp_inspection_nomatch  --insert restaurants_yelp_inspection_nomatch.csv
   ```
 
