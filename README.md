@@ -40,8 +40,8 @@ from the City of Chicago's data portal.
     - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
   * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
-    ```r
-    --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
+    ```bash
+    csvsql --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
     ```
 
 6. Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
@@ -60,7 +60,10 @@ from the City of Chicago's data portal.
 
   * `yelp_restaurants.json`: this is where get_yelp_restaurants.py saves Yelp json response + associated inspection values. Always going to have only 100 responses.
 
-  * `yelp_restaurants_0-<NUM>`: this is every Yelp response gathered so far. Created out of yelp_restaurants.json using the following command: "cat yelp_restaurants.json >> cat yelp_restaurants_0-<NUM>.json && mv yelp_restaurants_0-<NUM>.json yelp_restaurants_0-<NUM + 100>.json"
+  * `yelp_restaurants_0-<NUM>`: this is every Yelp response gathered so far. Created out of yelp_restaurants.json using the following command: 
+  ```bash
+  cat yelp_restaurants.json >> cat yelp_restaurants_0-<NUM>.json && mv yelp_restaurants_0-<NUM>.json yelp_restaurants_0-<NUM + 100>.json
+  ```
 
 8. Joined yelp and inspection data.
 
@@ -74,9 +77,15 @@ from the City of Chicago's data portal.
 
 9. Matched inspection restaurants to yelp restaurants.
 
-  * Loaded restaurants_yelp_inspection_nomatch.csv into db using this command: "--db sqlite:///food_inspections.db --table restaurants_yelp_inspection_nomatch  --insert restaurants_yelp_inspection_nomatch.csv"
+  * Loaded restaurants_yelp_inspection_nomatch.csv into db using this command: 
+  ```bash
+  csvsql --db sqlite:///food_inspections.db --table restaurants_yelp_inspection_nomatch  --insert restaurants_yelp_inspection_nomatch.csv
+  ```
 
-  * On the sqlite3 command line, matched inspection restaurants to yelp restaurants using the following SQL query: "SELECT * FROM restaurants_yelp_inspection_nomatch WHERE address=yelp_address;"
+  * On the sqlite3 command line, matched inspection restaurants to yelp restaurants using the following SQL query: 
+  ```sql
+  SELECT * FROM restaurants_yelp_inspection_nomatch WHERE address=yelp_address;
+  ```
 
   * `restaurants_yelp_inspection_match.csv` - Output table created by above query to this csv file, so data could be read into R
 
