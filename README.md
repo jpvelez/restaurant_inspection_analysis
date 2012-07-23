@@ -131,48 +131,96 @@ and analysis correctly.
 
 **Why look at canvass inspections?**
 
-    In order not to analyze biased inspection outcomes, I wanted to exclude every inspection that wasn't a routine. 
-    The city performs a number of different inspections. For example, sanitarians  will sometimes fail a restaurant during a 
-    routine (or canvass) inspection, only to pass them a few days later after they've made necessary corrections. 
-    Including these inspections would inflate the inspection pass rate of restaurants in the dataset.
+In order not to analyze biased inspection outcomes, I wanted to exclude every inspection that wasn't a routine. 
+The city performs a number of different inspections. For example, sanitarians  will sometimes fail a restaurant during a 
+routine (or canvass) inspection, only to pass them a few days later after they've made necessary corrections. 
+Including these inspections would inflate the inspection pass rate of restaurants in the dataset.
 
-    To select only canvass inspections for restaurants, I wrote a pair of SQL queries. I then checked the returned inspections 
-    to make sure they were all of the 'canvass' inspection type and restaurant facility type. Some inspections types were no doubt miscoded 
-    during data entry, but these errors were probably random, so we can be confident they didn't bias the dataset.
+To select only canvass inspections for restaurants, I wrote a pair of SQL queries. I then checked the returned inspections 
+to make sure they were all of the 'canvass' inspection type and restaurant facility type. Some inspections types were no doubt miscoded 
+during data entry, but these errors were probably random, so we can be confident they didn't bias the dataset.
 
 **Why look at recent inspections?**
 
-    Restaurants are supposed to be inspected at least once a year. Though we know over a third of the restaurants in the dataset 
-    weren't inspected in over a year, many of them were inspected several times. Because I was unable to get historical Yelp data,
-    I needed a single inspection outcome per restaurant in order to create the two comparison groups - pass and fail. 
+Restaurants are supposed to be inspected at least once a year. Though we know over a third of the restaurants in the dataset 
+weren't inspected in over a year, many of them were inspected several times. Because I was unable to get historical Yelp data,
+I needed a single inspection outcome per restaurant in order to create the two comparison groups - pass and fail. 
 
-    Given that the Yelp data is current as of 7/9/2012, and that the inspections all took place within the past 2-3 years, it seemed 
-    acceptable to select the most recent inspection for each restaurant, as these inpsections are more likely to have occured during 
-    the same timeframe that Yelp users wrote the reviews reflected in each restaurant's star rating.
+Given that the Yelp data is current as of 7/9/2012, and that the inspections all took place within the past 2-3 years, it seemed 
+acceptable to select the most recent inspection for each restaurant, as these inpsections are more likely to have occured during 
+the same timeframe that Yelp users wrote the reviews reflected in each restaurant's star rating.
 
-    I am confident that I was able to extract recent inspections because I wrote an SQL query using a MAX(inspection_date) clause and a 
-    GROUP BY (license_no) clause, which returned "largest" i.e. most recent inspection date for each license number, which 
-    serves as the unique id of reach restaurant. 
-    
-    I am confident that the license numbers serve as unique ids because I removed
-    a small number of records were the restaurant name and license_no didn't weren't consistent across inspections in create_db.py.
-    Removing these problem records didn't bias the data because there were only a dozen or so, and they didn't appear to follow a pattern.
+I am confident that I was able to extract recent inspections because I wrote an SQL query using a MAX(inspection_date) clause and a 
+GROUP BY (license_no) clause, which returned "largest" i.e. most recent inspection date for each license number, which 
+serves as the unique id of reach restaurant. 
+
+I am confident that the license numbers serve as unique ids because I removed
+a small number of records were the restaurant name and license_no didn't weren't consistent across inspections in create_db.py.
+Removing these problem records didn't bias the data because there were only a dozen or so, and they didn't appear to follow a pattern.
+
 
 **Why exclude restaurants that food inspectors found to be out of business?**
 
-    I chose to exclude restaurants that had inspection type 'Out of Business' because these restaurants didn't have the 
-    pass/fail values needed to run the analysis. It's possible that restaurants that shut down fail inspections more often, and 
-    excluding them would thus bias the results. However, by looking at the most recent inspections that resulted in a pass or fail, I was 
-    able to include some of these restaurants
+I chose to exclude restaurants that had inspection type 'Out of Business' because these restaurants didn't have the 
+pass/fail values needed to run the analysis. It's possible that restaurants that shut down fail inspections more often, and 
+excluding them would thus bias the results. However, by looking at the most recent inspections that resulted in a pass or fail, I was 
+able to include some of these restaurants
 
-    I did not exclude restaurants that Yelp said were out of business, though. Those restaurants still had Yelp ratings, so if they
-    also appeared in the recent inspections dataset, it seemed appropriate to include them in the analysis.
+I did not exclude restaurants that Yelp said were out of business, though. Those restaurants still had Yelp ratings, so if they
+also appeared in the recent inspections dataset, it seemed appropriate to include them in the analysis.
 
-**If you could only get back ratings for half the restaurants, how do you know you didn't only get ratings for certain kinds of restaurants?**
+**Why use a random sample of Chicago restaurants?**
 
-**Why a random sample of Chicago restaurants?**
+1. The first reason I chose to use a sample of Chicago restaurants is because there is no definitive dataset of Chicago restaurants 
+that includes both their health inspection history and Yelp rating. These two variables were available in different datasets, each
+of which had a different number of unique restaurants - 6342 in the inspection dataset, ~5700 on Yelp. Therefore, any analysis
+performed on this data would necessarily be working with sample of the total restaurant population - those unique restaurants that
+showed up in both datasets.
 
-These is no canonical dataset of Chicago restaurants that includes both health inspection history and Yelp rating.
+2. The second reason is due to the challenge of getting Yelp data. Yelp's api has a rate limit of 100 requests per day, so it would have
+taken approximately two months to get all the data necessary. Instead of waiting, I chose to analyze a representative sample of this
+dataset.
+
+To make sure my sample was in fact representative, I randomized the list of inspected restaurants I used to query the Yelp api. That
+way, every Yelp api call would return a random sample of the total population of restaurants that appeared both in Yelp and in the
+inspections dataset. The more api calls I made, the larger the sample size would be, but it would still be random with every call.
+
+I used python's random.shuffle function to randomize the list. As far as I could glean from StackOverflow posts, this function
+provides 'good-enough' randomness for lists with only a few thousand items.
+
+3. The final reason is that matching restaurants in the inspection dataset to restaurants on Yelp proved challenging, so I ended up
+getting only a subset of restaurants that showed up in both datasets - in other words, a sample of a sample. 
+
+To understand why, I will elaborate on the method I used to match restaurants: I searched for restaurants on Yelp using restaurant names 
+and addresses from the inspection dataset. Each of these searches returned a list of 10 restaurants that Yelp thought were relevant 
+to the search query. So now I had a set of up to 10 Yelp restaurants associated with a restaurant from the inspection dataset, and I had to find find 
+the matches. Some of the time, none of Yelp restaurants matched the inspection restaurant. 45% of the time, however, the Yelp list did
+contain a matching restaurant, and it was always the first item in the list, according to a hit rate test I ran on 20 queries. To find
+find matching restaurants, then, I decided to compare the address of the inspection restaurant with that of the first restaurant 
+in the returned Yelp list.
+
+I was concerned that my method might be disproportionately finding matches for certain types of restaurants, which could bias the analysis. 
+So I spot-checked the restaurant names I used in the hit rate test. Initially it looked like fast food restaurants were being matched
+at lower rates than the rest, but this initial pattern did not hold up to closer inspection, suggesting that my method was finding
+positive matches in a fairly random fashion.
+
+I was also concerned about false matches, so inspected every one of the 415 matches I found. Only 7 out of 415 matches, or 1.6%, were
+clearly false or ambiguous matches. This number was small enough that I did not remove these false/ambiguous restaurants from the
+analysis dataset.
+
+Lastly, around ~20 of the 450 matched restaurants were lost when trying to export them for analysis. The problem had to do with
+unicode encoding: basically, python would choke on accents and other non-ascii character when asked to dump to matched restaurant data
+to sql. It worked for csv, but then TK TK TK
+
+**Why did you need to use a t-test to answer the question?**
+
+To answer the question, it was not enough to find the mean Yelp ratings for restaurants that passed and failed their most recent 
+canvass inspections. Why? It is always possible that an observed effect - in this case the difference between means - is due to 
+random chance. So to be confident in our findings, we need need to quantify how likely it is that the observed difference between 
+means of ~0.6 is due to chance alone. In other words, we need to use a statistical hypothesis test, and a t-test is a type of hypothesis
+test that is appropriate for comparing means.
+
+
 
 
 Why should the reader believe you actually got this finding? 

@@ -110,7 +110,7 @@ for row in yelp_restaurant_responses:
 # 
 # Save merged yelp + inspection data to csv
 
-output_file = open('restaurants_yelp_inspection_nomatch.csv', 'w+') 
+output_file = open('data.csv', 'w+') 
 fieldnames = ('inspection_id', 'name', 'address', 'results', 'last_inspection_date', 'risk', 'lat', 'long', 'yelp_id', 'yelp_name', 'yelp_address', 'yelp_rating', 'yelp_is_closed', 'yelp_review_count', 'yelp_category') 
 
 writer = csv.DictWriter(output_file, fieldnames)
