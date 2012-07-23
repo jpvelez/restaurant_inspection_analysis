@@ -40,7 +40,9 @@ from the City of Chicago's data portal.
     - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
   * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
+    ```r
     --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
+    ```
 
 6. Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
 
