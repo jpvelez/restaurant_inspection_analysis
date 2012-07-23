@@ -1,7 +1,7 @@
 ## Question
 
-This analysis tries to answer a simple question: do Chicago restaurants that the City's health inspection 
-have a lower rating on Yelp? 
+This analysis tries to answer a simple question: do Chicago restaurants that fail city health inspections
+have lower ratings on Yelp? 
 
 ## Steps Taken 
 Here are the steps taken to answer that question:
@@ -113,12 +113,75 @@ from the City of Chicago's data portal.
 
 This analysis found two things:
 
-1. There is a small difference (of .059) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.636) and those that failed (3.576).
+1. There is a small difference (of .059) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.636) 
+and those that failed (3.576).
 
-2. This difference in Yelp ratings is not statistically significant. Why? If we assume that there is actually no difference in the mean Yelp ratings of the two restaurant groups, there is a 35% probability (p = TK) that the observed difference of ~.06 is due to random chance. That is not a reliable estimate of the hypothesized effect if we adopt a 95% confidence interval.
+2. This difference in Yelp ratings is not statistically significant. Why? If we assume that there is actually no 
+difference in the mean Yelp ratings of the two restaurant groups, there is a 35% probability (p = 0.354) that the observed 
+difference of ~.06 is due to random chance. That is not a reliable estimate of the hypothesized effect if we adopt a 95% 
+confidence interval.
+
+## Justification
+
+To reach these findings, I analyzed a random sample of Chicago restaurants, looking at their most recent canvass inspections
+and current Yelp ratings. I analyzed the data with a t-test.
+
+I will now explain why the data I chose to answer my question is appropriate, and why I am confident that I did the data gathering 
+and analysis correctly.
+
+**Why look at canvass inspections?**
+
+    In order not to analyze biased inspection outcomes, I wanted to exclude every inspection that wasn't a routine. 
+    The city performs a number of different inspections. For example, sanitarians  will sometimes fail a restaurant during a 
+    routine (or canvass) inspection, only to pass them a few days later after they've made necessary corrections. 
+    Including these inspections would inflate the inspection pass rate of restaurants in the dataset.
+
+    To select only canvass inspections for restaurants, I wrote a pair of SQL queries. I then checked the returned inspections 
+    to make sure they were all of the 'canvass' inspection type and restaurant facility type. Some inspections types were no doubt miscoded 
+    during data entry, but these errors were probably random, so we can be confident they didn't bias the dataset.
+
+**Why look at recent inspections?**
+
+    Restaurants are supposed to be inspected at least once a year. Though we know over a third of the restaurants in the dataset 
+    weren't inspected in over a year, many of them were inspected several times. Because I was unable to get historical Yelp data,
+    I needed a single inspection outcome per restaurant in order to create the two comparison groups - pass and fail. 
+
+    Given that the Yelp data is current as of 7/9/2012, and that the inspections all took place within the past 2-3 years, it seemed 
+    acceptable to select the most recent inspection for each restaurant, as these inpsections are more likely to have occured during 
+    the same timeframe that Yelp users wrote the reviews reflected in each restaurant's star rating.
+
+    I am confident that I was able to extract recent inspections because I wrote an SQL query using a MAX(inspection_date) clause and a 
+    GROUP BY (license_no) clause, which returned "largest" i.e. most recent inspection date for each license number, which 
+    serves as the unique id of reach restaurant. 
+    
+    I am confident that the license numbers serve as unique ids because I removed
+    a small number of records were the restaurant name and license_no didn't weren't consistent across inspections in create_db.py.
+    Removing these problem records didn't bias the data because there were only a dozen or so, and they didn't appear to follow a pattern.
+
+**Why exclude restaurants that food inspectors found to be out of business?**
+
+    I chose to exclude restaurants that had inspection type 'Out of Business' because these restaurants didn't have the 
+    pass/fail values needed to run the analysis. It's possible that restaurants that shut down fail inspections more often, and 
+    excluding them would thus bias the results. However, by looking at the most recent inspections that resulted in a pass or fail, I was 
+    able to include some of these restaurants
+
+    I did not exclude restaurants that Yelp said were out of business, though. Those restaurants still had Yelp ratings, so if they
+    also appeared in the recent inspections dataset, it seemed appropriate to include them in the analysis.
+
+**If you could only get back ratings for half the restaurants, how do you know you didn't only get ratings for certain kinds of restaurants?**
+
+**Why a random sample of Chicago restaurants?**
+
+These is no canonical dataset of Chicago restaurants that includes both health inspection history and Yelp rating.
 
 
 Why should the reader believe you actually got this finding? 
 (Because I can argue that I'm looking at the right thing, and that my steps were sound for looking at that thing)
 What are the important choices, and why are they the right ones?
+
+- the choice of last inspection
+- the way i tried to get data from yelp - random samples, no obvious bias in the hit rate
+- the acceptable losses due to unicode encoding, other stuff..
+- the use of a t-test to see if small diff was statistically significant
+
 
