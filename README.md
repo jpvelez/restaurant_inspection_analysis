@@ -12,7 +12,7 @@ from the City of Chicago's data portal.
   * `food_inspections.csv`: csv of food inspection data, as of 7/9/2012.
 
 
-1. Cleaned the food inspection data, and loaded it into sqlite database.
+2.   Cleaned the food inspection data, and loaded it into sqlite database.
 
   * `food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
   `sqlite3 food_insection.db`
@@ -87,16 +87,16 @@ from the City of Chicago's data portal.
   SELECT * FROM restaurants_yelp_inspection_nomatch WHERE address=yelp_address;
   ```
 
-  * `restaurants_yelp_inspection_match.csv` - Output table created by above query to this csv file, so data could be read into R
+  * `restaurants_yelp_inspection_match.csv`: Output table created by above query to this csv file, so data could be read into R
 
-  * `failed_matches.txt` - Short list of spurious matches.
+  * `failed_matches.txt`: Short list of spurious matches.
 
 9. Analyzed data in R.
 
   * `analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .06) is statistically significant.
 
   * Here is the t-test result:
-
+    ```r
     Welch Two Sample t-test
     
     data:  rest.pass$yelp_rating and rest.fail$yelp_rating 
@@ -107,5 +107,6 @@ from the City of Chicago's data portal.
     sample estimates:
     mean of x mean of y 
     3.636364  3.576433
+    ```
 
 ## Findings 
