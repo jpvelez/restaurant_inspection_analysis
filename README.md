@@ -14,10 +14,11 @@ from the City of Chicago's data portal.
   * `food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
   `sqlite3 food_insection.db`
 
-* `create_db.py`: loads food_inspection.csv into new inspection_raw table. 
+  * `create_db.py`: loads food_inspection.csv into new inspection_raw table. 
 
-- for inspections in inspection_raw, converts inspection datetimes into date objects, removes inspections where business license id seems to refer to different establishments ('problem licenses') , and chooses a single facility_type for businesses with multiple facility types.  
-- loads cleaned food inspections into new table inspections_clean
+    - for inspections in inspection_raw, converts inspection datetimes into date objects, removes inspections where business license id seems to refer to different establishments ('problem licenses') , and chooses a single facility_type for businesses with multiple facility types.  
+
+    - loads cleaned food inspections into new table inspections_clean
 
 
 3. Filtered out restaurants inspections from inspection data, selecting only canvass (i.e. routine) inspections for restaurants that were not out of business.
