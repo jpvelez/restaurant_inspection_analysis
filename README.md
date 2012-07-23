@@ -110,3 +110,14 @@ from the City of Chicago's data portal.
     ```
 
 ## Findings 
+
+This analysis found two things:
+1. There is a small difference (of .059) in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.636) vs. restaurants that failed (3.576)
+2. If we assume that there is no difference in the mean Yelp ratings of restaurants that pass and those that fail, there is a 35% probability (p = TK) that the observed difference of ~.06 is due to random chance. 
+In other words, this difference in Yelp restaurants between restaurants that pass and fail inspection is not statistically significant.
+
+
+Why should the reader believe you actually got this finding? 
+(Because I can argue that I'm looking at the right thing, and that my steps were sound for looking at that thing)
+What are the important choices, and why are they the right ones?
+
