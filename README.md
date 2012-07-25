@@ -200,7 +200,7 @@ the matches. Some of the time, none of Yelp restaurants matched the inspection r
 contain a matching restaurant, and it was always the first item in the list, according to a hit rate test I ran on 20 queries. 
 
 To find find matching restaurants, then, I decided to compare the address of the inspection restaurant with that of the first restaurant 
-in the returned Yelp list. I found 415 matches out of 900 api calls, so **n = 415** for the analysis. That's 4.4% of the unique restaurants
+in the returned Yelp list. I found 415 matches out of 900 api calls. That's 4.4% of the unique restaurants
 in the inspection dataset, a large enough sample to answer the question.
 
 I was concerned that my method might be disproportionately finding matches for certain types of restaurants, which could bias the analysis. 
@@ -211,6 +211,23 @@ positive matches in a fairly random fashion.
 I was also concerned about false matches, so inspected every one of the 415 matches I found. Only 7 out of 415 matches, or 1.6%, were
 clearly false or ambiguous matches. This number was small enough that I did not remove these false/ambiguous restaurants from the
 analysis dataset.
+
+Lastly, 72 out of the 415 matching records had inspection outcome 'Pass w/ Conditions.' I filtered these records out so 
+as to only analyze mean ratings for restaurants that passed and failed inspections, so the **n = 343** for the analysis.
+
+**Did you account for selection effects?**
+
+It's possible that certain types of restaurants are less likely to be on Yelp, and thus less likely to end up in the
+analysis sample, which could bias the results.
+
+For example, it could be that 'low quality' restaurants are more likely to pass inspection, but also less likely to be on
+Yelp. This would mean fewer low yelp ratings in the analysis dataset, which would inflate the mean rating for failed
+restaurants. If this is going on, then the observed difference is mean is a conservative estimate of the real difference
+in means, which is acceptable.
+
+The hit rate for passing restaurants in the randomized yelp querying list is 45.7% (263 / 576). It's 48.5% for failing
+restaurants. That's not very significant difference. Also, the hit rate for passing restaurants is lower than it is for failing
+restaurants, which is the opposite of the selection bias story above. So I'm not too worried.
 
 
 **Why did you need to use a t-test to answer the question?**
