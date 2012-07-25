@@ -8,15 +8,15 @@ have lower ratings on Yelp?
 1) Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
 from the City of Chicago's data portal.
 
-  * `food_inspections.csv`: csv of food inspection data, as of 7/9/2012.
+  * `data/food_inspections.csv`: csv of food inspection data, as of 7/9/2012.
 
 
 2) Cleaned the food inspection data, and loaded it into sqlite database.
 
-  * `food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
+  * `data/food_inspection.db`: sqlite3 db used for analysis. Created with the following cmd: 
   `sqlite3 food_insection.db`
 
-  * `create_db.py`: loads food_inspection.csv into new inspection_raw table. 
+  * `munging/create_db.py`: loads food_inspection.csv into new inspection_raw table. 
 
     - for inspections in inspection_raw, converts inspection datetimes into date objects, removes inspections where business license id seems to refer to different establishments ('problem licenses') , and chooses a single facility_type for businesses with multiple facility types.  
 
@@ -25,58 +25,58 @@ from the City of Chicago's data portal.
 
 3) Filtered out restaurants inspections from inspection data, selecting only canvass (i.e. routine) inspections for restaurants that were not out of business.
 
-  * `filter_db.py`: creates new table inspection_clean_restaurants from table inspections_clean using SQL query.
+  * `munging/filter_db.py`: creates new table inspection_clean_restaurants from table inspections_clean using SQL query.
 
 
 4)   Found most recent canvass restaurant inspections.
 
-  * `filter_db.py`: creates new table inspections_clean_restaurants_recent from table inspections_clean_restaurants using SQL query.
+  * `munging/filter_db.py`: creates new table inspections_clean_restaurants_recent from table inspections_clean_restaurants using SQL query.
 
 5)    Normalized restaurant names and addresses.
 
-  * `recent_restaurant_inspections_normalized.google-refine.tar.gz` - Google Refine project that: 
+  * `data/recent_restaurant_inspections_normalized.google-refine.tar.gz` - Google Refine project that: 
     - a. normalizes restaurant names by titlecasing them, clustering and renaming chain restaurants, removing 'Inc.' and other corporates from the end of names, and generally rewriting weird names, and 
     - b. normalizes addresses by making street types (i.e. 'Ave') consistent, removing 'Bldg' or 'Suite' from the end of addresses, and other tweaks to make things consistent with Yelp address format.
 
-  * `recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
+  * `data/recent_restaurant_inspections_normalized.csv` - csv dump of Refine project. Loaded into db using this command: 
     ```sh
     csvsql --db sqlite:///food_inspections.db --table inspections_clean_restaurants_recent_normalized --insert recent_restaurant_inspections_normalized.csv
     ```
 
 6)   Randomized (clean, normalized) canvass restaurant inspections. That way, when restaurants are used to query Yelp api, the resulting sample of restaurant yelp+inspection data will be random no matter how much data we get.
 
-  * `randomize_restaurants.py`: randomizes inspections in table inspections_clean_restaurants_recent_normalized using Python's random.shuffle()
+  * `munging/randomize_restaurants.py`: randomizes inspections in table inspections_clean_restaurants_recent_normalized using Python's random.shuffle()
     - creates new table inspections_clean_restaurants_recent_normalized_randomized and inserts randomized inspections into it.
 
 7)   Fetched Yelp restaurant data using randomized restaurant inspections.
 
-  * `get_yelp_restaurants.py`: for each restaurant in table inspections_clean_restaurants_recent_normalized_randomized, calls Yelp search api using that restaurant's (normalized) name and address. 
+  * `munging/get_yelp_restaurants.py`: for each restaurant in table inspections_clean_restaurants_recent_normalized_randomized, calls Yelp search api using that restaurant's (normalized) name and address. 
     - NOTES: Due to Yelp api rate limits, script only gets data for 100 inspection restaurants at a time, and the offset has to be set manually. 
       - The script only saves first 10 businesses in Yelp response, out of a possible 20.
       - Each Yelp response is a json object with a list of up to 10 'business' results. The vast majority should be restaurants, since we're calling the api using restaurant names, but not all. 
       - According to tests in `get_yelp_restaurant_hitrates.xls`, the Yelp response contains a matching restaurant 45% of the time, and it's almost always the first restaurant in the business list.
     - Adds inspection restaurant id, name, and address to each Yelp json response. This is done so yelp data can be joined with inspection data in the following step, using matching addresses.
 
-  * `yelp_restaurants.json`: this is where get_yelp_restaurants.py saves Yelp json response + associated inspection values. Always going to have only 100 responses.
+  * `data/yelp_restaurants.json`: this is where get_yelp_restaurants.py saves Yelp json response + associated inspection values. Always going to have only 100 responses.
 
-  * `yelp_restaurants_0-<NUM>`: this is every Yelp response gathered so far. Created out of yelp_restaurants.json using the following command: 
+  * `data/yelp_restaurants_0-<NUM>`: this is every Yelp response gathered so far. Created out of yelp_restaurants.json using the following command: 
   ```sh
   cat yelp_restaurants.json >> cat yelp_restaurants_0-<NUM>.json && mv yelp_restaurants_0-<NUM>.json yelp_restaurants_0-<NUM + 100>.json
   ```
 
 8)   Joined yelp and inspection data.
 
-  * `join_yelp_inspection_data.py`: Only inspection ids, names, and addresses were added to json output. 
+  * `munging/join_yelp_inspection_data.py`: Only inspection ids, names, and addresses were added to json output. 
 
     - So this script fetches additional fields - (inspection) results, risk, etc. 
 
     - It merges them with a selection of yelp values (rating, address, is_closed, etc.) for the first restaurant in every response. 
 
-  * `restaurants_yelp_inspection_nomatch.csv`: the script then saves the merged data to this csv file (sqlite kept chocking on the data.) 
+  * `data/restaurants_yelp_inspection_nomatch.csv`: the script then saves the merged data to this csv file (sqlite kept chocking on the data.) 
 
 9)   Matched inspection restaurants to yelp restaurants.
 
-  * Loaded restaurants_yelp_inspection_nomatch.csv into db using this command: 
+  * Loaded data/restaurants_yelp_inspection_nomatch.csv into db using this command: 
   ```sh
   csvsql --db sqlite:///food_inspections.db --table restaurants_yelp_inspection_nomatch  --insert restaurants_yelp_inspection_nomatch.csv
   ```
@@ -86,13 +86,16 @@ from the City of Chicago's data portal.
   SELECT * FROM restaurants_yelp_inspection_nomatch WHERE address=yelp_address;
   ```
 
-  * `restaurants_yelp_inspection_match.csv`: Output table created by above query to this csv file, so data could be read into R
+  * `data/restaurants_yelp_inspection_match.csv`: Output table created by above query to this csv file, so data could be read into R
 
-  * `failed_matches.txt`: Short list of spurious matches.
+  * `data/failed_matches.txt`: Short list of spurious matches. Made this by examing the above file.
 
 10)   Analyzed data in R.
 
-  * `analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .19) is statistically significant.
+  * 'analysis/charts.r`: creates histograms of yelp ratings for the entire analysis dataset, for pass vs. fail restaurants.
+  * `analysis/chrats`: multiple of charts here. some created by charts.r, most in the r interpreter.
+
+  * `analysis/analysis.r`: reads in csv data, finds means for restaurants that passed and failed, and runs t-test on these means to see if the observed difference between the means (of .19) is statistically significant.
 
   * Here is the t-test result:
     ```r
@@ -108,6 +111,8 @@ from the City of Chicago's data portal.
     3.621673  3.431250 
     ```
 
+    * `analysis/findings.doc`: final write up of the analysis findings.
+
 ## Findings 
 
 This analysis found two things:
@@ -115,10 +120,11 @@ This analysis found two things:
 1. There is a **modest difference of .19** in the mean Yelp ratings of Chicago restaurants that passed city inspection (3.62) 
 and those that failed (3.43).
 
-2. This difference in Yelp ratings is statistically significant. If we assume that there is actually no 
-difference in the mean Yelp ratings of the two restaurant groups, there is a 3% probability (**p = 0.031**) that the observed 
-difference of .19 is due to random chance. That satisfies our confidence level of 95% - it is really unlikely that the observed
-result is due to chance.
+2. This difference in Yelp ratings is statistically significant. If we assume that there is actually no difference in the mean Yelp ratings of the two restaurant groups, there is 
+only a 3% chance (**p = 0.031**) that we would see a difference in means as big or bigger than .19 due to random chance. 
+That satisfies our confidence level of 95% - it is really unlikely that the observed result is due to chance.
+
+The full write up of the analysis findings is [here](https://github.com/jpvelez/restaurant_inspection_analysis/blob/master/analysis/findings.pdf).
 
 ## Why Findings Are Solid
 
@@ -130,7 +136,7 @@ and analysis correctly.
 
 **Why look at canvass inspections?**
 
-In order not to analyze biased inspection outcomes, I wanted to exclude every inspection that wasn't a routine. 
+In order not to analyze biased inspection outcomes, I wanted to exclude every inspection that wasn't routine. 
 The city performs a number of different inspections. For example, sanitarians  will sometimes fail a restaurant during a 
 routine (or canvass) inspection, only to pass them a few days later after they've made necessary corrections. 
 Including these inspections would inflate the inspection pass rate of restaurants in the dataset.
@@ -199,8 +205,7 @@ the matches. Some of the time, none of Yelp restaurants matched the inspection r
 contain a matching restaurant, and it was always the first item in the list, according to a hit rate test I ran on 20 queries. 
 
 To find find matching restaurants, then, I decided to compare the address of the inspection restaurant with that of the first restaurant 
-in the returned Yelp list. I found 415 matches out of 900 api calls. That's 4.4% of the unique restaurants
-in the inspection dataset, a large enough sample to answer the question.
+in the returned Yelp list. I found 415 matches out of 900 api calls. 
 
 I was concerned that my method might be disproportionately finding matches for certain types of restaurants, which could bias the analysis. 
 So I spot-checked the restaurant names I used in the hit rate test. Initially it looked like fast food restaurants were being matched
@@ -212,7 +217,8 @@ clearly false or ambiguous matches. This number was small enough that I did not 
 analysis dataset.
 
 Lastly, 72 out of the 415 matching records had inspection outcome 'Pass w/ Conditions.' I filtered these records out so 
-as to only analyze mean ratings for restaurants that passed and failed inspections, so **n = 343** for the analysis.
+as to only analyze mean ratings for restaurants that passed and failed canvass inspections, so **n = 343** for the analysis. 
+That's 6.3% of the 5389 such restaurants in the food inspections dataset, a large enough sample to answer the question.
 
 **Did you account for selection effects?**
 
