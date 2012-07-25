@@ -3,8 +3,7 @@
 This analysis tries to answer a simple question: do Chicago restaurants that fail city health inspections
 have lower ratings on Yelp? 
 
-## Steps Taken 
-Here are the steps taken to answer that question:
+## Steps Taken to Answer Question 
 
 1) Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
 from the City of Chicago's data portal.
@@ -121,7 +120,7 @@ difference in the mean Yelp ratings of the two restaurant groups, there is a 3% 
 difference of .19 is due to random chance. That satisfies our confidence level of 95% - it is really unlikely that the observed
 result is due to chance.
 
-## Justification
+## Why Findings Are Solid
 
 To reach these findings, I analyzed a random sample of Chicago restaurants, looking at their most recent canvass inspections
 and current Yelp ratings. I analyzed the data with a t-test.
@@ -213,7 +212,7 @@ clearly false or ambiguous matches. This number was small enough that I did not 
 analysis dataset.
 
 Lastly, 72 out of the 415 matching records had inspection outcome 'Pass w/ Conditions.' I filtered these records out so 
-as to only analyze mean ratings for restaurants that passed and failed inspections, so the **n = 343** for the analysis.
+as to only analyze mean ratings for restaurants that passed and failed inspections, so **n = 343** for the analysis.
 
 **Did you account for selection effects?**
 
@@ -222,12 +221,15 @@ analysis sample, which could bias the results.
 
 For example, it could be that 'low quality' restaurants are more likely to pass inspection, but also less likely to be on
 Yelp. This would mean fewer low yelp ratings in the analysis dataset, which would inflate the mean rating for failed
-restaurants. If this is going on, then the observed difference is mean is a conservative estimate of the real difference
+restaurants. If this is going on, then the observed difference in means is a conservative estimate of the real difference
 in means, which is acceptable.
 
-The hit rate for passing restaurants in the randomized yelp querying list is 45.7% (263 / 576). It's 48.5% for failing
-restaurants. That's not very significant difference. Also, the hit rate for passing restaurants is lower than it is for failing
-restaurants, which is the opposite of the selection bias story above. So I'm not too worried.
+Just to be sure, I compared the hit rate for pass vs. fail restaurants, as a big difference between them could
+point to sampling bias. 
+
+The hit rate for passing restaurants in the randomized yelp querying list is 45.7% (263 / 576). It's 48.5% (80 / 165) 
+for failing restaurants. That's not very significant difference. Also, the hit rate for passing restaurants is lower 
+than it is for failing restaurants, which is the opposite of the selection bias story above. So I'm not too worried.
 
 
 **Why did you need to use a t-test to answer the question?**
