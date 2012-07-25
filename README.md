@@ -124,7 +124,7 @@ and those that failed (3.43).
 only a 3% chance (**p = 0.031**) that we would see a difference in means as big or bigger than .19 due to random chance. 
 That satisfies our confidence level of 95% - it is really unlikely that the observed result is due to chance.
 
-The full write up of the analysis findings is [here](https://github.com/jpvelez/restaurant_inspection_analysis/blob/master/analysis/findings.pdf).
+The full write-up of the analysis findings can be found [here](https://github.com/jpvelez/restaurant_inspection_analysis/blob/master/analysis/findings.pdf).
 
 ## Why Findings Are Solid
 
