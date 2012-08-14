@@ -5,6 +5,10 @@ have lower ratings on Yelp?
 
 ## Steps Taken to Answer Question 
 
+The analysis uses food inspection data. It had to be munged before it could be analyzed. The Python scripts that did said
+munging are in the /munging directory. The data output of each munging step are in /data. And R scripts that analyzed the
+data are in /analysis, along with a PDF write-up of the analysis results.
+
 1) Got [food inspection data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5)
 from the City of Chicago's data portal.
 
